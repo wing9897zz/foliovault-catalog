@@ -1,108 +1,1320 @@
 {
-  "version": 1,
+  "version": 4,
   "updatedAt": "2026-11-24",
   "providers": [
     {
       "id": "prov-alipay",
       "name": "支付寶 Alipay",
-      "aliases": ["Alipay", "支付宝", "AlipayHK"],
+      "aliases": [
+        "Alipay",
+        "支付宝",
+        "AlipayHK"
+      ],
       "category": "pay",
-      "domain": "alipay.com"
+      "domain": "alipay.com",
+      "logo": "logos/prov-alipay.png"
     },
     {
       "id": "prov-wechatpay",
       "name": "微信支付 WeChat Pay",
-      "aliases": ["WeChat Pay", "WeChat", "微信", "微信支付"],
+      "aliases": [
+        "WeChat Pay",
+        "WeChat",
+        "微信",
+        "微信支付"
+      ],
       "category": "pay",
-      "domain": "pay.weixin.qq.com"
+      "domain": "pay.weixin.qq.com",
+      "logo": "logos/prov-wechatpay.png"
     },
     {
       "id": "prov-payme",
       "name": "PayMe (HSBC)",
-      "aliases": ["PayMe", "HSBC PayMe"],
+      "aliases": [
+        "PayMe",
+        "HSBC PayMe"
+      ],
       "category": "pay",
-      "domain": "payme.hsbc.com.hk"
+      "domain": "payme.hsbc.com.hk",
+      "logo": "logos/prov-payme.png"
     },
     {
       "id": "prov-octopus",
       "name": "八達通 Octopus",
-      "aliases": ["Octopus", "八達通", "八达通"],
+      "aliases": [
+        "Octopus",
+        "八達通",
+        "八达通"
+      ],
       "category": "pay",
-      "domain": "octopus.com.hk"
+      "domain": "octopus.com.hk",
+      "logo": "logos/prov-octopus.png"
     },
     {
       "id": "prov-jkopay",
       "name": "街口支付 JKOPay",
-      "aliases": ["JKOPay", "街口", "街口支付"],
+      "aliases": [
+        "JKOPay",
+        "街口",
+        "街口支付"
+      ],
       "category": "pay",
       "domain": "jkopay.com"
     },
     {
-      "id": "prov-linebank",
-      "name": "LINE Bank",
-      "aliases": ["Line Bank", "連線商業銀行"],
-      "category": "bank",
-      "domain": "linebank.com.tw"
+      "id": "prov-linepay",
+      "name": "LINE Pay",
+      "aliases": [
+        "LinePay",
+        "LINE Pay 台灣"
+      ],
+      "category": "pay",
+      "domain": "linepay.com",
+      "logo": "logos/prov-linepay.png"
     },
     {
-      "id": "prov-mox",
-      "name": "Mox Bank",
-      "aliases": ["Mox", "Standard Chartered Mox"],
-      "category": "bank",
-      "domain": "mox.com"
+      "id": "prov-easywallet",
+      "name": "悠遊付 EasyWallet",
+      "aliases": [
+        "EasyCard",
+        "悠遊卡",
+        "悠遊付"
+      ],
+      "category": "pay",
+      "domain": "easycard.com.tw"
     },
     {
-      "id": "prov-livi",
-      "name": "livi bank 理慧銀行",
-      "aliases": ["livi", "理慧銀行", "BOCHK livi"],
-      "category": "bank",
-      "domain": "livibank.com"
+      "id": "prov-paypal",
+      "name": "PayPal",
+      "aliases": [
+        "PayPal"
+      ],
+      "category": "pay",
+      "domain": "paypal.com",
+      "logo": "logos/prov-paypal.png"
     },
     {
       "id": "prov-hangseng",
       "name": "恒生銀行 Hang Seng",
-      "aliases": ["Hang Seng", "恒生", "恆生銀行"],
+      "aliases": [
+        "Hang Seng",
+        "恒生",
+        "恆生銀行"
+      ],
       "category": "bank",
-      "domain": "hangseng.com"
+      "domain": "hangseng.com",
+      "logo": "logos/prov-hangseng.png"
     },
     {
-      "id": "prov-sofi",
-      "name": "SoFi Hong Kong / US",
-      "aliases": ["SoFi"],
-      "category": "broker",
-      "domain": "sofi.com"
+      "id": "prov-bea",
+      "name": "東亞銀行 BEA",
+      "aliases": [
+        "BEA",
+        "Bank of East Asia",
+        "東亞銀行"
+      ],
+      "category": "bank",
+      "domain": "hkbea.com",
+      "logo": "logos/prov-bea.png"
+    },
+    {
+      "id": "prov-ocbc",
+      "name": "華僑銀行 OCBC",
+      "aliases": [
+        "OCBC",
+        "OCBC HK",
+        "華僑銀行"
+      ],
+      "category": "bank",
+      "domain": "ocbc.com",
+      "logo": "logos/prov-ocbc.png"
+    },
+    {
+      "id": "prov-mox",
+      "name": "Mox Bank",
+      "aliases": [
+        "Mox",
+        "Standard Chartered Mox"
+      ],
+      "category": "bank",
+      "domain": "mox.com",
+      "logo": "logos/prov-mox.jpg"
+    },
+    {
+      "id": "prov-livi",
+      "name": "livi bank 理慧銀行",
+      "aliases": [
+        "livi",
+        "理慧銀行",
+        "BOCHK livi"
+      ],
+      "category": "bank",
+      "domain": "livibank.com",
+      "logo": "logos/prov-livi.png"
+    },
+    {
+      "id": "prov-welab",
+      "name": "匯立銀行 WeLab Bank",
+      "aliases": [
+        "WeLab",
+        "匯立銀行"
+      ],
+      "category": "bank",
+      "domain": "welab.bank",
+      "logo": "logos/prov-welab.png"
+    },
+    {
+      "id": "prov-airstar",
+      "name": "天星銀行 Airstar",
+      "aliases": [
+        "Airstar",
+        "天星銀行"
+      ],
+      "category": "bank",
+      "domain": "airstarbank.com",
+      "logo": "logos/prov-airstar.png"
+    },
+    {
+      "id": "prov-fusion",
+      "name": "富融銀行 Fusion Bank",
+      "aliases": [
+        "Fusion Bank",
+        "富融銀行"
+      ],
+      "category": "bank",
+      "domain": "fusionbank.com",
+      "logo": "logos/prov-fusion.png"
+    },
+    {
+      "id": "prov-linebank",
+      "name": "LINE Bank",
+      "aliases": [
+        "Line Bank",
+        "連線商業銀行"
+      ],
+      "category": "bank",
+      "domain": "linebank.com.tw",
+      "logo": "logos/prov-linebank.png"
+    },
+    {
+      "id": "prov-nextbank",
+      "name": "將來銀行 NEXT BANK",
+      "aliases": [
+        "NEXT BANK",
+        "將來銀行"
+      ],
+      "category": "bank",
+      "domain": "nextbank.com.tw"
+    },
+    {
+      "id": "prov-sinopac",
+      "name": "永豐銀行 Bank SinoPac",
+      "aliases": [
+        "SinoPac",
+        "永豐銀行",
+        "大戶 DAWHO"
+      ],
+      "category": "bank",
+      "domain": "bank.sinopac.com",
+      "logo": "logos/prov-sinopac.png"
+    },
+    {
+      "id": "prov-fubonbank",
+      "name": "台北富邦銀行",
+      "aliases": [
+        "Fubon",
+        "富邦銀行",
+        "Taipei Fubon"
+      ],
+      "category": "bank",
+      "domain": "fubon.com",
+      "logo": "logos/prov-fubonbank.png"
+    },
+    {
+      "id": "prov-taishin",
+      "name": "台新銀行 Richart",
+      "aliases": [
+        "Taishin",
+        "Richart",
+        "台新銀行"
+      ],
+      "category": "bank",
+      "domain": "taishinbank.com.tw",
+      "logo": "logos/prov-taishin.png"
+    },
+    {
+      "id": "prov-cmb",
+      "name": "招商銀行 CMB",
+      "aliases": [
+        "CMB",
+        "China Merchants Bank",
+        "招商銀行"
+      ],
+      "category": "bank",
+      "domain": "cmbchina.com",
+      "logo": "logos/prov-cmb.png"
+    },
+    {
+      "id": "prov-mercury",
+      "name": "Mercury Bank",
+      "aliases": [
+        "Mercury"
+      ],
+      "category": "bank",
+      "domain": "mercury.com",
+      "logo": "logos/prov-mercury.png"
+    },
+    {
+      "id": "prov-airwallex",
+      "name": "Airwallex 空中雲匯",
+      "aliases": [
+        "Airwallex",
+        "空中雲匯"
+      ],
+      "category": "bank",
+      "domain": "airwallex.com",
+      "logo": "logos/prov-airwallex.png"
     },
     {
       "id": "prov-tiger",
       "name": "老虎證券 Tiger Brokers",
-      "aliases": ["Tiger", "Tiger Brokers", "老虎"],
+      "aliases": [
+        "Tiger",
+        "Tiger Brokers",
+        "老虎"
+      ],
       "category": "broker",
       "domain": "tigerbrokers.com"
     },
     {
+      "id": "prov-sofi",
+      "name": "SoFi Hong Kong / US",
+      "aliases": [
+        "SoFi"
+      ],
+      "category": "broker",
+      "domain": "sofi.com",
+      "logo": "logos/prov-sofi.png"
+    },
+    {
+      "id": "prov-usmart",
+      "name": "盈立證券 uSMART",
+      "aliases": [
+        "uSMART",
+        "盈立"
+      ],
+      "category": "broker",
+      "domain": "usmart.hk",
+      "logo": "logos/prov-usmart.png"
+    },
+    {
+      "id": "prov-brightsmart",
+      "name": "耀才證券 Bright Smart",
+      "aliases": [
+        "Bright Smart",
+        "耀才"
+      ],
+      "category": "broker",
+      "domain": "bsgroup.com.hk",
+      "logo": "logos/prov-brightsmart.png"
+    },
+    {
+      "id": "prov-yuanta",
+      "name": "元大證券 Yuanta",
+      "aliases": [
+        "Yuanta",
+        "元大",
+        "投資先生"
+      ],
+      "category": "broker",
+      "domain": "yuanta.com.tw",
+      "logo": "logos/prov-yuanta.png"
+    },
+    {
+      "id": "prov-robinhood",
+      "name": "Robinhood",
+      "aliases": [
+        "Robinhood"
+      ],
+      "category": "broker",
+      "domain": "robinhood.com",
+      "logo": "logos/prov-robinhood.png"
+    },
+    {
+      "id": "prov-trading212",
+      "name": "Trading 212",
+      "aliases": [
+        "Trading212",
+        "T212"
+      ],
+      "category": "broker",
+      "domain": "trading212.com",
+      "logo": "logos/prov-trading212.png"
+    },
+    {
+      "id": "prov-saxo",
+      "name": "Saxo Markets 盛寶金融",
+      "aliases": [
+        "Saxo",
+        "盛寶"
+      ],
+      "category": "broker",
+      "domain": "home.saxo",
+      "logo": "logos/prov-saxo.png"
+    },
+    {
       "id": "prov-bitget-wallet",
       "name": "Bitget Wallet",
-      "aliases": ["BitKeep", "Bitget"],
+      "aliases": [
+        "BitKeep",
+        "Bitget"
+      ],
       "category": "wallet",
-      "domain": "web3.bitget.com"
+      "domain": "web3.bitget.com",
+      "logo": "logos/prov-bitget-wallet.png"
+    },
+    {
+      "id": "prov-exodus",
+      "name": "Exodus Wallet",
+      "aliases": [
+        "Exodus"
+      ],
+      "category": "wallet",
+      "domain": "exodus.com",
+      "logo": "logos/prov-exodus.png"
+    },
+    {
+      "id": "prov-imtoken",
+      "name": "imToken",
+      "aliases": [
+        "imToken"
+      ],
+      "category": "wallet",
+      "domain": "token.im",
+      "logo": "logos/prov-imtoken.png"
+    },
+    {
+      "id": "prov-rainbow",
+      "name": "Rainbow Wallet",
+      "aliases": [
+        "Rainbow"
+      ],
+      "category": "wallet",
+      "domain": "rainbow.me",
+      "logo": "logos/prov-rainbow.png"
+    },
+    {
+      "id": "prov-zerion",
+      "name": "Zerion",
+      "aliases": [
+        "Zerion"
+      ],
+      "category": "wallet",
+      "domain": "zerion.io",
+      "logo": "logos/prov-zerion.png"
+    },
+    {
+      "id": "prov-bingx",
+      "name": "BingX",
+      "aliases": [
+        "BingX"
+      ],
+      "category": "exchange",
+      "domain": "bingx.com",
+      "logo": "logos/prov-bingx.png"
+    },
+    {
+      "id": "prov-bitopro",
+      "name": "BitoPro 幣託",
+      "aliases": [
+        "BitoPro",
+        "幣託"
+      ],
+      "category": "exchange",
+      "domain": "bitopro.com",
+      "logo": "logos/prov-bitopro.png"
+    },
+    {
+      "id": "prov-max",
+      "name": "MAX 數位資產交易所",
+      "aliases": [
+        "MAX",
+        "MaiCoin"
+      ],
+      "category": "exchange",
+      "domain": "max.maicoin.com",
+      "logo": "logos/prov-max.png"
+    },
+    {
+      "id": "prov-fwd",
+      "name": "FWD 富衛保險",
+      "aliases": [
+        "FWD",
+        "富衛"
+      ],
+      "category": "insurance",
+      "domain": "fwd.com.hk",
+      "logo": "logos/prov-fwd.png"
+    },
+    {
+      "id": "prov-allianz",
+      "name": "Allianz 安聯",
+      "aliases": [
+        "Allianz",
+        "安聯"
+      ],
+      "category": "insurance",
+      "domain": "allianz.com",
+      "logo": "logos/prov-allianz.png"
+    },
+    {
+      "id": "prov-aia-mpf",
+      "name": "AIA 強積金 MPF",
+      "aliases": [
+        "AIA MPF",
+        "友邦強積金"
+      ],
+      "category": "pension",
+      "domain": "aia.com.hk",
+      "logo": "logos/prov-aia-mpf.png"
+    },
+    {
+      "id": "prov-bct-mpf",
+      "name": "BCT 銀聯信託強積金",
+      "aliases": [
+        "BCT",
+        "銀聯信託"
+      ],
+      "category": "pension",
+      "domain": "bcthk.com",
+      "logo": "logos/prov-bct-mpf.png"
+    },
+    {
+      "id": "prov-winglung",
+      "name": "招商永隆銀行 CMB Wing Lung",
+      "aliases": [
+        "Wing Lung",
+        "招商永隆",
+        "永隆銀行"
+      ],
+      "category": "bank",
+      "domain": "cmbwinglungbank.com",
+      "logo": "logos/prov-winglung.png"
+    },
+    {
+      "id": "prov-chonghing",
+      "name": "創興銀行 Chong Hing",
+      "aliases": [
+        "Chong Hing",
+        "創興銀行"
+      ],
+      "category": "bank",
+      "domain": "chbank.com",
+      "logo": "logos/prov-chonghing.png"
+    },
+    {
+      "id": "prov-dahsing",
+      "name": "大新銀行 Dah Sing",
+      "aliases": [
+        "Dah Sing",
+        "大新銀行"
+      ],
+      "category": "bank",
+      "domain": "dahsing.com",
+      "logo": "logos/prov-dahsing.png"
+    },
+    {
+      "id": "prov-icbcasia",
+      "name": "工銀亞洲 ICBC Asia",
+      "aliases": [
+        "ICBC Asia",
+        "工銀亞洲"
+      ],
+      "category": "bank",
+      "domain": "icbcasia.com",
+      "logo": "logos/prov-icbcasia.png"
+    },
+    {
+      "id": "prov-ccbasia",
+      "name": "建行亞洲 CCB Asia",
+      "aliases": [
+        "CCB Asia",
+        "建行亞洲"
+      ],
+      "category": "bank",
+      "domain": "asia.ccb.com",
+      "logo": "logos/prov-ccbasia.png"
+    },
+    {
+      "id": "prov-antbank",
+      "name": "螞蟻銀行 Ant Bank HK",
+      "aliases": [
+        "Ant Bank",
+        "螞蟻銀行"
+      ],
+      "category": "bank",
+      "domain": "antbank.hk"
+    },
+    {
+      "id": "prov-paob",
+      "name": "平安壹賬通銀行 PAOB",
+      "aliases": [
+        "PAOB",
+        "平安壹賬通"
+      ],
+      "category": "bank",
+      "domain": "paob.com.hk",
+      "logo": "logos/prov-paob.png"
+    },
+    {
+      "id": "prov-megabank",
+      "name": "兆豐銀行 Mega Bank",
+      "aliases": [
+        "Mega Bank",
+        "兆豐"
+      ],
+      "category": "bank",
+      "domain": "megabank.com.tw",
+      "logo": "logos/prov-megabank.png"
+    },
+    {
+      "id": "prov-huanan",
+      "name": "華南銀行 Hua Nan",
+      "aliases": [
+        "Hua Nan",
+        "華南銀行"
+      ],
+      "category": "bank",
+      "domain": "hncb.com.tw",
+      "logo": "logos/prov-huanan.ico"
+    },
+    {
+      "id": "prov-firstbank",
+      "name": "第一銀行 First Bank",
+      "aliases": [
+        "First Bank",
+        "第一銀行",
+        "iLEO"
+      ],
+      "category": "bank",
+      "domain": "firstbank.com.tw",
+      "logo": "logos/prov-firstbank.png"
+    },
+    {
+      "id": "prov-tcb",
+      "name": "合作金庫銀行 TCB",
+      "aliases": [
+        "TCB",
+        "合庫",
+        "合作金庫"
+      ],
+      "category": "bank",
+      "domain": "tcb-bank.com.tw",
+      "logo": "logos/prov-tcb.ico"
+    },
+    {
+      "id": "prov-rakuten-tw",
+      "name": "樂天國際銀行 Rakuten Bank",
+      "aliases": [
+        "Rakuten Bank",
+        "樂天銀行"
+      ],
+      "category": "bank",
+      "domain": "rakuten-bank.com.tw",
+      "logo": "logos/prov-rakuten-tw.png"
+    },
+    {
+      "id": "prov-chb",
+      "name": "彰化銀行 Chang Hwa",
+      "aliases": [
+        "CHB",
+        "彰銀",
+        "彰化銀行"
+      ],
+      "category": "bank",
+      "domain": "bankchb.com"
+    },
+    {
+      "id": "prov-uob",
+      "name": "大華銀行 UOB",
+      "aliases": [
+        "UOB",
+        "大華銀行"
+      ],
+      "category": "bank",
+      "domain": "uobgroup.com",
+      "logo": "logos/prov-uob.png"
+    },
+    {
+      "id": "prov-monzo",
+      "name": "Monzo",
+      "aliases": [
+        "Monzo"
+      ],
+      "category": "bank",
+      "domain": "monzo.com",
+      "logo": "logos/prov-monzo.png"
+    },
+    {
+      "id": "prov-starling",
+      "name": "Starling Bank",
+      "aliases": [
+        "Starling"
+      ],
+      "category": "bank",
+      "domain": "starlingbank.com",
+      "logo": "logos/prov-starling.png"
+    },
+    {
+      "id": "prov-n26",
+      "name": "N26",
+      "aliases": [
+        "N26"
+      ],
+      "category": "bank",
+      "domain": "n26.com",
+      "logo": "logos/prov-n26.png"
+    },
+    {
+      "id": "prov-bunq",
+      "name": "bunq",
+      "aliases": [
+        "bunq"
+      ],
+      "category": "bank",
+      "domain": "bunq.com",
+      "logo": "logos/prov-bunq.png"
+    },
+    {
+      "id": "prov-chime",
+      "name": "Chime",
+      "aliases": [
+        "Chime"
+      ],
+      "category": "bank",
+      "domain": "chime.com",
+      "logo": "logos/prov-chime.png"
+    },
+    {
+      "id": "prov-payoneer",
+      "name": "Payoneer 派安盈",
+      "aliases": [
+        "Payoneer",
+        "派安盈"
+      ],
+      "category": "pay",
+      "domain": "payoneer.com",
+      "logo": "logos/prov-payoneer.png"
+    },
+    {
+      "id": "prov-stripe",
+      "name": "Stripe",
+      "aliases": [
+        "Stripe"
+      ],
+      "category": "pay",
+      "domain": "stripe.com",
+      "logo": "logos/prov-stripe.png"
+    },
+    {
+      "id": "prov-skrill",
+      "name": "Skrill",
+      "aliases": [
+        "Skrill"
+      ],
+      "category": "pay",
+      "domain": "skrill.com",
+      "logo": "logos/prov-skrill.png"
+    },
+    {
+      "id": "prov-grabpay",
+      "name": "GrabPay",
+      "aliases": [
+        "Grab",
+        "GrabPay"
+      ],
+      "category": "pay",
+      "domain": "grab.com",
+      "logo": "logos/prov-grabpay.png"
+    },
+    {
+      "id": "prov-tng",
+      "name": "Touch 'n Go eWallet",
+      "aliases": [
+        "TNG",
+        "Touch n Go"
+      ],
+      "category": "pay",
+      "domain": "touchngo.com.my",
+      "logo": "logos/prov-tng.png"
+    },
+    {
+      "id": "prov-vbkr",
+      "name": "華盛證券 Valuable Capital",
+      "aliases": [
+        "華盛",
+        "Valuable Capital",
+        "VBrokers"
+      ],
+      "category": "broker",
+      "domain": "vbkr.com",
+      "logo": "logos/prov-vbkr.png"
+    },
+    {
+      "id": "prov-chief",
+      "name": "致富證券 Chief",
+      "aliases": [
+        "Chief",
+        "致富"
+      ],
+      "category": "broker",
+      "domain": "chiefgroup.com.hk",
+      "logo": "logos/prov-chief.png"
+    },
+    {
+      "id": "prov-cathaysec",
+      "name": "國泰證券",
+      "aliases": [
+        "國泰證券",
+        "Cathay Sec"
+      ],
+      "category": "broker",
+      "domain": "cathaysec.com.tw"
+    },
+    {
+      "id": "prov-kgi",
+      "name": "凱基證券 KGI",
+      "aliases": [
+        "KGI",
+        "凱基"
+      ],
+      "category": "broker",
+      "domain": "kgi.com.tw",
+      "logo": "logos/prov-kgi.png"
+    },
+    {
+      "id": "prov-capital",
+      "name": "群益證券 Capital",
+      "aliases": [
+        "群益",
+        "Capital"
+      ],
+      "category": "broker",
+      "domain": "capital.com.tw"
+    },
+    {
+      "id": "prov-ig",
+      "name": "IG Markets",
+      "aliases": [
+        "IG",
+        "IG Markets"
+      ],
+      "category": "broker",
+      "domain": "ig.com",
+      "logo": "logos/prov-ig.png"
+    },
+    {
+      "id": "prov-etoro",
+      "name": "eToro",
+      "aliases": [
+        "eToro"
+      ],
+      "category": "broker",
+      "domain": "etoro.com",
+      "logo": "logos/prov-etoro.png"
+    },
+    {
+      "id": "prov-vanguard",
+      "name": "Vanguard 先鋒領航",
+      "aliases": [
+        "Vanguard"
+      ],
+      "category": "broker",
+      "domain": "vanguard.com",
+      "logo": "logos/prov-vanguard.jpg"
+    },
+    {
+      "id": "prov-tastytrade",
+      "name": "tastytrade",
+      "aliases": [
+        "tastytrade",
+        "Tastyworks"
+      ],
+      "category": "broker",
+      "domain": "tastytrade.com",
+      "logo": "logos/prov-tastytrade.png"
+    },
+    {
+      "id": "prov-argent",
+      "name": "Argent (Ready)",
+      "aliases": [
+        "Argent"
+      ],
+      "category": "wallet",
+      "domain": "argent.xyz",
+      "logo": "logos/prov-argent.png"
+    },
+    {
+      "id": "prov-unisat",
+      "name": "UniSat Wallet",
+      "aliases": [
+        "UniSat"
+      ],
+      "category": "wallet",
+      "domain": "unisat.io",
+      "logo": "logos/prov-unisat.png"
+    },
+    {
+      "id": "prov-xverse",
+      "name": "Xverse Wallet",
+      "aliases": [
+        "Xverse"
+      ],
+      "category": "wallet",
+      "domain": "xverse.app",
+      "logo": "logos/prov-xverse.png"
+    },
+    {
+      "id": "prov-keplr",
+      "name": "Keplr Wallet",
+      "aliases": [
+        "Keplr"
+      ],
+      "category": "wallet",
+      "domain": "keplr.app",
+      "logo": "logos/prov-keplr.png"
+    },
+    {
+      "id": "prov-tonkeeper",
+      "name": "Tonkeeper",
+      "aliases": [
+        "Tonkeeper",
+        "TON"
+      ],
+      "category": "wallet",
+      "domain": "tonkeeper.com",
+      "logo": "logos/prov-tonkeeper.png"
+    },
+    {
+      "id": "prov-ellipal",
+      "name": "ELLIPAL",
+      "aliases": [
+        "Ellipal"
+      ],
+      "category": "wallet",
+      "domain": "ellipal.com",
+      "logo": "logos/prov-ellipal.png"
+    },
+    {
+      "id": "prov-blockstream",
+      "name": "Blockstream Jade",
+      "aliases": [
+        "Jade",
+        "Blockstream"
+      ],
+      "category": "wallet",
+      "domain": "blockstream.com",
+      "logo": "logos/prov-blockstream.png"
+    },
+    {
+      "id": "prov-gemini",
+      "name": "Gemini",
+      "aliases": [
+        "Gemini"
+      ],
+      "category": "exchange",
+      "domain": "gemini.com",
+      "logo": "logos/prov-gemini.png"
+    },
+    {
+      "id": "prov-bitstamp",
+      "name": "Bitstamp",
+      "aliases": [
+        "Bitstamp"
+      ],
+      "category": "exchange",
+      "domain": "bitstamp.net",
+      "logo": "logos/prov-bitstamp.png"
+    },
+    {
+      "id": "prov-upbit",
+      "name": "Upbit",
+      "aliases": [
+        "Upbit"
+      ],
+      "category": "exchange",
+      "domain": "upbit.com",
+      "logo": "logos/prov-upbit.png"
+    },
+    {
+      "id": "prov-deribit",
+      "name": "Deribit",
+      "aliases": [
+        "Deribit"
+      ],
+      "category": "exchange",
+      "domain": "deribit.com",
+      "logo": "logos/prov-deribit.png"
+    },
+    {
+      "id": "prov-bullish",
+      "name": "Bullish",
+      "aliases": [
+        "Bullish"
+      ],
+      "category": "exchange",
+      "domain": "bullish.com",
+      "logo": "logos/prov-bullish.jpg"
+    },
+    {
+      "id": "prov-generali",
+      "name": "忠意保險 Generali",
+      "aliases": [
+        "Generali",
+        "忠意"
+      ],
+      "category": "insurance",
+      "domain": "generali.com.hk",
+      "logo": "logos/prov-generali.jpg"
+    },
+    {
+      "id": "prov-chinalife",
+      "name": "中國人壽海外 China Life",
+      "aliases": [
+        "China Life",
+        "中國人壽"
+      ],
+      "category": "insurance",
+      "domain": "chinalife.com.hk",
+      "logo": "logos/prov-chinalife.png"
+    },
+    {
+      "id": "prov-yflife",
+      "name": "萬通保險 YF Life",
+      "aliases": [
+        "YF Life",
+        "萬通"
+      ],
+      "category": "insurance",
+      "domain": "yflife.com",
+      "logo": "logos/prov-yflife.png"
+    },
+    {
+      "id": "prov-sunlife-mpf",
+      "name": "永明強積金 Sun Life MPF",
+      "aliases": [
+        "Sun Life MPF",
+        "永明強積金"
+      ],
+      "category": "pension",
+      "domain": "sunlife.com.hk",
+      "logo": "logos/prov-sunlife-mpf.png"
+    },
+    {
+      "id": "prov-fidelity-mpf",
+      "name": "富達強積金 Fidelity MPF",
+      "aliases": [
+        "Fidelity MPF",
+        "富達強積金"
+      ],
+      "category": "pension",
+      "domain": "fidelity.com.hk",
+      "logo": "logos/prov-fidelity-mpf.png"
+    },
+    {
+      "id": "prov-hsbc-mpf",
+      "name": "滙豐強積金 HSBC MPF",
+      "aliases": [
+        "HSBC MPF",
+        "匯豐強積金"
+      ],
+      "category": "pension",
+      "domain": "hsbc.com.hk",
+      "logo": "logos/prov-hsbc-mpf.png"
+    },
+    {
+      "id": "prov-rakuten-jp",
+      "name": "樂天銀行 Rakuten Bank (JP)",
+      "aliases": [
+        "Rakuten Bank",
+        "楽天銀行",
+        "Rakuten"
+      ],
+      "category": "bank",
+      "domain": "rakuten-bank.co.jp",
+      "logo": "logos/prov-rakuten-jp.png"
+    },
+    {
+      "id": "prov-paypay-bank",
+      "name": "PayPay銀行 PayPay Bank",
+      "aliases": [
+        "PayPay Bank",
+        "PayPay銀行"
+      ],
+      "category": "bank",
+      "domain": "paypay-bank.co.jp",
+      "logo": "logos/prov-paypay-bank.png"
+    },
+    {
+      "id": "prov-zabank",
+      "name": "ZA Bank 眾安銀行",
+      "aliases": [
+        "ZA Bank",
+        "眾安銀行",
+        "ZA"
+      ],
+      "category": "bank",
+      "domain": "bank.za.group",
+      "logo": "logos/prov-zabank.png"
+    },
+    {
+      "id": "prov-revolut",
+      "name": "Revolut",
+      "aliases": [
+        "Revolut"
+      ],
+      "category": "pay",
+      "domain": "revolut.com",
+      "logo": "logos/prov-revolut.png"
+    },
+    {
+      "id": "prov-wise",
+      "name": "Wise",
+      "aliases": [
+        "Wise",
+        "TransferWise"
+      ],
+      "category": "pay",
+      "domain": "wise.com",
+      "logo": "logos/prov-wise.png"
+    },
+    {
+      "id": "prov-nubank",
+      "name": "Nubank",
+      "aliases": [
+        "Nubank",
+        "Nu"
+      ],
+      "category": "bank",
+      "domain": "nubank.com.br",
+      "logo": "logos/prov-nubank.jpg"
+    },
+    {
+      "id": "prov-icbc",
+      "name": "中國工商銀行 ICBC",
+      "aliases": [
+        "ICBC",
+        "工商銀行",
+        "工行"
+      ],
+      "category": "bank",
+      "domain": "icbc.com.cn",
+      "logo": "logos/prov-icbc.png"
+    },
+    {
+      "id": "prov-ccb",
+      "name": "中國建設銀行 CCB",
+      "aliases": [
+        "CCB",
+        "建設銀行",
+        "建行"
+      ],
+      "category": "bank",
+      "domain": "ccb.com",
+      "logo": "logos/prov-ccb.png"
+    },
+    {
+      "id": "prov-starryblu",
+      "name": "StarryBlu",
+      "aliases": [
+        "StarryBlu",
+        "Starry Blu"
+      ],
+      "category": "bank",
+      "domain": "starryblu.com",
+      "logo": "logos/prov-starryblu.png"
     }
   ],
   "assets": [
     {
-      "symbol": "ROLEX",
-      "name": "勞力士名錶",
-      "aliases": ["Rolex", "Watch", "勞力士"],
+      "symbol": "GOLD-BAR",
+      "name": "實體黃金 / 金條",
+      "aliases": [
+        "Gold",
+        "黃金",
+        "金條",
+        "9999"
+      ],
       "kind": "other",
       "quoteCurrency": "USD",
-      "domain": "rolex.com"
+      "domain": "gold.org",
+      "logo": "logos/asset-gold-bar.png"
+    },
+    {
+      "symbol": "SILVER-BAR",
+      "name": "實體白銀 / 銀條",
+      "aliases": [
+        "Silver",
+        "白銀",
+        "銀條"
+      ],
+      "kind": "other",
+      "quoteCurrency": "USD",
+      "domain": "silverinstitute.org",
+      "logo": "logos/asset-silver-bar.png"
+    },
+    {
+      "symbol": "ROLEX",
+      "name": "勞力士名錶",
+      "aliases": [
+        "Rolex",
+        "Watch",
+        "勞力士"
+      ],
+      "kind": "other",
+      "quoteCurrency": "USD",
+      "domain": "rolex.com",
+      "logo": "logos/asset-rolex.png"
+    },
+    {
+      "symbol": "PATEK",
+      "name": "百達翡麗名錶",
+      "aliases": [
+        "Patek Philippe",
+        "Watch",
+        "百達翡麗"
+      ],
+      "kind": "other",
+      "quoteCurrency": "USD",
+      "domain": "patek.com",
+      "logo": "logos/asset-patek.png"
+    },
+    {
+      "symbol": "HERMES",
+      "name": "愛馬仕收藏包",
+      "aliases": [
+        "Hermes",
+        "Birkin",
+        "Kelly",
+        "愛馬仕"
+      ],
+      "kind": "other",
+      "quoteCurrency": "USD",
+      "domain": "hermes.com",
+      "logo": "logos/asset-hermes.png"
     },
     {
       "symbol": "TESLA-CAR",
       "name": "Tesla 車輛估值",
-      "aliases": ["Tesla", "EV", "電動車"],
+      "aliases": [
+        "Tesla",
+        "EV",
+        "電動車"
+      ],
       "kind": "other",
       "quoteCurrency": "USD",
-      "domain": "tesla.com"
+      "domain": "tesla.com",
+      "logo": "logos/asset-tesla-car.png"
+    },
+    {
+      "symbol": "REAL-ESTATE",
+      "name": "不動產 / 房產估值",
+      "aliases": [
+        "Property",
+        "House",
+        "房產",
+        "不動產",
+        "物業"
+      ],
+      "kind": "other",
+      "quoteCurrency": "USD"
+    },
+    {
+      "symbol": "ART",
+      "name": "藝術品 / 藏品",
+      "aliases": [
+        "Art",
+        "Collectible",
+        "藝術品",
+        "收藏"
+      ],
+      "kind": "other",
+      "quoteCurrency": "USD"
+    },
+    {
+      "symbol": "OMEGA",
+      "name": "歐米茄名錶 OMEGA",
+      "aliases": [
+        "Omega",
+        "Watch",
+        "歐米茄"
+      ],
+      "kind": "other",
+      "quoteCurrency": "USD",
+      "domain": "omegawatches.com",
+      "logo": "logos/asset-omega.jpg"
+    },
+    {
+      "symbol": "AP-WATCH",
+      "name": "愛彼名錶 Audemars Piguet",
+      "aliases": [
+        "AP",
+        "Audemars Piguet",
+        "愛彼"
+      ],
+      "kind": "other",
+      "quoteCurrency": "USD",
+      "domain": "audemarspiguet.com",
+      "logo": "logos/asset-ap-watch.png"
+    },
+    {
+      "symbol": "CHANEL-BAG",
+      "name": "香奈兒收藏包",
+      "aliases": [
+        "Chanel",
+        "香奈兒"
+      ],
+      "kind": "other",
+      "quoteCurrency": "USD",
+      "domain": "chanel.com",
+      "logo": "logos/asset-chanel-bag.png"
+    },
+    {
+      "symbol": "LEGO-SET",
+      "name": "LEGO 絕版藏品",
+      "aliases": [
+        "Lego",
+        "樂高"
+      ],
+      "kind": "other",
+      "quoteCurrency": "USD",
+      "domain": "lego.com",
+      "logo": "logos/asset-lego-set.png"
+    },
+    {
+      "symbol": "GOLD-COIN",
+      "name": "楓葉 / 鷹揚實體金幣",
+      "aliases": [
+        "Gold Coin",
+        "金幣",
+        "楓葉金幣"
+      ],
+      "kind": "other",
+      "quoteCurrency": "USD",
+      "domain": "mint.ca",
+      "logo": "logos/asset-gold-coin.png"
+    },
+    {
+      "symbol": "WINE",
+      "name": "珍藏紅酒 / 威士忌",
+      "aliases": [
+        "Wine",
+        "Whisky",
+        "紅酒",
+        "威士忌"
+      ],
+      "kind": "other",
+      "quoteCurrency": "USD"
     }
   ]
 }
