@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "updatedAt": "2026-11-24",
+  "providers": [
+    {
+      "id": "prov-alipay",
+      "name": "支付寶 Alipay",
+      "aliases": ["Alipay", "支付宝", "AlipayHK"],
+      "category": "pay",
+      "domain": "alipay.com"
+    },
+    {
+      "id": "prov-wechatpay",
+      "name": "微信支付 WeChat Pay",
+      "aliases": ["WeChat Pay", "WeChat", "微信", "微信支付"],
+      "category": "pay",
+      "domain": "pay.weixin.qq.com"
+    },
+    {
+      "id": "prov-payme",
+      "name": "PayMe (HSBC)",
+      "aliases": ["PayMe", "HSBC PayMe"],
+      "category": "pay",
+      "domain": "payme.hsbc.com.hk"
+    },
+    {
+      "id": "prov-octopus",
+      "name": "八達通 Octopus",
+      "aliases": ["Octopus", "八達通", "八达通"],
+      "category": "pay",
+      "domain": "octopus.com.hk"
+    },
+    {
+      "id": "prov-jkopay",
+      "name": "街口支付 JKOPay",
+      "aliases": ["JKOPay", "街口", "街口支付"],
+      "category": "pay",
+      "domain": "jkopay.com"
+    },
+    {
+      "id": "prov-linebank",
+      "name": "LINE Bank",
+      "aliases": ["Line Bank", "連線商業銀行"],
+      "category": "bank",
+      "domain": "linebank.com.tw"
+    },
+    {
+      "id": "prov-mox",
+      "name": "Mox Bank",
+      "aliases": ["Mox", "Standard Chartered Mox"],
+      "category": "bank",
+      "domain": "mox.com"
+    },
+    {
+      "id": "prov-livi",
+      "name": "livi bank 理慧銀行",
+      "aliases": ["livi", "理慧銀行", "BOCHK livi"],
+      "category": "bank",
+      "domain": "livibank.com"
+    },
+    {
+      "id": "prov-hangseng",
+      "name": "恒生銀行 Hang Seng",
+      "aliases": ["Hang Seng", "恒生", "恆生銀行"],
+      "category": "bank",
+      "domain": "hangseng.com"
+    },
+    {
+      "id": "prov-sofi",
+      "name": "SoFi Hong Kong / US",
+      "aliases": ["SoFi"],
+      "category": "broker",
+      "domain": "sofi.com"
+    },
+    {
+      "id": "prov-tiger",
+      "name": "老虎證券 Tiger Brokers",
+      "aliases": ["Tiger", "Tiger Brokers", "老虎"],
+      "category": "broker",
+      "domain": "tigerbrokers.com"
+    },
+    {
+      "id": "prov-bitget-wallet",
+      "name": "Bitget Wallet",
+      "aliases": ["BitKeep", "Bitget"],
+      "category": "wallet",
+      "domain": "web3.bitget.com"
+    }
+  ],
+  "assets": [
+    {
+      "symbol": "ROLEX",
+      "name": "勞力士名錶",
+      "aliases": ["Rolex", "Watch", "勞力士"],
+      "kind": "other",
+      "quoteCurrency": "USD",
+      "domain": "rolex.com"
+    },
+    {
+      "symbol": "TESLA-CAR",
+      "name": "Tesla 車輛估值",
+      "aliases": ["Tesla", "EV", "電動車"],
+      "kind": "other",
+      "quoteCurrency": "USD",
+      "domain": "tesla.com"
+    }
+  ]
+}
