@@ -1,5 +1,5 @@
 {
-  "version": 7,
+  "version": 18,
   "updatedAt": "2026-11-24",
   "providers": [
     {
@@ -1321,6 +1321,4207 @@
       ],
       "kind": "physical",
       "quoteCurrency": "USD"
+    }
+  ],
+  "cards": [
+    {
+      "id": "card-hsbc-red",
+      "name": "HSBC Red",
+      "aliases": [
+        "hsbc",
+        "red",
+        "匯豐"
+      ],
+      "issuer": "HSBC",
+      "network": "mastercard",
+      "region": "HK",
+      "theme": "crimson",
+      "colors": [
+        "#7a0a16",
+        "#cf1b2b",
+        "#45060c"
+      ],
+      "finish": "gloss",
+      "textColor": "light"
+    },
+    {
+      "id": "card-hsbc-vs",
+      "name": "HSBC Visa Signature",
+      "aliases": [
+        "hsbc",
+        "vs",
+        "signature",
+        "匯豐"
+      ],
+      "issuer": "HSBC",
+      "network": "visa",
+      "region": "HK",
+      "theme": "obsidian",
+      "colors": [
+        "#111827",
+        "#334155",
+        "#090d16"
+      ],
+      "finish": "metallic",
+      "textColor": "light"
+    },
+    {
+      "id": "card-hsbc-everymile",
+      "name": "HSBC EveryMile",
+      "aliases": [
+        "hsbc",
+        "everymile",
+        "miles",
+        "匯豐"
+      ],
+      "issuer": "HSBC",
+      "network": "visa",
+      "region": "HK",
+      "theme": "platinum",
+      "colors": [
+        "#1e293b",
+        "#475569",
+        "#0f172a"
+      ],
+      "finish": "metallic",
+      "textColor": "light"
+    },
+    {
+      "id": "card-hsbc-premier",
+      "name": "HSBC Premier Mastercard",
+      "aliases": [
+        "hsbc",
+        "premier",
+        "卓越理財"
+      ],
+      "issuer": "HSBC",
+      "network": "mastercard",
+      "region": "HK",
+      "theme": "obsidian",
+      "colors": [
+        "#0f172a",
+        "#1f2937",
+        "#070b12"
+      ],
+      "finish": "metallic",
+      "textColor": "light"
+    },
+    {
+      "id": "card-hsbc-pulse",
+      "name": "HSBC Pulse UnionPay",
+      "aliases": [
+        "hsbc",
+        "pulse",
+        "unionpay",
+        "銀聯"
+      ],
+      "issuer": "HSBC",
+      "network": "unionpay",
+      "region": "HK",
+      "theme": "obsidian",
+      "colors": [
+        "#18181b",
+        "#3f3f46",
+        "#7f1d1d"
+      ],
+      "finish": "metallic",
+      "textColor": "light"
+    },
+    {
+      "id": "card-scb-simplycash",
+      "name": "SCB Simply Cash",
+      "aliases": [
+        "standard chartered",
+        "scb",
+        "渣打",
+        "simply cash"
+      ],
+      "issuer": "Standard Chartered",
+      "network": "visa",
+      "region": "HK",
+      "theme": "sapphire",
+      "colors": [
+        "#042f4b",
+        "#0072aa",
+        "#031d30"
+      ],
+      "finish": "gloss",
+      "textColor": "light"
+    },
+    {
+      "id": "card-scb-cathay",
+      "name": "SCB Cathay Mastercard",
+      "aliases": [
+        "standard chartered",
+        "scb",
+        "cathay",
+        "國泰",
+        "渣打"
+      ],
+      "issuer": "Standard Chartered",
+      "network": "mastercard",
+      "region": "HK",
+      "theme": "emerald",
+      "colors": [
+        "#04332a",
+        "#0a6c5a",
+        "#021f19"
+      ],
+      "finish": "metallic",
+      "textColor": "light"
+    },
+    {
+      "id": "card-citi-cashback",
+      "name": "Citi Cash Back",
+      "aliases": [
+        "citi",
+        "citibank",
+        "花旗"
+      ],
+      "issuer": "Citibank",
+      "network": "visa",
+      "region": "HK",
+      "theme": "sapphire",
+      "colors": [
+        "#0c2d5c",
+        "#1d63b8",
+        "#071a38"
+      ],
+      "finish": "gloss",
+      "textColor": "light"
+    },
+    {
+      "id": "card-citi-premiermiles",
+      "name": "Citi PremierMiles",
+      "aliases": [
+        "citi",
+        "premiermiles",
+        "花旗"
+      ],
+      "issuer": "Citibank",
+      "network": "visa",
+      "region": "HK",
+      "theme": "obsidian",
+      "colors": [
+        "#111827",
+        "#1e3a5f",
+        "#090d16"
+      ],
+      "finish": "metallic",
+      "textColor": "light"
+    },
+    {
+      "id": "card-hangseng-mmpower",
+      "name": "Hang Seng MMPOWER",
+      "aliases": [
+        "hang seng",
+        "mmpower",
+        "恒生"
+      ],
+      "issuer": "Hang Seng Bank",
+      "network": "mastercard",
+      "region": "HK",
+      "theme": "aurora",
+      "colors": [
+        "#052e2b",
+        "#0d9488",
+        "#1e1b4b"
+      ],
+      "finish": "gloss",
+      "textColor": "light"
+    },
+    {
+      "id": "card-hangseng-enjoy",
+      "name": "Hang Seng enJoy",
+      "aliases": [
+        "hang seng",
+        "enjoy",
+        "恒生"
+      ],
+      "issuer": "Hang Seng Bank",
+      "network": "visa",
+      "region": "HK",
+      "theme": "copper",
+      "colors": [
+        "#78350f",
+        "#d97706",
+        "#451a03"
+      ],
+      "finish": "gloss",
+      "textColor": "light"
+    },
+    {
+      "id": "card-boc-cheers",
+      "name": "BOC Cheers Visa Infinite",
+      "aliases": [
+        "boc",
+        "bochk",
+        "中銀",
+        "cheers"
+      ],
+      "issuer": "BOCHK",
+      "network": "visa",
+      "region": "HK",
+      "theme": "crimson",
+      "colors": [
+        "#4a0819",
+        "#8c1432",
+        "#26040d"
+      ],
+      "finish": "metallic",
+      "textColor": "light"
+    },
+    {
+      "id": "card-dbs-black",
+      "name": "DBS Black World",
+      "aliases": [
+        "dbs",
+        "black",
+        "星展"
+      ],
+      "issuer": "DBS",
+      "network": "mastercard",
+      "region": "HK",
+      "theme": "obsidian",
+      "colors": [
+        "#09090b",
+        "#27272a",
+        "#000000"
+      ],
+      "finish": "metallic",
+      "textColor": "light"
+    },
+    {
+      "id": "card-bea-world",
+      "name": "BEA World Mastercard",
+      "aliases": [
+        "bea",
+        "東亞"
+      ],
+      "issuer": "BEA",
+      "network": "mastercard",
+      "region": "HK",
+      "theme": "obsidian",
+      "colors": [
+        "#1c1917",
+        "#44403c",
+        "#7f1d1d"
+      ],
+      "finish": "metallic",
+      "textColor": "light"
+    },
+    {
+      "id": "card-mox",
+      "name": "Mox Card",
+      "aliases": [
+        "mox",
+        "virtual bank"
+      ],
+      "issuer": "Mox Bank",
+      "network": "mastercard",
+      "region": "HK",
+      "theme": "aurora",
+      "colors": [
+        "#083344",
+        "#06b6d4",
+        "#164e63"
+      ],
+      "finish": "matte",
+      "textColor": "light"
+    },
+    {
+      "id": "card-za-card",
+      "name": "ZA Card",
+      "aliases": [
+        "za",
+        "众安",
+        "眾安"
+      ],
+      "issuer": "ZA Bank",
+      "network": "visa",
+      "region": "HK",
+      "theme": "emerald",
+      "colors": [
+        "#064e3b",
+        "#10b981",
+        "#022c22"
+      ],
+      "finish": "matte",
+      "textColor": "light"
+    },
+    {
+      "id": "card-welab",
+      "name": "WeLab Debit Card",
+      "aliases": [
+        "welab",
+        "匯立"
+      ],
+      "issuer": "WeLab Bank",
+      "network": "mastercard",
+      "region": "HK",
+      "theme": "sapphire",
+      "colors": [
+        "#0f294a",
+        "#2563eb",
+        "#091930"
+      ],
+      "finish": "gloss",
+      "textColor": "light"
+    },
+    {
+      "id": "card-airstar",
+      "name": "Airstar Bank Card",
+      "aliases": [
+        "airstar",
+        "天星"
+      ],
+      "issuer": "Airstar Bank",
+      "network": "mastercard",
+      "region": "HK",
+      "theme": "violet",
+      "colors": [
+        "#1e1b4b",
+        "#4f46e5",
+        "#0f172a"
+      ],
+      "finish": "gloss",
+      "textColor": "light"
+    },
+    {
+      "id": "card-chase-sapphire",
+      "name": "Chase Sapphire Preferred",
+      "aliases": [
+        "chase",
+        "sapphire",
+        "csp"
+      ],
+      "issuer": "Chase",
+      "network": "visa",
+      "region": "US",
+      "theme": "sapphire",
+      "colors": [
+        "#0b254f",
+        "#1a56b0",
+        "#071836"
+      ],
+      "finish": "metallic",
+      "textColor": "light"
+    },
+    {
+      "id": "card-chase-reserve",
+      "name": "Chase Sapphire Reserve",
+      "aliases": [
+        "chase",
+        "csr",
+        "reserve"
+      ],
+      "issuer": "Chase",
+      "network": "visa",
+      "region": "US",
+      "theme": "obsidian",
+      "colors": [
+        "#0d1b2a",
+        "#1b263b",
+        "#060d15"
+      ],
+      "finish": "metallic",
+      "textColor": "light"
+    },
+    {
+      "id": "card-chase-cfu",
+      "name": "Chase Freedom Unlimited",
+      "aliases": [
+        "chase",
+        "freedom",
+        "cfu"
+      ],
+      "issuer": "Chase",
+      "network": "visa",
+      "region": "US",
+      "theme": "sapphire",
+      "colors": [
+        "#103766",
+        "#2563eb",
+        "#0a2342"
+      ],
+      "finish": "gloss",
+      "textColor": "light"
+    },
+    {
+      "id": "card-amex-platinum",
+      "name": "Amex Platinum",
+      "aliases": [
+        "amex",
+        "platinum",
+        "白金卡"
+      ],
+      "issuer": "American Express",
+      "network": "amex",
+      "region": "US",
+      "theme": "platinum",
+      "colors": [
+        "#c4cbd4",
+        "#e6eaf0",
+        "#8e97a4"
+      ],
+      "finish": "metallic",
+      "textColor": "dark"
+    },
+    {
+      "id": "card-amex-gold",
+      "name": "Amex Gold",
+      "aliases": [
+        "amex",
+        "gold",
+        "金卡"
+      ],
+      "issuer": "American Express",
+      "network": "amex",
+      "region": "US",
+      "theme": "gold",
+      "colors": [
+        "#9a7424",
+        "#d9b25f",
+        "#6e5013"
+      ],
+      "finish": "metallic",
+      "textColor": "light"
+    },
+    {
+      "id": "card-amex-rose",
+      "name": "Amex Rose Gold",
+      "aliases": [
+        "amex",
+        "rose",
+        "rose gold"
+      ],
+      "issuer": "American Express",
+      "network": "amex",
+      "region": "US",
+      "theme": "rose",
+      "colors": [
+        "#8f484e",
+        "#d48b90",
+        "#5e2b30"
+      ],
+      "finish": "metallic",
+      "textColor": "light"
+    },
+    {
+      "id": "card-amex-bcp",
+      "name": "Amex Blue Cash Preferred",
+      "aliases": [
+        "amex",
+        "blue cash",
+        "bcp"
+      ],
+      "issuer": "American Express",
+      "network": "amex",
+      "region": "US",
+      "theme": "sapphire",
+      "colors": [
+        "#0a2e52",
+        "#0284c7",
+        "#071d36"
+      ],
+      "finish": "gloss",
+      "textColor": "light"
+    },
+    {
+      "id": "card-amex-aspire",
+      "name": "Amex Hilton Aspire",
+      "aliases": [
+        "amex",
+        "hilton",
+        "aspire"
+      ],
+      "issuer": "American Express",
+      "network": "amex",
+      "region": "US",
+      "theme": "obsidian",
+      "colors": [
+        "#141824",
+        "#2e3852",
+        "#090b12"
+      ],
+      "finish": "metallic",
+      "textColor": "light"
+    },
+    {
+      "id": "card-amex-bonvoy",
+      "name": "Amex Bonvoy Brilliant",
+      "aliases": [
+        "amex",
+        "marriott",
+        "bonvoy"
+      ],
+      "issuer": "American Express",
+      "network": "amex",
+      "region": "US",
+      "theme": "obsidian",
+      "colors": [
+        "#18181b",
+        "#3f3f46",
+        "#78350f"
+      ],
+      "finish": "metallic",
+      "textColor": "light"
+    },
+    {
+      "id": "card-capitalone-venturex",
+      "name": "Capital One Venture X",
+      "aliases": [
+        "capital one",
+        "venture x",
+        "vx"
+      ],
+      "issuer": "Capital One",
+      "network": "visa",
+      "region": "US",
+      "theme": "sapphire",
+      "colors": [
+        "#0c1824",
+        "#1b3652",
+        "#070e17"
+      ],
+      "finish": "metallic",
+      "textColor": "light"
+    },
+    {
+      "id": "card-capitalone-savor",
+      "name": "Capital One Savor",
+      "aliases": [
+        "capital one",
+        "savor"
+      ],
+      "issuer": "Capital One",
+      "network": "mastercard",
+      "region": "US",
+      "theme": "copper",
+      "colors": [
+        "#5c2314",
+        "#b45309",
+        "#38130a"
+      ],
+      "finish": "metallic",
+      "textColor": "light"
+    },
+    {
+      "id": "card-citi-doublecash",
+      "name": "Citi Double Cash",
+      "aliases": [
+        "citi",
+        "double cash"
+      ],
+      "issuer": "Citi",
+      "network": "mastercard",
+      "region": "US",
+      "theme": "sapphire",
+      "colors": [
+        "#0f3b66",
+        "#1f6fb2",
+        "#092642"
+      ],
+      "finish": "gloss",
+      "textColor": "light"
+    },
+    {
+      "id": "card-citi-strata",
+      "name": "Citi Strata Premier",
+      "aliases": [
+        "citi",
+        "strata",
+        "premier"
+      ],
+      "issuer": "Citi",
+      "network": "mastercard",
+      "region": "US",
+      "theme": "obsidian",
+      "colors": [
+        "#0f172a",
+        "#1e40af",
+        "#090d16"
+      ],
+      "finish": "metallic",
+      "textColor": "light"
+    },
+    {
+      "id": "card-boa-cash",
+      "name": "BofA Customized Cash",
+      "aliases": [
+        "boa",
+        "bank of america"
+      ],
+      "issuer": "Bank of America",
+      "network": "visa",
+      "region": "US",
+      "theme": "crimson",
+      "colors": [
+        "#7f1d1d",
+        "#b91c1c",
+        "#1e3a8a"
+      ],
+      "finish": "gloss",
+      "textColor": "light"
+    },
+    {
+      "id": "card-wf-autograph",
+      "name": "Wells Fargo Autograph",
+      "aliases": [
+        "wells fargo",
+        "autograph"
+      ],
+      "issuer": "Wells Fargo",
+      "network": "visa",
+      "region": "US",
+      "theme": "copper",
+      "colors": [
+        "#450a0a",
+        "#b45309",
+        "#290707"
+      ],
+      "finish": "metallic",
+      "textColor": "light"
+    },
+    {
+      "id": "card-bilt",
+      "name": "Bilt Mastercard",
+      "aliases": [
+        "bilt",
+        "rent",
+        "wells fargo"
+      ],
+      "issuer": "Bilt",
+      "network": "mastercard",
+      "region": "US",
+      "theme": "obsidian",
+      "colors": [
+        "#111111",
+        "#27272a",
+        "#000000"
+      ],
+      "finish": "metallic",
+      "textColor": "light"
+    },
+    {
+      "id": "card-apple-card",
+      "name": "Apple Card",
+      "aliases": [
+        "apple",
+        "titanium",
+        "goldman"
+      ],
+      "issuer": "Apple",
+      "network": "mastercard",
+      "region": "US",
+      "theme": "pearl",
+      "colors": [
+        "#f8fafc",
+        "#e2e8f0",
+        "#cbd5e1"
+      ],
+      "finish": "pearl",
+      "textColor": "dark"
+    },
+    {
+      "id": "card-discover-it",
+      "name": "Discover it",
+      "aliases": [
+        "discover"
+      ],
+      "issuer": "Discover",
+      "network": "other",
+      "region": "US",
+      "theme": "copper",
+      "colors": [
+        "#7c2d12",
+        "#ea580c",
+        "#431407"
+      ],
+      "finish": "gloss",
+      "textColor": "light"
+    },
+    {
+      "id": "card-schwab-debit",
+      "name": "Charles Schwab Debit",
+      "aliases": [
+        "schwab",
+        "嘉信"
+      ],
+      "issuer": "Charles Schwab",
+      "network": "visa",
+      "region": "US",
+      "theme": "platinum",
+      "colors": [
+        "#cbd5e1",
+        "#e2e8f0",
+        "#94a3b8"
+      ],
+      "finish": "metallic",
+      "textColor": "dark"
+    },
+    {
+      "id": "card-monzo-coral",
+      "name": "Monzo Coral",
+      "aliases": [
+        "monzo",
+        "uk"
+      ],
+      "issuer": "Monzo",
+      "network": "mastercard",
+      "region": "UK/EU",
+      "theme": "copper",
+      "colors": [
+        "#b91c3b",
+        "#ff4f64",
+        "#88132a"
+      ],
+      "finish": "matte",
+      "textColor": "light"
+    },
+    {
+      "id": "card-monzo-max",
+      "name": "Monzo Max",
+      "aliases": [
+        "monzo",
+        "max",
+        "uk"
+      ],
+      "issuer": "Monzo",
+      "network": "mastercard",
+      "region": "UK/EU",
+      "theme": "crimson",
+      "colors": [
+        "#5b0b1d",
+        "#9f1239",
+        "#330610"
+      ],
+      "finish": "metallic",
+      "textColor": "light"
+    },
+    {
+      "id": "card-starling",
+      "name": "Starling Bank",
+      "aliases": [
+        "starling",
+        "uk"
+      ],
+      "issuer": "Starling Bank",
+      "network": "mastercard",
+      "region": "UK/EU",
+      "theme": "aurora",
+      "colors": [
+        "#0b3b3c",
+        "#0d9488",
+        "#311042"
+      ],
+      "finish": "matte",
+      "textColor": "light"
+    },
+    {
+      "id": "card-chase-uk",
+      "name": "Chase UK Debit",
+      "aliases": [
+        "chase",
+        "uk"
+      ],
+      "issuer": "Chase UK",
+      "network": "mastercard",
+      "region": "UK/EU",
+      "theme": "sapphire",
+      "colors": [
+        "#0a2540",
+        "#1d4ed8",
+        "#061629"
+      ],
+      "finish": "matte",
+      "textColor": "light"
+    },
+    {
+      "id": "card-hsbc-uk-premier",
+      "name": "HSBC UK Premier",
+      "aliases": [
+        "hsbc",
+        "uk",
+        "premier"
+      ],
+      "issuer": "HSBC UK",
+      "network": "mastercard",
+      "region": "UK/EU",
+      "theme": "obsidian",
+      "colors": [
+        "#111827",
+        "#374151",
+        "#7f1d1d"
+      ],
+      "finish": "metallic",
+      "textColor": "light"
+    },
+    {
+      "id": "card-revolut-standard",
+      "name": "Revolut Standard",
+      "aliases": [
+        "revolut",
+        "uk",
+        "eu"
+      ],
+      "issuer": "Revolut",
+      "network": "visa",
+      "region": "UK/EU",
+      "theme": "aurora",
+      "colors": [
+        "#1e3a8a",
+        "#06b6d4",
+        "#be185d"
+      ],
+      "finish": "gloss",
+      "textColor": "light"
+    },
+    {
+      "id": "card-revolut-metal",
+      "name": "Revolut Metal",
+      "aliases": [
+        "revolut",
+        "metal"
+      ],
+      "issuer": "Revolut",
+      "network": "visa",
+      "region": "UK/EU",
+      "theme": "obsidian",
+      "colors": [
+        "#18181b",
+        "#3f3f46",
+        "#09090b"
+      ],
+      "finish": "metallic",
+      "textColor": "light"
+    },
+    {
+      "id": "card-revolut-ultra",
+      "name": "Revolut Ultra",
+      "aliases": [
+        "revolut",
+        "ultra",
+        "platinum"
+      ],
+      "issuer": "Revolut",
+      "network": "visa",
+      "region": "UK/EU",
+      "theme": "platinum",
+      "colors": [
+        "#cbd5e1",
+        "#f1f5f9",
+        "#94a3b8"
+      ],
+      "finish": "metallic",
+      "textColor": "dark"
+    },
+    {
+      "id": "card-wise",
+      "name": "Wise Card",
+      "aliases": [
+        "wise",
+        "transferwise"
+      ],
+      "issuer": "Wise",
+      "network": "visa",
+      "region": "UK/EU",
+      "theme": "emerald",
+      "colors": [
+        "#163300",
+        "#3a7d0a",
+        "#0d2100"
+      ],
+      "finish": "matte",
+      "textColor": "light"
+    },
+    {
+      "id": "card-barclays-avios",
+      "name": "Barclaycard Avios Plus",
+      "aliases": [
+        "barclays",
+        "barclaycard",
+        "avios",
+        "uk"
+      ],
+      "issuer": "Barclays",
+      "network": "mastercard",
+      "region": "UK/EU",
+      "theme": "sapphire",
+      "colors": [
+        "#082f49",
+        "#0284c7",
+        "#061c2e"
+      ],
+      "finish": "gloss",
+      "textColor": "light"
+    },
+    {
+      "id": "card-lloyds-premier",
+      "name": "Lloyds World Elite",
+      "aliases": [
+        "lloyds",
+        "uk"
+      ],
+      "issuer": "Lloyds Bank",
+      "network": "mastercard",
+      "region": "UK/EU",
+      "theme": "emerald",
+      "colors": [
+        "#022c22",
+        "#047857",
+        "#011c15"
+      ],
+      "finish": "metallic",
+      "textColor": "light"
+    },
+    {
+      "id": "card-n26-metal",
+      "name": "N26 Metal",
+      "aliases": [
+        "n26",
+        "eu",
+        "germany"
+      ],
+      "issuer": "N26",
+      "network": "mastercard",
+      "region": "UK/EU",
+      "theme": "obsidian",
+      "colors": [
+        "#1c1917",
+        "#44403c",
+        "#0c0a09"
+      ],
+      "finish": "metallic",
+      "textColor": "light"
+    },
+    {
+      "id": "card-bunq-metal",
+      "name": "bunq Metal Card",
+      "aliases": [
+        "bunq",
+        "eu",
+        "nl"
+      ],
+      "issuer": "bunq",
+      "network": "mastercard",
+      "region": "UK/EU",
+      "theme": "aurora",
+      "colors": [
+        "#065f46",
+        "#0ea5e9",
+        "#1e3a8a"
+      ],
+      "finish": "metallic",
+      "textColor": "light"
+    },
+    {
+      "id": "card-trade-republic",
+      "name": "Trade Republic Mirror",
+      "aliases": [
+        "trade republic",
+        "eu",
+        "germany"
+      ],
+      "issuer": "Trade Republic",
+      "network": "visa",
+      "region": "UK/EU",
+      "theme": "platinum",
+      "colors": [
+        "#e2e8f0",
+        "#f8fafc",
+        "#94a3b8"
+      ],
+      "finish": "metallic",
+      "textColor": "dark"
+    },
+    {
+      "id": "card-curve-metal",
+      "name": "Curve Metal",
+      "aliases": [
+        "curve",
+        "uk",
+        "eu"
+      ],
+      "issuer": "Curve",
+      "network": "mastercard",
+      "region": "UK/EU",
+      "theme": "crimson",
+      "colors": [
+        "#610b1c",
+        "#be123c",
+        "#33060f"
+      ],
+      "finish": "metallic",
+      "textColor": "light"
+    },
+    {
+      "id": "card-dbs-altitude",
+      "name": "DBS Altitude",
+      "aliases": [
+        "dbs",
+        "altitude",
+        "sg",
+        "星展"
+      ],
+      "issuer": "DBS",
+      "network": "visa",
+      "region": "APAC",
+      "theme": "obsidian",
+      "colors": [
+        "#18181b",
+        "#27272a",
+        "#7f1d1d"
+      ],
+      "finish": "metallic",
+      "textColor": "light"
+    },
+    {
+      "id": "card-uob-one",
+      "name": "UOB One Card",
+      "aliases": [
+        "uob",
+        "one",
+        "sg",
+        "大華"
+      ],
+      "issuer": "UOB",
+      "network": "visa",
+      "region": "APAC",
+      "theme": "sapphire",
+      "colors": [
+        "#0a2540",
+        "#1e40af",
+        "#071729"
+      ],
+      "finish": "gloss",
+      "textColor": "light"
+    },
+    {
+      "id": "card-ocbc-365",
+      "name": "OCBC 365",
+      "aliases": [
+        "ocbc",
+        "365",
+        "sg",
+        "華僑"
+      ],
+      "issuer": "OCBC",
+      "network": "visa",
+      "region": "APAC",
+      "theme": "crimson",
+      "colors": [
+        "#7f1d1d",
+        "#dc2626",
+        "#450a0a"
+      ],
+      "finish": "gloss",
+      "textColor": "light"
+    },
+    {
+      "id": "card-smbc-olive",
+      "name": "SMBC Olive",
+      "aliases": [
+        "smbc",
+        "olive",
+        "三井住友",
+        "jp"
+      ],
+      "issuer": "SMBC",
+      "network": "visa",
+      "region": "APAC",
+      "theme": "emerald",
+      "colors": [
+        "#043322",
+        "#059669",
+        "#021f14"
+      ],
+      "finish": "matte",
+      "textColor": "light"
+    },
+    {
+      "id": "card-smbc-platinum",
+      "name": "SMBC Platinum Preferred",
+      "aliases": [
+        "smbc",
+        "platinum",
+        "三井住友",
+        "jp"
+      ],
+      "issuer": "SMBC",
+      "network": "visa",
+      "region": "APAC",
+      "theme": "obsidian",
+      "colors": [
+        "#18181b",
+        "#334155",
+        "#09090b"
+      ],
+      "finish": "metallic",
+      "textColor": "light"
+    },
+    {
+      "id": "card-rakuten",
+      "name": "Rakuten Card",
+      "aliases": [
+        "rakuten",
+        "樂天",
+        "jp"
+      ],
+      "issuer": "Rakuten",
+      "network": "jcb",
+      "region": "APAC",
+      "theme": "platinum",
+      "colors": [
+        "#d1d5db",
+        "#f3f4f6",
+        "#9ca3af"
+      ],
+      "finish": "pearl",
+      "textColor": "dark"
+    },
+    {
+      "id": "card-ana-jcb",
+      "name": "ANA JCB Card",
+      "aliases": [
+        "ana",
+        "jcb",
+        "jp"
+      ],
+      "issuer": "ANA / JCB",
+      "network": "jcb",
+      "region": "APAC",
+      "theme": "sapphire",
+      "colors": [
+        "#0c234b",
+        "#1e40af",
+        "#081733"
+      ],
+      "finish": "gloss",
+      "textColor": "light"
+    },
+    {
+      "id": "card-ctbc-linepay",
+      "name": "中國信託 LINE Pay",
+      "aliases": [
+        "ctbc",
+        "line pay",
+        "tw",
+        "中信"
+      ],
+      "issuer": "CTBC Bank",
+      "network": "visa",
+      "region": "APAC",
+      "theme": "emerald",
+      "colors": [
+        "#064e3b",
+        "#16a34a",
+        "#022c22"
+      ],
+      "finish": "gloss",
+      "textColor": "light"
+    },
+    {
+      "id": "card-cathay-cube",
+      "name": "國泰世華 CUBE",
+      "aliases": [
+        "cathay",
+        "cube",
+        "tw",
+        "國泰"
+      ],
+      "issuer": "Cathay United",
+      "network": "mastercard",
+      "region": "APAC",
+      "theme": "pearl",
+      "colors": [
+        "#f8fafc",
+        "#e2e8f0",
+        "#cbd5e1"
+      ],
+      "finish": "pearl",
+      "textColor": "dark"
+    },
+    {
+      "id": "card-fubon-j",
+      "name": "富邦 J 卡",
+      "aliases": [
+        "fubon",
+        "j card",
+        "tw",
+        "富邦"
+      ],
+      "issuer": "Taipei Fubon",
+      "network": "jcb",
+      "region": "APAC",
+      "theme": "sapphire",
+      "colors": [
+        "#082f49",
+        "#0ea5e9",
+        "#061d2e"
+      ],
+      "finish": "gloss",
+      "textColor": "light"
+    },
+    {
+      "id": "card-macquarie-plat",
+      "name": "Macquarie Debit",
+      "aliases": [
+        "macquarie",
+        "au"
+      ],
+      "issuer": "Macquarie",
+      "network": "mastercard",
+      "region": "APAC",
+      "theme": "obsidian",
+      "colors": [
+        "#111827",
+        "#1f2937",
+        "#090d16"
+      ],
+      "finish": "matte",
+      "textColor": "light"
+    },
+    {
+      "id": "card-bybit-black",
+      "name": "Bybit Card",
+      "aliases": [
+        "bybit",
+        "u卡",
+        "crypto"
+      ],
+      "issuer": "Bybit",
+      "network": "mastercard",
+      "region": "CRYPTO",
+      "theme": "obsidian",
+      "colors": [
+        "#121216",
+        "#27272f",
+        "#09090b"
+      ],
+      "finish": "matte",
+      "textColor": "light"
+    },
+    {
+      "id": "card-bybit-white",
+      "name": "Bybit Card (White)",
+      "aliases": [
+        "bybit",
+        "white",
+        "u卡",
+        "crypto"
+      ],
+      "issuer": "Bybit",
+      "network": "mastercard",
+      "region": "CRYPTO",
+      "theme": "pearl",
+      "colors": [
+        "#f8fafc",
+        "#e4e4e7",
+        "#d4d4d8"
+      ],
+      "finish": "pearl",
+      "textColor": "dark"
+    },
+    {
+      "id": "card-redotpay",
+      "name": "RedotPay Card",
+      "aliases": [
+        "redotpay",
+        "u卡",
+        "crypto"
+      ],
+      "issuer": "RedotPay",
+      "network": "visa",
+      "region": "CRYPTO",
+      "theme": "crimson",
+      "colors": [
+        "#881322",
+        "#e11d48",
+        "#4c0519"
+      ],
+      "finish": "gloss",
+      "textColor": "light"
+    },
+    {
+      "id": "card-etherfi-cash",
+      "name": "Ether.fi Cash",
+      "aliases": [
+        "etherfi",
+        "ether.fi",
+        "u卡",
+        "crypto"
+      ],
+      "issuer": "Ether.fi",
+      "network": "visa",
+      "region": "CRYPTO",
+      "theme": "violet",
+      "colors": [
+        "#2e1065",
+        "#6d28d9",
+        "#17063b"
+      ],
+      "finish": "gloss",
+      "textColor": "light"
+    },
+    {
+      "id": "card-okx",
+      "name": "OKX Card",
+      "aliases": [
+        "okx",
+        "u卡",
+        "crypto"
+      ],
+      "issuer": "OKX",
+      "network": "mastercard",
+      "region": "CRYPTO",
+      "theme": "obsidian",
+      "colors": [
+        "#09090b",
+        "#18181b",
+        "#000000"
+      ],
+      "finish": "matte",
+      "textColor": "light"
+    },
+    {
+      "id": "card-bitget-wallet",
+      "name": "Bitget Wallet Card",
+      "aliases": [
+        "bitget",
+        "u卡",
+        "crypto"
+      ],
+      "issuer": "Bitget",
+      "network": "visa",
+      "region": "CRYPTO",
+      "theme": "aurora",
+      "colors": [
+        "#042f2e",
+        "#00c2c7",
+        "#083344"
+      ],
+      "finish": "gloss",
+      "textColor": "light"
+    },
+    {
+      "id": "card-cryptocom-ruby",
+      "name": "Crypto.com Ruby Steel",
+      "aliases": [
+        "crypto.com",
+        "cro",
+        "ruby",
+        "u卡"
+      ],
+      "issuer": "Crypto.com",
+      "network": "visa",
+      "region": "CRYPTO",
+      "theme": "crimson",
+      "colors": [
+        "#7f1d1d",
+        "#dc2626",
+        "#450a0a"
+      ],
+      "finish": "metallic",
+      "textColor": "light"
+    },
+    {
+      "id": "card-cryptocom-jade",
+      "name": "Crypto.com Jade Green",
+      "aliases": [
+        "crypto.com",
+        "cro",
+        "jade",
+        "u卡"
+      ],
+      "issuer": "Crypto.com",
+      "network": "visa",
+      "region": "CRYPTO",
+      "theme": "emerald",
+      "colors": [
+        "#064e3b",
+        "#059669",
+        "#022c22"
+      ],
+      "finish": "metallic",
+      "textColor": "light"
+    },
+    {
+      "id": "card-cryptocom-icy",
+      "name": "Crypto.com Icy White",
+      "aliases": [
+        "crypto.com",
+        "cro",
+        "icy",
+        "u卡"
+      ],
+      "issuer": "Crypto.com",
+      "network": "visa",
+      "region": "CRYPTO",
+      "theme": "platinum",
+      "colors": [
+        "#dce3eb",
+        "#f1f5f9",
+        "#b0bcc9"
+      ],
+      "finish": "metallic",
+      "textColor": "dark"
+    },
+    {
+      "id": "card-cryptocom-obsidian",
+      "name": "Crypto.com Obsidian",
+      "aliases": [
+        "crypto.com",
+        "cro",
+        "obsidian",
+        "u卡"
+      ],
+      "issuer": "Crypto.com",
+      "network": "visa",
+      "region": "CRYPTO",
+      "theme": "obsidian",
+      "colors": [
+        "#09090b",
+        "#1f2937",
+        "#000000"
+      ],
+      "finish": "metallic",
+      "textColor": "light"
+    },
+    {
+      "id": "card-gnosis-pay",
+      "name": "Gnosis Pay",
+      "aliases": [
+        "gnosis",
+        "gno",
+        "u卡",
+        "crypto"
+      ],
+      "issuer": "Gnosis Pay",
+      "network": "visa",
+      "region": "CRYPTO",
+      "theme": "emerald",
+      "colors": [
+        "#0f291e",
+        "#1e5b42",
+        "#091a13"
+      ],
+      "finish": "matte",
+      "textColor": "light"
+    },
+    {
+      "id": "card-nexo",
+      "name": "Nexo Card",
+      "aliases": [
+        "nexo",
+        "u卡",
+        "crypto"
+      ],
+      "issuer": "Nexo",
+      "network": "mastercard",
+      "region": "CRYPTO",
+      "theme": "sapphire",
+      "colors": [
+        "#101c3d",
+        "#2851a3",
+        "#091026"
+      ],
+      "finish": "gloss",
+      "textColor": "light"
+    },
+    {
+      "id": "card-infini",
+      "name": "Infini Card",
+      "aliases": [
+        "infini",
+        "u卡",
+        "crypto"
+      ],
+      "issuer": "Infini",
+      "network": "visa",
+      "region": "CRYPTO",
+      "theme": "violet",
+      "colors": [
+        "#1e1b4b",
+        "#4338ca",
+        "#110e2e"
+      ],
+      "finish": "metallic",
+      "textColor": "light"
+    },
+    {
+      "id": "card-onekey",
+      "name": "OneKey Card",
+      "aliases": [
+        "onekey",
+        "u卡",
+        "crypto"
+      ],
+      "issuer": "OneKey",
+      "network": "visa",
+      "region": "CRYPTO",
+      "theme": "emerald",
+      "colors": [
+        "#052e16",
+        "#16a34a",
+        "#031c0d"
+      ],
+      "finish": "matte",
+      "textColor": "light"
+    },
+    {
+      "id": "card-wirex",
+      "name": "Wirex Card",
+      "aliases": [
+        "wirex",
+        "u卡",
+        "crypto"
+      ],
+      "issuer": "Wirex",
+      "network": "mastercard",
+      "region": "CRYPTO",
+      "theme": "aurora",
+      "colors": [
+        "#064e3b",
+        "#0d9488",
+        "#0f172a"
+      ],
+      "finish": "gloss",
+      "textColor": "light"
+    },
+    {
+      "id": "card-metamask",
+      "name": "MetaMask Card",
+      "aliases": [
+        "metamask",
+        "u卡",
+        "crypto"
+      ],
+      "issuer": "MetaMask",
+      "network": "mastercard",
+      "region": "CRYPTO",
+      "theme": "copper",
+      "colors": [
+        "#431407",
+        "#ea580c",
+        "#1c0a02"
+      ],
+      "finish": "matte",
+      "textColor": "light"
+    },
+    {
+      "id": "card-coinbase",
+      "name": "Coinbase Card",
+      "aliases": [
+        "coinbase",
+        "u卡",
+        "crypto"
+      ],
+      "issuer": "Coinbase",
+      "network": "visa",
+      "region": "CRYPTO",
+      "theme": "sapphire",
+      "colors": [
+        "#003087",
+        "#0052ff",
+        "#001a4d"
+      ],
+      "finish": "gloss",
+      "textColor": "light"
+    },
+    {
+      "id": "card-kast",
+      "name": "KAST Card",
+      "aliases": [
+        "kast",
+        "solana",
+        "u卡",
+        "crypto"
+      ],
+      "issuer": "KAST",
+      "network": "visa",
+      "region": "CRYPTO",
+      "theme": "obsidian",
+      "colors": [
+        "#111111",
+        "#27272a",
+        "#09090b"
+      ],
+      "finish": "metallic",
+      "textColor": "light"
+    },
+    {
+      "id": "card-pokepay",
+      "name": "Pokepay Card",
+      "aliases": [
+        "pokepay",
+        "u卡",
+        "crypto"
+      ],
+      "issuer": "Pokepay",
+      "network": "visa",
+      "region": "CRYPTO",
+      "theme": "violet",
+      "colors": [
+        "#312e81",
+        "#6366f1",
+        "#1e1b4b"
+      ],
+      "finish": "gloss",
+      "textColor": "light"
+    },
+    {
+      "id": "card-dupay",
+      "name": "Dupay Card",
+      "aliases": [
+        "dupay",
+        "depay",
+        "u卡",
+        "crypto"
+      ],
+      "issuer": "Dupay",
+      "network": "mastercard",
+      "region": "CRYPTO",
+      "theme": "sapphire",
+      "colors": [
+        "#0c1e3e",
+        "#2563eb",
+        "#061126"
+      ],
+      "finish": "matte",
+      "textColor": "light"
+    },
+    {
+      "id": "card-ocbc-frank",
+      "name": "OCBC FRANK Card",
+      "aliases": [
+        "ocbc",
+        "frank",
+        "sg",
+        "華僑"
+      ],
+      "issuer": "OCBC",
+      "network": "visa",
+      "region": "APAC",
+      "theme": "crimson",
+      "colors": [
+        "#7f1d1d",
+        "#ef4444",
+        "#18181b"
+      ],
+      "finish": "gloss",
+      "textColor": "light"
+    },
+    {
+      "id": "card-ocbc-90n",
+      "name": "OCBC 90°N Card",
+      "aliases": [
+        "ocbc",
+        "90n",
+        "sg",
+        "華僑"
+      ],
+      "issuer": "OCBC",
+      "network": "mastercard",
+      "region": "APAC",
+      "theme": "obsidian",
+      "colors": [
+        "#0f172a",
+        "#1e293b",
+        "#0284c7"
+      ],
+      "finish": "metallic",
+      "textColor": "light"
+    },
+    {
+      "id": "card-ocbc-premier",
+      "name": "OCBC Premier Visa",
+      "aliases": [
+        "ocbc",
+        "premier",
+        "sg",
+        "華僑"
+      ],
+      "issuer": "OCBC",
+      "network": "visa",
+      "region": "APAC",
+      "theme": "platinum",
+      "colors": [
+        "#334155",
+        "#64748b",
+        "#0f172a"
+      ],
+      "finish": "metallic",
+      "textColor": "light"
+    },
+    {
+      "id": "card-uob-prvi",
+      "name": "UOB PRVI Miles",
+      "aliases": [
+        "uob",
+        "prvi",
+        "sg",
+        "大華"
+      ],
+      "issuer": "UOB",
+      "network": "visa",
+      "region": "APAC",
+      "theme": "sapphire",
+      "colors": [
+        "#0c192c",
+        "#1d4ed8",
+        "#090d16"
+      ],
+      "finish": "metallic",
+      "textColor": "light"
+    },
+    {
+      "id": "card-trust-sg",
+      "name": "Trust Bank Card",
+      "aliases": [
+        "trust",
+        "sg",
+        "standard chartered"
+      ],
+      "issuer": "Trust Bank SG",
+      "network": "visa",
+      "region": "APAC",
+      "theme": "sapphire",
+      "colors": [
+        "#082f49",
+        "#0ea5e9",
+        "#0c4a6e"
+      ],
+      "finish": "gloss",
+      "textColor": "light"
+    },
+    {
+      "id": "card-amex-krisflyer",
+      "name": "Amex KrisFlyer Ascend",
+      "aliases": [
+        "amex",
+        "krisflyer",
+        "sia",
+        "sg"
+      ],
+      "issuer": "American Express",
+      "network": "amex",
+      "region": "APAC",
+      "theme": "platinum",
+      "colors": [
+        "#cbd5e1",
+        "#e2e8f0",
+        "#94a3b8"
+      ],
+      "finish": "metallic",
+      "textColor": "dark"
+    },
+    {
+      "id": "card-hyundai-kr",
+      "name": "Hyundai Card M",
+      "aliases": [
+        "hyundai",
+        "kr",
+        "現代"
+      ],
+      "issuer": "Hyundai Card",
+      "network": "visa",
+      "region": "APAC",
+      "theme": "obsidian",
+      "colors": [
+        "#18181b",
+        "#27272a",
+        "#000000"
+      ],
+      "finish": "matte",
+      "textColor": "light"
+    },
+    {
+      "id": "card-shinhan-kr",
+      "name": "Shinhan Card Deep",
+      "aliases": [
+        "shinhan",
+        "kr",
+        "新韓"
+      ],
+      "issuer": "Shinhan Card",
+      "network": "mastercard",
+      "region": "APAC",
+      "theme": "sapphire",
+      "colors": [
+        "#0a2540",
+        "#2563eb",
+        "#091529"
+      ],
+      "finish": "gloss",
+      "textColor": "light"
+    },
+    {
+      "id": "card-cba-au",
+      "name": "CommBank Ultimate",
+      "aliases": [
+        "cba",
+        "commonwealth",
+        "au"
+      ],
+      "issuer": "CommBank",
+      "network": "mastercard",
+      "region": "APAC",
+      "theme": "gold",
+      "colors": [
+        "#29200a",
+        "#ca8a04",
+        "#1c1404"
+      ],
+      "finish": "metallic",
+      "textColor": "light"
+    },
+    {
+      "id": "card-anz-au",
+      "name": "ANZ Black",
+      "aliases": [
+        "anz",
+        "black",
+        "au"
+      ],
+      "issuer": "ANZ",
+      "network": "visa",
+      "region": "APAC",
+      "theme": "obsidian",
+      "colors": [
+        "#090d16",
+        "#1e293b",
+        "#000000"
+      ],
+      "finish": "metallic",
+      "textColor": "light"
+    },
+    {
+      "id": "card-robinhood-gold",
+      "name": "Robinhood Gold Card",
+      "aliases": [
+        "robinhood",
+        "gold",
+        "us"
+      ],
+      "issuer": "Robinhood",
+      "network": "visa",
+      "region": "US",
+      "theme": "gold",
+      "colors": [
+        "#856218",
+        "#eab308",
+        "#523b0a"
+      ],
+      "finish": "metallic",
+      "textColor": "dark"
+    },
+    {
+      "id": "card-fidelity-visa",
+      "name": "Fidelity Rewards Visa",
+      "aliases": [
+        "fidelity",
+        "us"
+      ],
+      "issuer": "Fidelity",
+      "network": "visa",
+      "region": "US",
+      "theme": "emerald",
+      "colors": [
+        "#064e3b",
+        "#16a34a",
+        "#022c22"
+      ],
+      "finish": "gloss",
+      "textColor": "light"
+    },
+    {
+      "id": "card-usbank-altitude",
+      "name": "U.S. Bank Altitude Reserve",
+      "aliases": [
+        "us bank",
+        "altitude",
+        "us"
+      ],
+      "issuer": "U.S. Bank",
+      "network": "visa",
+      "region": "US",
+      "theme": "obsidian",
+      "colors": [
+        "#0f172a",
+        "#1e3a8a",
+        "#090d16"
+      ],
+      "finish": "metallic",
+      "textColor": "light"
+    },
+    {
+      "id": "card-chase-ink",
+      "name": "Chase Ink Preferred",
+      "aliases": [
+        "chase",
+        "ink",
+        "cip",
+        "us"
+      ],
+      "issuer": "Chase",
+      "network": "visa",
+      "region": "US",
+      "theme": "sapphire",
+      "colors": [
+        "#0a1d3b",
+        "#1e40af",
+        "#071124"
+      ],
+      "finish": "metallic",
+      "textColor": "light"
+    },
+    {
+      "id": "card-citi-customcash",
+      "name": "Citi Custom Cash",
+      "aliases": [
+        "citi",
+        "custom cash",
+        "us"
+      ],
+      "issuer": "Citi",
+      "network": "mastercard",
+      "region": "US",
+      "theme": "aurora",
+      "colors": [
+        "#0f294a",
+        "#0ea5e9",
+        "#1e1b4b"
+      ],
+      "finish": "gloss",
+      "textColor": "light"
+    },
+    {
+      "id": "card-rbc-avion",
+      "name": "RBC Avion Visa Infinite",
+      "aliases": [
+        "rbc",
+        "avion",
+        "ca"
+      ],
+      "issuer": "RBC",
+      "network": "visa",
+      "region": "US",
+      "theme": "obsidian",
+      "colors": [
+        "#0c192c",
+        "#1e3a8a",
+        "#090d16"
+      ],
+      "finish": "metallic",
+      "textColor": "light"
+    },
+    {
+      "id": "card-amex-cobalt-ca",
+      "name": "Amex Cobalt (CA)",
+      "aliases": [
+        "amex",
+        "cobalt",
+        "ca"
+      ],
+      "issuer": "American Express",
+      "network": "amex",
+      "region": "US",
+      "theme": "sapphire",
+      "colors": [
+        "#082f49",
+        "#0284c7",
+        "#041b2b"
+      ],
+      "finish": "metallic",
+      "textColor": "light"
+    },
+    {
+      "id": "card-wealthsimple-ca",
+      "name": "Wealthsimple Cash",
+      "aliases": [
+        "wealthsimple",
+        "ca"
+      ],
+      "issuer": "Wealthsimple",
+      "network": "mastercard",
+      "region": "US",
+      "theme": "obsidian",
+      "colors": [
+        "#18181b",
+        "#27272a",
+        "#09090b"
+      ],
+      "finish": "matte",
+      "textColor": "light"
+    },
+    {
+      "id": "card-bnp-fr",
+      "name": "BNP Paribas Premier",
+      "aliases": [
+        "bnp",
+        "fr",
+        "france"
+      ],
+      "issuer": "BNP Paribas",
+      "network": "visa",
+      "region": "UK/EU",
+      "theme": "emerald",
+      "colors": [
+        "#022c22",
+        "#059669",
+        "#011c15"
+      ],
+      "finish": "metallic",
+      "textColor": "light"
+    },
+    {
+      "id": "card-boursobank-fr",
+      "name": "BoursoBank Metal",
+      "aliases": [
+        "boursobank",
+        "boursorama",
+        "fr"
+      ],
+      "issuer": "BoursoBank",
+      "network": "visa",
+      "region": "UK/EU",
+      "theme": "obsidian",
+      "colors": [
+        "#111827",
+        "#334155",
+        "#be185d"
+      ],
+      "finish": "metallic",
+      "textColor": "light"
+    },
+    {
+      "id": "card-ing-orange",
+      "name": "ING Orange Card",
+      "aliases": [
+        "ing",
+        "nl",
+        "eu"
+      ],
+      "issuer": "ING",
+      "network": "mastercard",
+      "region": "UK/EU",
+      "theme": "copper",
+      "colors": [
+        "#9a3412",
+        "#f97316",
+        "#431407"
+      ],
+      "finish": "gloss",
+      "textColor": "light"
+    },
+    {
+      "id": "card-ubs-ch",
+      "name": "UBS KeyClub / Platinum",
+      "aliases": [
+        "ubs",
+        "ch",
+        "swiss"
+      ],
+      "issuer": "UBS",
+      "network": "mastercard",
+      "region": "UK/EU",
+      "theme": "platinum",
+      "colors": [
+        "#cbd5e1",
+        "#e2e8f0",
+        "#94a3b8"
+      ],
+      "finish": "metallic",
+      "textColor": "dark"
+    },
+    {
+      "id": "card-boc-chill",
+      "name": "BOC Chill Card",
+      "aliases": [
+        "boc",
+        "bochk",
+        "chill",
+        "中銀"
+      ],
+      "issuer": "BOCHK",
+      "network": "mastercard",
+      "region": "HK",
+      "theme": "violet",
+      "colors": [
+        "#1e1b4b",
+        "#6d28d9",
+        "#090d16"
+      ],
+      "finish": "gloss",
+      "textColor": "light"
+    },
+    {
+      "id": "card-boc-go",
+      "name": "BOC Go 銀聯卡",
+      "aliases": [
+        "boc",
+        "bochk",
+        "go",
+        "中銀"
+      ],
+      "issuer": "BOCHK",
+      "network": "unionpay",
+      "region": "HK",
+      "theme": "emerald",
+      "colors": [
+        "#064e3b",
+        "#10b981",
+        "#022c22"
+      ],
+      "finish": "matte",
+      "textColor": "light"
+    },
+    {
+      "id": "card-boc-sogo",
+      "name": "BOC SOGO Visa",
+      "aliases": [
+        "boc",
+        "sogo",
+        "中銀",
+        "崇光"
+      ],
+      "issuer": "BOCHK",
+      "network": "visa",
+      "region": "HK",
+      "theme": "crimson",
+      "colors": [
+        "#5c0b1b",
+        "#be123c",
+        "#2e050d"
+      ],
+      "finish": "gloss",
+      "textColor": "light"
+    },
+    {
+      "id": "card-scb-smart",
+      "name": "SCB Smart Card",
+      "aliases": [
+        "scb",
+        "smart",
+        "渣打"
+      ],
+      "issuer": "Standard Chartered",
+      "network": "visa",
+      "region": "HK",
+      "theme": "pearl",
+      "colors": [
+        "#f8fafc",
+        "#e2e8f0",
+        "#cbd5e1"
+      ],
+      "finish": "pearl",
+      "textColor": "dark"
+    },
+    {
+      "id": "card-amex-explorer-hk",
+      "name": "Amex Explorer (HK)",
+      "aliases": [
+        "amex",
+        "explorer",
+        "運通"
+      ],
+      "issuer": "American Express",
+      "network": "amex",
+      "region": "HK",
+      "theme": "emerald",
+      "colors": [
+        "#063b2c",
+        "#0f766e",
+        "#032018"
+      ],
+      "finish": "metallic",
+      "textColor": "light"
+    },
+    {
+      "id": "card-aeon-wakuwaku",
+      "name": "AEON Card WAKUWAKU",
+      "aliases": [
+        "aeon",
+        "wakuwaku"
+      ],
+      "issuer": "AEON",
+      "network": "visa",
+      "region": "HK",
+      "theme": "rose",
+      "colors": [
+        "#4a0d38",
+        "#db2777",
+        "#311042"
+      ],
+      "finish": "gloss",
+      "textColor": "light"
+    },
+    {
+      "id": "card-aeon-purple",
+      "name": "AEON Card Purple",
+      "aliases": [
+        "aeon",
+        "purple"
+      ],
+      "issuer": "AEON",
+      "network": "visa",
+      "region": "HK",
+      "theme": "violet",
+      "colors": [
+        "#3b0764",
+        "#9333ea",
+        "#1e0533"
+      ],
+      "finish": "gloss",
+      "textColor": "light"
+    },
+    {
+      "id": "card-wewa-unionpay",
+      "name": "WeWa 銀聯鑽石卡",
+      "aliases": [
+        "wewa",
+        "primecredit",
+        "安信"
+      ],
+      "issuer": "PrimeCredit",
+      "network": "unionpay",
+      "region": "HK",
+      "theme": "aurora",
+      "colors": [
+        "#0c2d5c",
+        "#2563eb",
+        "#7c3aed"
+      ],
+      "finish": "gloss",
+      "textColor": "light"
+    },
+    {
+      "id": "card-earnmore-unionpay",
+      "name": "EarnMORE 銀聯鑽石卡",
+      "aliases": [
+        "earnmore",
+        "primecredit",
+        "安信"
+      ],
+      "issuer": "PrimeCredit",
+      "network": "unionpay",
+      "region": "HK",
+      "theme": "violet",
+      "colors": [
+        "#2e1065",
+        "#6d28d9",
+        "#9a7424"
+      ],
+      "finish": "metallic",
+      "textColor": "light"
+    },
+    {
+      "id": "card-dahsing-one",
+      "name": "Dah Sing ONE+",
+      "aliases": [
+        "dah sing",
+        "one+",
+        "大新"
+      ],
+      "issuer": "Dah Sing Bank",
+      "network": "visa",
+      "region": "HK",
+      "theme": "sapphire",
+      "colors": [
+        "#0a1d3b",
+        "#1d4ed8",
+        "#090d16"
+      ],
+      "finish": "metallic",
+      "textColor": "light"
+    },
+    {
+      "id": "card-cncbi-motion",
+      "name": "CNCBI Motion 信用卡",
+      "aliases": [
+        "cncbi",
+        "motion",
+        "信銀"
+      ],
+      "issuer": "CNCBI",
+      "network": "mastercard",
+      "region": "HK",
+      "theme": "crimson",
+      "colors": [
+        "#7f1d1d",
+        "#ea580c",
+        "#18181b"
+      ],
+      "finish": "gloss",
+      "textColor": "light"
+    },
+    {
+      "id": "card-fubon-in",
+      "name": "Fubon iN Visa",
+      "aliases": [
+        "fubon",
+        "in",
+        "富邦"
+      ],
+      "issuer": "Fubon Bank HK",
+      "network": "visa",
+      "region": "HK",
+      "theme": "sapphire",
+      "colors": [
+        "#0369a1",
+        "#0ea5e9",
+        "#082f49"
+      ],
+      "finish": "gloss",
+      "textColor": "light"
+    },
+    {
+      "id": "card-ccb-eye",
+      "name": "CCB (Asia) eye 信用卡",
+      "aliases": [
+        "ccb",
+        "eye",
+        "建行"
+      ],
+      "issuer": "CCB (Asia)",
+      "network": "visa",
+      "region": "HK",
+      "theme": "sapphire",
+      "colors": [
+        "#0f172a",
+        "#1d4ed8",
+        "#061124"
+      ],
+      "finish": "metallic",
+      "textColor": "light"
+    },
+    {
+      "id": "card-icbc-gba",
+      "name": "ICBC 粵港澳灣區卡",
+      "aliases": [
+        "icbc",
+        "gba",
+        "工銀"
+      ],
+      "issuer": "ICBC (Asia)",
+      "network": "unionpay",
+      "region": "HK",
+      "theme": "crimson",
+      "colors": [
+        "#680c15",
+        "#b91c1c",
+        "#2d060a"
+      ],
+      "finish": "metallic",
+      "textColor": "light"
+    },
+    {
+      "id": "card-octopus",
+      "name": "八達通 Octopus",
+      "aliases": [
+        "octopus",
+        "八達通"
+      ],
+      "issuer": "Octopus",
+      "network": "other",
+      "region": "HK",
+      "theme": "copper",
+      "colors": [
+        "#ea580c",
+        "#f59e0b",
+        "#0f172a"
+      ],
+      "finish": "gloss",
+      "textColor": "light"
+    },
+    {
+      "id": "card-tapngo",
+      "name": "Tap & Go 拍住賞",
+      "aliases": [
+        "tap & go",
+        "tapngo",
+        "hkt"
+      ],
+      "issuer": "HKT Payment",
+      "network": "mastercard",
+      "region": "HK",
+      "theme": "rose",
+      "colors": [
+        "#831843",
+        "#ec4899",
+        "#3b0764"
+      ],
+      "finish": "gloss",
+      "textColor": "light"
+    },
+    {
+      "id": "card-livi",
+      "name": "livi Debit Mastercard",
+      "aliases": [
+        "livi",
+        "理慧"
+      ],
+      "issuer": "livi bank",
+      "network": "mastercard",
+      "region": "HK",
+      "theme": "copper",
+      "colors": [
+        "#9a3412",
+        "#fb7185",
+        "#4c0519"
+      ],
+      "finish": "matte",
+      "textColor": "light"
+    },
+    {
+      "id": "card-fusion",
+      "name": "Fusion Bank Card",
+      "aliases": [
+        "fusion",
+        "富融"
+      ],
+      "issuer": "Fusion Bank",
+      "network": "mastercard",
+      "region": "HK",
+      "theme": "violet",
+      "colors": [
+        "#1e1b4b",
+        "#4338ca",
+        "#0f172a"
+      ],
+      "finish": "metallic",
+      "textColor": "light"
+    },
+    {
+      "id": "card-paobank",
+      "name": "PAObank Card",
+      "aliases": [
+        "pao",
+        "paobank",
+        "平安壹賬通"
+      ],
+      "issuer": "PAObank",
+      "network": "visa",
+      "region": "HK",
+      "theme": "copper",
+      "colors": [
+        "#7c2d12",
+        "#f97316",
+        "#1e293b"
+      ],
+      "finish": "gloss",
+      "textColor": "light"
+    },
+    {
+      "id": "card-chase-cff",
+      "name": "Chase Freedom Flex",
+      "aliases": [
+        "chase",
+        "freedom",
+        "cff",
+        "us"
+      ],
+      "issuer": "Chase",
+      "network": "mastercard",
+      "region": "US",
+      "theme": "sapphire",
+      "colors": [
+        "#0a2540",
+        "#0284c7",
+        "#061629"
+      ],
+      "finish": "gloss",
+      "textColor": "light"
+    },
+    {
+      "id": "card-chase-united",
+      "name": "Chase United Explorer",
+      "aliases": [
+        "chase",
+        "united",
+        "us"
+      ],
+      "issuer": "Chase",
+      "network": "visa",
+      "region": "US",
+      "theme": "sapphire",
+      "colors": [
+        "#0c1e3e",
+        "#1d4ed8",
+        "#090d16"
+      ],
+      "finish": "metallic",
+      "textColor": "light"
+    },
+    {
+      "id": "card-amex-delta-gold",
+      "name": "Amex Delta SkyMiles Gold",
+      "aliases": [
+        "amex",
+        "delta",
+        "us"
+      ],
+      "issuer": "American Express",
+      "network": "amex",
+      "region": "US",
+      "theme": "gold",
+      "colors": [
+        "#1e293b",
+        "#9a7424",
+        "#0f172a"
+      ],
+      "finish": "metallic",
+      "textColor": "light"
+    },
+    {
+      "id": "card-capone-quicksilver",
+      "name": "Capital One Quicksilver",
+      "aliases": [
+        "capital one",
+        "quicksilver",
+        "us"
+      ],
+      "issuer": "Capital One",
+      "network": "mastercard",
+      "region": "US",
+      "theme": "platinum",
+      "colors": [
+        "#94a3b8",
+        "#cbd5e1",
+        "#64748b"
+      ],
+      "finish": "metallic",
+      "textColor": "dark"
+    },
+    {
+      "id": "card-citi-aa",
+      "name": "Citi AAdvantage Platinum",
+      "aliases": [
+        "citi",
+        "american airlines",
+        "aa",
+        "us"
+      ],
+      "issuer": "Citi",
+      "network": "mastercard",
+      "region": "US",
+      "theme": "platinum",
+      "colors": [
+        "#cbd5e1",
+        "#e2e8f0",
+        "#94a3b8"
+      ],
+      "finish": "metallic",
+      "textColor": "dark"
+    },
+    {
+      "id": "card-costco-citi",
+      "name": "Costco Anywhere Visa",
+      "aliases": [
+        "costco",
+        "citi",
+        "us"
+      ],
+      "issuer": "Citi",
+      "network": "visa",
+      "region": "US",
+      "theme": "obsidian",
+      "colors": [
+        "#18181b",
+        "#334155",
+        "#7f1d1d"
+      ],
+      "finish": "metallic",
+      "textColor": "light"
+    },
+    {
+      "id": "card-sofi-cc",
+      "name": "SoFi Credit Card",
+      "aliases": [
+        "sofi",
+        "us"
+      ],
+      "issuer": "SoFi",
+      "network": "mastercard",
+      "region": "US",
+      "theme": "aurora",
+      "colors": [
+        "#042f4b",
+        "#06b6d4",
+        "#083344"
+      ],
+      "finish": "matte",
+      "textColor": "light"
+    },
+    {
+      "id": "card-paypal-mc",
+      "name": "PayPal Cashback Mastercard",
+      "aliases": [
+        "paypal",
+        "us"
+      ],
+      "issuer": "PayPal",
+      "network": "mastercard",
+      "region": "US",
+      "theme": "sapphire",
+      "colors": [
+        "#003087",
+        "#0070ba",
+        "#001a4d"
+      ],
+      "finish": "gloss",
+      "textColor": "light"
+    },
+    {
+      "id": "card-hsbc-cup",
+      "name": "HSBC UnionPay Dual Currency",
+      "aliases": [
+        "hsbc",
+        "unionpay",
+        "銀聯",
+        "匯豐"
+      ],
+      "issuer": "HSBC",
+      "network": "unionpay",
+      "region": "HK",
+      "theme": "crimson",
+      "colors": [
+        "#680c15",
+        "#b91c1c",
+        "#18181b"
+      ],
+      "finish": "metallic",
+      "textColor": "light"
+    },
+    {
+      "id": "card-hangseng-prestige",
+      "name": "Hang Seng Prestige World",
+      "aliases": [
+        "hang seng",
+        "prestige",
+        "優越理財",
+        "恒生"
+      ],
+      "issuer": "Hang Seng Bank",
+      "network": "mastercard",
+      "region": "HK",
+      "theme": "obsidian",
+      "colors": [
+        "#090d16",
+        "#1e293b",
+        "#000000"
+      ],
+      "finish": "metallic",
+      "textColor": "light"
+    },
+    {
+      "id": "card-hangseng-vi",
+      "name": "Hang Seng Visa Infinite",
+      "aliases": [
+        "hang seng",
+        "infinite",
+        "恒生"
+      ],
+      "issuer": "Hang Seng Bank",
+      "network": "visa",
+      "region": "HK",
+      "theme": "obsidian",
+      "colors": [
+        "#111827",
+        "#334155",
+        "#78350f"
+      ],
+      "finish": "metallic",
+      "textColor": "light"
+    },
+    {
+      "id": "card-bocom-hk",
+      "name": "交銀 (香港) 信用卡",
+      "aliases": [
+        "bocom",
+        "交銀",
+        "交通銀行"
+      ],
+      "issuer": "BOCOM (HK)",
+      "network": "visa",
+      "region": "HK",
+      "theme": "sapphire",
+      "colors": [
+        "#0a2540",
+        "#1d4ed8",
+        "#061629"
+      ],
+      "finish": "gloss",
+      "textColor": "light"
+    },
+    {
+      "id": "card-cmbwinglung",
+      "name": "招商永隆信用卡",
+      "aliases": [
+        "cmb",
+        "wing lung",
+        "永隆"
+      ],
+      "issuer": "CMB Wing Lung",
+      "network": "visa",
+      "region": "HK",
+      "theme": "crimson",
+      "colors": [
+        "#680c15",
+        "#dc2626",
+        "#2d060a"
+      ],
+      "finish": "gloss",
+      "textColor": "light"
+    },
+    {
+      "id": "card-chonghing",
+      "name": "創興銀行信用卡",
+      "aliases": [
+        "chong hing",
+        "創興"
+      ],
+      "issuer": "Chong Hing Bank",
+      "network": "unionpay",
+      "region": "HK",
+      "theme": "emerald",
+      "colors": [
+        "#022c22",
+        "#059669",
+        "#011c15"
+      ],
+      "finish": "metallic",
+      "textColor": "light"
+    },
+    {
+      "id": "card-shacombank",
+      "name": "上海商業銀行信用卡",
+      "aliases": [
+        "shacom",
+        "上海商業"
+      ],
+      "issuer": "Shanghai Commercial",
+      "network": "visa",
+      "region": "HK",
+      "theme": "crimson",
+      "colors": [
+        "#5c0b1b",
+        "#991b1b",
+        "#26040d"
+      ],
+      "finish": "gloss",
+      "textColor": "light"
+    }
+  ],
+  "bills": [
+    {
+      "id": "bill-giffgaff",
+      "name": "giffgaff eSIM / SIM",
+      "issuer": "giffgaff",
+      "domain": "giffgaff.com",
+      "billSubtype": "esim",
+      "brandColor": "#111827"
+    },
+    {
+      "id": "bill-airalo",
+      "name": "Airalo eSIM",
+      "issuer": "Airalo",
+      "domain": "airalo.com",
+      "billSubtype": "esim",
+      "brandColor": "#ef4444"
+    },
+    {
+      "id": "bill-ubigi",
+      "name": "Ubigi eSIM",
+      "issuer": "Ubigi",
+      "domain": "ubigi.com",
+      "billSubtype": "esim",
+      "brandColor": "#0284c7"
+    },
+    {
+      "id": "bill-holafly",
+      "name": "Holafly eSIM",
+      "issuer": "Holafly",
+      "domain": "holafly.com",
+      "billSubtype": "esim",
+      "brandColor": "#e11d48"
+    },
+    {
+      "id": "bill-nomad",
+      "name": "Nomad eSIM",
+      "issuer": "Nomad",
+      "domain": "getnomad.app",
+      "billSubtype": "esim",
+      "brandColor": "#0d9488"
+    },
+    {
+      "id": "bill-saily",
+      "name": "Saily eSIM",
+      "issuer": "Saily",
+      "domain": "saily.com",
+      "billSubtype": "esim",
+      "brandColor": "#eab308"
+    },
+    {
+      "id": "bill-roamless",
+      "name": "Roamless eSIM",
+      "issuer": "Roamless",
+      "domain": "roamless.com",
+      "billSubtype": "esim",
+      "brandColor": "#2563eb"
+    },
+    {
+      "id": "bill-3hk",
+      "name": "3HK / SoSIM",
+      "issuer": "3HK",
+      "domain": "three.com.hk",
+      "billSubtype": "esim",
+      "brandColor": "#0ea5e9"
+    },
+    {
+      "id": "bill-clubsim",
+      "name": "Club Sim",
+      "issuer": "Club Sim",
+      "domain": "clubsim.com.hk",
+      "billSubtype": "esim",
+      "brandColor": "#7c3aed"
+    },
+    {
+      "id": "bill-cmhk",
+      "name": "CMHK",
+      "issuer": "CMHK",
+      "domain": "hk.chinamobile.com",
+      "billSubtype": "esim",
+      "brandColor": "#1d4ed8"
+    },
+    {
+      "id": "bill-csl",
+      "name": "csl / 1O1O",
+      "issuer": "CSL",
+      "domain": "hkcsl.com",
+      "billSubtype": "esim",
+      "brandColor": "#0ea5e9"
+    },
+    {
+      "id": "bill-smartone",
+      "name": "SmarTone 數碼通",
+      "issuer": "SmarTone",
+      "domain": "smartone.com",
+      "billSubtype": "esim",
+      "brandColor": "#dc2626"
+    },
+    {
+      "id": "bill-cuniq",
+      "name": "CUniq 中國聯通香港",
+      "issuer": "CUniq",
+      "domain": "cuniq.com",
+      "billSubtype": "esim",
+      "brandColor": "#ef4444"
+    },
+    {
+      "id": "bill-birdie",
+      "name": "Birdie 自由鳥",
+      "issuer": "Birdie",
+      "domain": "birdie.com.hk",
+      "billSubtype": "esim",
+      "brandColor": "#10b981"
+    },
+    {
+      "id": "bill-luckysim",
+      "name": "Lucky SIM",
+      "issuer": "Lucky SIM",
+      "domain": "luckysim.com.hk",
+      "billSubtype": "esim",
+      "brandColor": "#eab308"
+    },
+    {
+      "id": "bill-valuegb",
+      "name": "ValueGB 儲值卡",
+      "issuer": "ValueGB",
+      "domain": "valuegb.com",
+      "billSubtype": "esim",
+      "brandColor": "#f97316"
+    },
+    {
+      "id": "bill-sunmobile",
+      "name": "SUN Mobile",
+      "issuer": "SUN Mobile",
+      "domain": "sunmobile.com.hk",
+      "billSubtype": "esim",
+      "brandColor": "#f59e0b"
+    },
+    {
+      "id": "bill-visible",
+      "name": "Visible (US)",
+      "issuer": "Visible",
+      "domain": "visible.com",
+      "billSubtype": "esim",
+      "brandColor": "#1d4ed8"
+    },
+    {
+      "id": "bill-usmobile",
+      "name": "US Mobile",
+      "issuer": "US Mobile",
+      "domain": "usmobile.com",
+      "billSubtype": "esim",
+      "brandColor": "#0ea5e9"
+    },
+    {
+      "id": "bill-tmobile",
+      "name": "T-Mobile",
+      "issuer": "T-Mobile",
+      "domain": "t-mobile.com",
+      "billSubtype": "esim",
+      "brandColor": "#e20074"
+    },
+    {
+      "id": "bill-googlefi",
+      "name": "Google Fi",
+      "issuer": "Google Fi",
+      "domain": "fi.google.com",
+      "billSubtype": "esim",
+      "brandColor": "#16a34a"
+    },
+    {
+      "id": "bill-vodafone",
+      "name": "Vodafone UK",
+      "issuer": "Vodafone",
+      "domain": "vodafone.co.uk",
+      "billSubtype": "esim",
+      "brandColor": "#dc2626"
+    },
+    {
+      "id": "bill-ee",
+      "name": "EE UK",
+      "issuer": "EE",
+      "domain": "ee.co.uk",
+      "billSubtype": "esim",
+      "brandColor": "#0d9488"
+    },
+    {
+      "id": "bill-rakuten-mob",
+      "name": "Rakuten Mobile",
+      "issuer": "Rakuten Mobile",
+      "domain": "network.mobile.rakuten.co.jp",
+      "billSubtype": "esim",
+      "brandColor": "#be123c"
+    },
+    {
+      "id": "bill-att",
+      "name": "AT&T Mobile",
+      "issuer": "AT&T",
+      "domain": "att.com",
+      "billSubtype": "esim",
+      "brandColor": "#00a8e0"
+    },
+    {
+      "id": "bill-verizon",
+      "name": "Verizon Wireless",
+      "issuer": "Verizon",
+      "domain": "verizon.com",
+      "billSubtype": "esim",
+      "brandColor": "#cd040b"
+    },
+    {
+      "id": "bill-mint",
+      "name": "Mint Mobile",
+      "issuer": "Mint Mobile",
+      "domain": "mintmobile.com",
+      "billSubtype": "esim",
+      "brandColor": "#16a34a"
+    },
+    {
+      "id": "bill-singtel",
+      "name": "Singtel Mobile",
+      "issuer": "Singtel",
+      "domain": "singtel.com",
+      "billSubtype": "esim",
+      "brandColor": "#dc2626"
+    },
+    {
+      "id": "bill-starhub",
+      "name": "StarHub",
+      "issuer": "StarHub",
+      "domain": "starhub.com",
+      "billSubtype": "esim",
+      "brandColor": "#16a34a"
+    },
+    {
+      "id": "bill-telstra",
+      "name": "Telstra",
+      "issuer": "Telstra",
+      "domain": "telstra.com.au",
+      "billSubtype": "esim",
+      "brandColor": "#2563eb"
+    },
+    {
+      "id": "bill-rogers",
+      "name": "Rogers Wireless",
+      "issuer": "Rogers",
+      "domain": "rogers.com",
+      "billSubtype": "esim",
+      "brandColor": "#dc2626"
+    },
+    {
+      "id": "bill-docomo",
+      "name": "NTT docomo",
+      "issuer": "NTT docomo",
+      "domain": "docomo.ne.jp",
+      "billSubtype": "esim",
+      "brandColor": "#cc0033"
+    },
+    {
+      "id": "bill-cht",
+      "name": "中華電信",
+      "issuer": "中華電信",
+      "domain": "cht.com.tw",
+      "billSubtype": "esim",
+      "brandColor": "#1d4ed8"
+    },
+    {
+      "id": "bill-skt",
+      "name": "SK Telecom",
+      "issuer": "SK Telecom",
+      "domain": "sktelecom.com",
+      "billSubtype": "esim",
+      "brandColor": "#ea580c"
+    },
+    {
+      "id": "bill-orange-fr",
+      "name": "Orange France",
+      "issuer": "Orange",
+      "domain": "orange.fr",
+      "billSubtype": "esim",
+      "brandColor": "#f97316"
+    },
+    {
+      "id": "bill-telekom-de",
+      "name": "Deutsche Telekom",
+      "issuer": "Telekom",
+      "domain": "telekom.de",
+      "billSubtype": "esim",
+      "brandColor": "#e20074"
+    },
+    {
+      "id": "bill-water",
+      "name": "水費帳單",
+      "issuer": "Water Utility",
+      "billSubtype": "water",
+      "brandColor": "#0284c7"
+    },
+    {
+      "id": "bill-wsd-hk",
+      "name": "水務署 WSD (香港)",
+      "issuer": "WSD HK",
+      "domain": "wsd.gov.hk",
+      "billSubtype": "water",
+      "brandColor": "#0284c7"
+    },
+    {
+      "id": "bill-thameswater",
+      "name": "Thames Water",
+      "issuer": "Thames Water",
+      "domain": "thameswater.co.uk",
+      "billSubtype": "water",
+      "brandColor": "#0369a1"
+    },
+    {
+      "id": "bill-pub-sg",
+      "name": "SP Group / PUB (SG)",
+      "issuer": "SP Group",
+      "domain": "spgroup.com.sg",
+      "billSubtype": "water",
+      "brandColor": "#0284c7"
+    },
+    {
+      "id": "bill-electricity",
+      "name": "電費帳單",
+      "issuer": "Electric Utility",
+      "billSubtype": "electricity",
+      "brandColor": "#f59e0b"
+    },
+    {
+      "id": "bill-clp",
+      "name": "CLP 中電",
+      "issuer": "CLP Power",
+      "domain": "clp.com.hk",
+      "billSubtype": "electricity",
+      "brandColor": "#0284c7"
+    },
+    {
+      "id": "bill-hke",
+      "name": "HK Electric 港燈",
+      "issuer": "HK Electric",
+      "domain": "hkelectric.com",
+      "billSubtype": "electricity",
+      "brandColor": "#1d4ed8"
+    },
+    {
+      "id": "bill-octopus-energy",
+      "name": "Octopus Energy",
+      "issuer": "Octopus Energy",
+      "domain": "octopus.energy",
+      "billSubtype": "electricity",
+      "brandColor": "#ec4899"
+    },
+    {
+      "id": "bill-coned",
+      "name": "Con Edison (US)",
+      "issuer": "Con Edison",
+      "domain": "coned.com",
+      "billSubtype": "electricity",
+      "brandColor": "#0284c7"
+    },
+    {
+      "id": "bill-pge",
+      "name": "PG&E (US)",
+      "issuer": "PG&E",
+      "domain": "pge.com",
+      "billSubtype": "electricity",
+      "brandColor": "#0369a1"
+    },
+    {
+      "id": "bill-tepco",
+      "name": "TEPCO 東京電力",
+      "issuer": "TEPCO",
+      "domain": "tepco.co.jp",
+      "billSubtype": "electricity",
+      "brandColor": "#dc2626"
+    },
+    {
+      "id": "bill-taipower",
+      "name": "台灣電力 Taipower",
+      "issuer": "Taipower",
+      "domain": "taipower.com.tw",
+      "billSubtype": "electricity",
+      "brandColor": "#0d9488"
+    },
+    {
+      "id": "bill-edf",
+      "name": "EDF (France)",
+      "issuer": "EDF",
+      "domain": "edf.fr",
+      "billSubtype": "electricity",
+      "brandColor": "#2563eb"
+    },
+    {
+      "id": "bill-origin-au",
+      "name": "Origin Energy (AU)",
+      "issuer": "Origin Energy",
+      "domain": "originenergy.com.au",
+      "billSubtype": "electricity",
+      "brandColor": "#ea580c"
+    },
+    {
+      "id": "bill-gas",
+      "name": "煤氣 / 天然氣",
+      "issuer": "Gas Utility",
+      "billSubtype": "gas",
+      "brandColor": "#ea580c"
+    },
+    {
+      "id": "bill-towngas",
+      "name": "Towngas 煤氣",
+      "issuer": "Towngas",
+      "domain": "towngas.com",
+      "billSubtype": "gas",
+      "brandColor": "#2563eb"
+    },
+    {
+      "id": "bill-britishgas",
+      "name": "British Gas",
+      "issuer": "British Gas",
+      "domain": "britishgas.co.uk",
+      "billSubtype": "gas",
+      "brandColor": "#0ea5e9"
+    },
+    {
+      "id": "bill-tokyogas",
+      "name": "Tokyo Gas 東京ガス",
+      "issuer": "Tokyo Gas",
+      "domain": "tokyo-gas.co.jp",
+      "billSubtype": "gas",
+      "brandColor": "#0284c7"
+    },
+    {
+      "id": "bill-fiber",
+      "name": "光纖寬頻帳單",
+      "issuer": "ISP Fiber",
+      "billSubtype": "internet",
+      "brandColor": "#0ea5e9"
+    },
+    {
+      "id": "bill-hkbn",
+      "name": "HKBN 香港寬頻",
+      "issuer": "HKBN",
+      "domain": "hkbn.net",
+      "billSubtype": "internet",
+      "brandColor": "#f97316"
+    },
+    {
+      "id": "bill-netvigator",
+      "name": "Netvigator 網上行",
+      "issuer": "HKT Netvigator",
+      "domain": "netvigator.com",
+      "billSubtype": "internet",
+      "brandColor": "#0284c7"
+    },
+    {
+      "id": "bill-hgc",
+      "name": "HGC 環電寬頻",
+      "issuer": "HGC",
+      "domain": "hgc.com.hk",
+      "billSubtype": "internet",
+      "brandColor": "#16a34a"
+    },
+    {
+      "id": "bill-icable",
+      "name": "i-CABLE 有線寬頻",
+      "issuer": "i-CABLE",
+      "domain": "i-cable.com",
+      "billSubtype": "internet",
+      "brandColor": "#2563eb"
+    },
+    {
+      "id": "bill-starlink",
+      "name": "Starlink",
+      "issuer": "Starlink",
+      "domain": "starlink.com",
+      "billSubtype": "internet",
+      "brandColor": "#111827"
+    },
+    {
+      "id": "bill-bt",
+      "name": "BT Broadband",
+      "issuer": "BT",
+      "domain": "bt.com",
+      "billSubtype": "internet",
+      "brandColor": "#6d28d9"
+    },
+    {
+      "id": "bill-xfinity",
+      "name": "Comcast Xfinity",
+      "issuer": "Xfinity",
+      "domain": "xfinity.com",
+      "billSubtype": "internet",
+      "brandColor": "#6d28d9"
+    },
+    {
+      "id": "bill-spectrum",
+      "name": "Spectrum Internet",
+      "issuer": "Spectrum",
+      "domain": "spectrum.com",
+      "billSubtype": "internet",
+      "brandColor": "#005a9c"
+    },
+    {
+      "id": "bill-verizon-fios",
+      "name": "Verizon Fios",
+      "issuer": "Verizon",
+      "domain": "verizon.com",
+      "billSubtype": "internet",
+      "brandColor": "#cd040b"
+    },
+    {
+      "id": "bill-googlefiber",
+      "name": "Google Fiber",
+      "issuer": "Google Fiber",
+      "domain": "fiber.google.com",
+      "billSubtype": "internet",
+      "brandColor": "#2563eb"
+    },
+    {
+      "id": "bill-nuro",
+      "name": "NURO 光",
+      "issuer": "NURO",
+      "domain": "nuro.jp",
+      "billSubtype": "internet",
+      "brandColor": "#0f172a"
+    },
+    {
+      "id": "bill-rent",
+      "name": "每月租房費",
+      "issuer": "Landlord / Agency",
+      "billSubtype": "rent",
+      "brandColor": "#10b981"
+    },
+    {
+      "id": "bill-hoa",
+      "name": "物業管理費 / HOA",
+      "issuer": "Property Mgmt",
+      "billSubtype": "rent",
+      "brandColor": "#059669"
+    },
+    {
+      "id": "bill-mortgage",
+      "name": "房屋按揭供款",
+      "issuer": "Mortgage Bank",
+      "billSubtype": "rent",
+      "brandColor": "#0f766e"
+    },
+    {
+      "id": "bill-insurance",
+      "name": "醫療 / 人壽保險",
+      "issuer": "Insurance",
+      "billSubtype": "insurance",
+      "brandColor": "#6366f1"
+    },
+    {
+      "id": "bill-aia-hk",
+      "name": "AIA 友邦保險",
+      "issuer": "AIA",
+      "domain": "aia.com.hk",
+      "billSubtype": "insurance",
+      "brandColor": "#d31145"
+    },
+    {
+      "id": "bill-prudential-hk",
+      "name": "Prudential 保誠保險",
+      "issuer": "Prudential",
+      "domain": "prudential.com.hk",
+      "billSubtype": "insurance",
+      "brandColor": "#ed1b2e"
+    },
+    {
+      "id": "bill-fwd-hk",
+      "name": "FWD 富衛保險",
+      "issuer": "FWD",
+      "domain": "fwd.com.hk",
+      "billSubtype": "insurance",
+      "brandColor": "#e87722"
+    },
+    {
+      "id": "bill-manulife-hk",
+      "name": "Manulife 宏利保險",
+      "issuer": "Manulife",
+      "domain": "manulife.com.hk",
+      "billSubtype": "insurance",
+      "brandColor": "#00a758"
+    },
+    {
+      "id": "bill-bupa-hk",
+      "name": "Bupa 保柏醫療",
+      "issuer": "Bupa",
+      "domain": "bupa.com.hk",
+      "billSubtype": "insurance",
+      "brandColor": "#0079c8"
+    },
+    {
+      "id": "bill-geico",
+      "name": "GEICO (US Auto)",
+      "issuer": "GEICO",
+      "domain": "geico.com",
+      "billSubtype": "insurance",
+      "brandColor": "#0033a0"
+    },
+    {
+      "id": "bill-statefarm",
+      "name": "State Farm (US)",
+      "issuer": "State Farm",
+      "domain": "statefarm.com",
+      "billSubtype": "insurance",
+      "brandColor": "#e1251b"
+    },
+    {
+      "id": "bill-auto-ins",
+      "name": "汽車 / 家居保險",
+      "issuer": "Insurance",
+      "billSubtype": "insurance",
+      "brandColor": "#4f46e5"
+    },
+    {
+      "id": "bill-tax",
+      "name": "稅務 / 牌照續期",
+      "issuer": "Tax / Gov",
+      "billSubtype": "tax",
+      "brandColor": "#64748b"
+    },
+    {
+      "id": "bill-rvd-hk",
+      "name": "差餉及地租 (香港)",
+      "issuer": "RVD HK",
+      "domain": "rvd.gov.hk",
+      "billSubtype": "tax",
+      "brandColor": "#0f766e"
+    },
+    {
+      "id": "bill-hketoll",
+      "name": "易通行 HKeToll",
+      "issuer": "HKeToll",
+      "domain": "hketoll.gov.hk",
+      "billSubtype": "tax",
+      "brandColor": "#2563eb"
+    },
+    {
+      "id": "bill-mtr",
+      "name": "港鐵全月通 / 都會票",
+      "issuer": "MTR",
+      "domain": "mtr.com.hk",
+      "billSubtype": "tax",
+      "brandColor": "#b91c1c"
+    },
+    {
+      "id": "bill-kmb",
+      "name": "九巴月票 KMB",
+      "issuer": "KMB",
+      "domain": "kmb.hk",
+      "billSubtype": "tax",
+      "brandColor": "#dc2626"
+    }
+  ],
+  "subscriptions": [
+    {
+      "id": "sub-youtube",
+      "name": "YouTube Premium",
+      "issuer": "YouTube",
+      "domain": "youtube.com",
+      "subSubtype": "media",
+      "brandColor": "#ff0000"
+    },
+    {
+      "id": "sub-netflix",
+      "name": "Netflix",
+      "issuer": "Netflix",
+      "domain": "netflix.com",
+      "subSubtype": "media",
+      "brandColor": "#e50914"
+    },
+    {
+      "id": "sub-spotify",
+      "name": "Spotify",
+      "issuer": "Spotify",
+      "domain": "spotify.com",
+      "subSubtype": "media",
+      "brandColor": "#1db954"
+    },
+    {
+      "id": "sub-applemusic",
+      "name": "Apple Music",
+      "issuer": "Apple",
+      "domain": "music.apple.com",
+      "subSubtype": "media",
+      "brandColor": "#fa243c"
+    },
+    {
+      "id": "sub-appletv",
+      "name": "Apple TV+",
+      "issuer": "Apple",
+      "domain": "tv.apple.com",
+      "subSubtype": "media",
+      "brandColor": "#111827"
+    },
+    {
+      "id": "sub-disney",
+      "name": "Disney+",
+      "issuer": "Disney+",
+      "domain": "disneyplus.com",
+      "subSubtype": "media",
+      "brandColor": "#1e3a8a"
+    },
+    {
+      "id": "sub-prime",
+      "name": "Amazon Prime",
+      "issuer": "Amazon",
+      "domain": "amazon.com",
+      "subSubtype": "media",
+      "brandColor": "#0284c7"
+    },
+    {
+      "id": "sub-max",
+      "name": "Max (HBO)",
+      "issuer": "Max",
+      "domain": "max.com",
+      "subSubtype": "media",
+      "brandColor": "#1d4ed8"
+    },
+    {
+      "id": "sub-crunchyroll",
+      "name": "Crunchyroll",
+      "issuer": "Crunchyroll",
+      "domain": "crunchyroll.com",
+      "subSubtype": "media",
+      "brandColor": "#f97316"
+    },
+    {
+      "id": "sub-bilibili",
+      "name": "Bilibili 大會員",
+      "issuer": "Bilibili",
+      "domain": "bilibili.com",
+      "subSubtype": "media",
+      "brandColor": "#fb7299"
+    },
+    {
+      "id": "sub-nowtv",
+      "name": "Now TV",
+      "issuer": "Now TV",
+      "domain": "nowtv.now.com",
+      "subSubtype": "media",
+      "brandColor": "#0284c7"
+    },
+    {
+      "id": "sub-mytvsuper",
+      "name": "myTV SUPER",
+      "issuer": "myTV SUPER",
+      "domain": "mytvsuper.com",
+      "subSubtype": "media",
+      "brandColor": "#7c3aed"
+    },
+    {
+      "id": "sub-hoytv",
+      "name": "HOY TV",
+      "issuer": "HOY TV",
+      "domain": "hoy.tv",
+      "subSubtype": "media",
+      "brandColor": "#ef4444"
+    },
+    {
+      "id": "sub-kkbox",
+      "name": "KKBOX",
+      "issuer": "KKBOX",
+      "domain": "kkbox.com",
+      "subSubtype": "media",
+      "brandColor": "#0ea5e9"
+    },
+    {
+      "id": "sub-moov",
+      "name": "MOOV",
+      "issuer": "MOOV",
+      "domain": "moov.hk",
+      "subSubtype": "media",
+      "brandColor": "#f97316"
+    },
+    {
+      "id": "sub-joox",
+      "name": "JOOX VIP",
+      "issuer": "JOOX",
+      "domain": "joox.com",
+      "subSubtype": "media",
+      "brandColor": "#10b981"
+    },
+    {
+      "id": "sub-hket",
+      "name": "香港經濟日報 hket",
+      "issuer": "hket",
+      "domain": "hket.com",
+      "subSubtype": "media",
+      "brandColor": "#1e3a8a"
+    },
+    {
+      "id": "sub-scmp",
+      "name": "南華早報 SCMP",
+      "issuer": "SCMP",
+      "domain": "scmp.com",
+      "subSubtype": "media",
+      "brandColor": "#0f172a"
+    },
+    {
+      "id": "sub-viu",
+      "name": "Viu 升級會員",
+      "issuer": "Viu",
+      "domain": "viu.com",
+      "subSubtype": "media",
+      "brandColor": "#f59e0b"
+    },
+    {
+      "id": "sub-nytimes",
+      "name": "The New York Times",
+      "issuer": "NYTimes",
+      "domain": "nytimes.com",
+      "subSubtype": "media",
+      "brandColor": "#111827"
+    },
+    {
+      "id": "sub-wsj",
+      "name": "Wall Street Journal",
+      "issuer": "WSJ",
+      "domain": "wsj.com",
+      "subSubtype": "media",
+      "brandColor": "#0f172a"
+    },
+    {
+      "id": "sub-espn",
+      "name": "ESPN+",
+      "issuer": "ESPN",
+      "domain": "espn.com",
+      "subSubtype": "media",
+      "brandColor": "#cc0000"
+    },
+    {
+      "id": "sub-iqiyi",
+      "name": "愛奇藝 iQIYI",
+      "issuer": "iQIYI",
+      "domain": "iqiyi.com",
+      "subSubtype": "media",
+      "brandColor": "#00be06"
+    },
+    {
+      "id": "sub-tencentvideo",
+      "name": "騰訊視頻 VIP",
+      "issuer": "Tencent Video",
+      "domain": "v.qq.com",
+      "subSubtype": "media",
+      "brandColor": "#ff6000"
+    },
+    {
+      "id": "sub-qqmusic",
+      "name": "QQ 音樂綠鑽",
+      "issuer": "QQ Music",
+      "domain": "y.qq.com",
+      "subSubtype": "media",
+      "brandColor": "#31c27c"
+    },
+    {
+      "id": "sub-netease",
+      "name": "網易雲音樂黑膠",
+      "issuer": "NetEase Music",
+      "domain": "music.163.com",
+      "subSubtype": "media",
+      "brandColor": "#c20c0c"
+    },
+    {
+      "id": "sub-hulu",
+      "name": "Hulu",
+      "issuer": "Hulu",
+      "domain": "hulu.com",
+      "subSubtype": "media",
+      "brandColor": "#1ce783"
+    },
+    {
+      "id": "sub-peacock",
+      "name": "Peacock",
+      "issuer": "Peacock",
+      "domain": "peacocktv.com",
+      "subSubtype": "media",
+      "brandColor": "#111827"
+    },
+    {
+      "id": "sub-paramount",
+      "name": "Paramount+",
+      "issuer": "Paramount+",
+      "domain": "paramountplus.com",
+      "subSubtype": "media",
+      "brandColor": "#0064ff"
+    },
+    {
+      "id": "sub-twitch",
+      "name": "Twitch Turbo",
+      "issuer": "Twitch",
+      "domain": "twitch.tv",
+      "subSubtype": "media",
+      "brandColor": "#9146ff"
+    },
+    {
+      "id": "sub-psplus",
+      "name": "PlayStation Plus",
+      "issuer": "PlayStation",
+      "domain": "playstation.com",
+      "subSubtype": "media",
+      "brandColor": "#003087"
+    },
+    {
+      "id": "sub-xbox",
+      "name": "Xbox Game Pass",
+      "issuer": "Xbox",
+      "domain": "xbox.com",
+      "subSubtype": "media",
+      "brandColor": "#107c10"
+    },
+    {
+      "id": "sub-nintendo",
+      "name": "Nintendo Switch Online",
+      "issuer": "Nintendo",
+      "domain": "nintendo.com",
+      "subSubtype": "media",
+      "brandColor": "#e60012"
+    },
+    {
+      "id": "sub-audible",
+      "name": "Audible",
+      "issuer": "Amazon",
+      "domain": "audible.com",
+      "subSubtype": "media",
+      "brandColor": "#ea580c"
+    },
+    {
+      "id": "sub-chatgpt",
+      "name": "ChatGPT Plus",
+      "issuer": "OpenAI",
+      "domain": "openai.com",
+      "subSubtype": "saas",
+      "brandColor": "#10a37f"
+    },
+    {
+      "id": "sub-claude",
+      "name": "Claude Pro",
+      "issuer": "Anthropic",
+      "domain": "claude.ai",
+      "subSubtype": "saas",
+      "brandColor": "#d97757"
+    },
+    {
+      "id": "sub-gemini",
+      "name": "Gemini Advanced",
+      "issuer": "Google",
+      "domain": "gemini.google.com",
+      "subSubtype": "saas",
+      "brandColor": "#3b82f6"
+    },
+    {
+      "id": "sub-deepseek",
+      "name": "DeepSeek",
+      "issuer": "DeepSeek",
+      "domain": "deepseek.com",
+      "subSubtype": "saas",
+      "brandColor": "#4d6bfe"
+    },
+    {
+      "id": "sub-qwen",
+      "name": "Qwen 通義千問",
+      "issuer": "Alibaba Qwen",
+      "domain": "qwen.ai",
+      "subSubtype": "saas",
+      "brandColor": "#6366f1"
+    },
+    {
+      "id": "sub-mistral",
+      "name": "Mistral AI (Le Chat)",
+      "issuer": "Mistral AI",
+      "domain": "mistral.ai",
+      "subSubtype": "saas",
+      "brandColor": "#f97316"
+    },
+    {
+      "id": "sub-kimi",
+      "name": "Kimi (月之暗面)",
+      "issuer": "Moonshot AI",
+      "domain": "kimi.ai",
+      "subSubtype": "saas",
+      "brandColor": "#111827"
+    },
+    {
+      "id": "sub-grok",
+      "name": "X (Twitter) Premium / Grok",
+      "issuer": "X / xAI",
+      "domain": "x.com",
+      "subSubtype": "saas",
+      "brandColor": "#0f172a"
+    },
+    {
+      "id": "sub-cursor",
+      "name": "Cursor Pro",
+      "issuer": "Cursor",
+      "domain": "cursor.com",
+      "subSubtype": "saas",
+      "brandColor": "#18181b"
+    },
+    {
+      "id": "sub-copilot",
+      "name": "GitHub Copilot",
+      "issuer": "GitHub",
+      "domain": "github.com",
+      "subSubtype": "saas",
+      "brandColor": "#111827"
+    },
+    {
+      "id": "sub-perplexity",
+      "name": "Perplexity Pro",
+      "issuer": "Perplexity",
+      "domain": "perplexity.ai",
+      "subSubtype": "saas",
+      "brandColor": "#0d9488"
+    },
+    {
+      "id": "sub-midjourney",
+      "name": "Midjourney",
+      "issuer": "Midjourney",
+      "domain": "midjourney.com",
+      "subSubtype": "saas",
+      "brandColor": "#0f172a"
+    },
+    {
+      "id": "sub-elevenlabs",
+      "name": "ElevenLabs",
+      "issuer": "ElevenLabs",
+      "domain": "elevenlabs.io",
+      "subSubtype": "saas",
+      "brandColor": "#18181b"
+    },
+    {
+      "id": "sub-suno",
+      "name": "Suno AI",
+      "issuer": "Suno",
+      "domain": "suno.com",
+      "subSubtype": "saas",
+      "brandColor": "#db2777"
+    },
+    {
+      "id": "sub-1password",
+      "name": "1Password",
+      "issuer": "1Password",
+      "domain": "1password.com",
+      "subSubtype": "saas",
+      "brandColor": "#0284c7"
+    },
+    {
+      "id": "sub-notion",
+      "name": "Notion Plus",
+      "issuer": "Notion",
+      "domain": "notion.so",
+      "subSubtype": "saas",
+      "brandColor": "#18181b"
+    },
+    {
+      "id": "sub-figma",
+      "name": "Figma Pro",
+      "issuer": "Figma",
+      "domain": "figma.com",
+      "subSubtype": "saas",
+      "brandColor": "#a855f7"
+    },
+    {
+      "id": "sub-linear",
+      "name": "Linear",
+      "issuer": "Linear",
+      "domain": "linear.app",
+      "subSubtype": "saas",
+      "brandColor": "#5e6ad2"
+    },
+    {
+      "id": "sub-vercel",
+      "name": "Vercel Pro",
+      "issuer": "Vercel",
+      "domain": "vercel.com",
+      "subSubtype": "saas",
+      "brandColor": "#111827"
+    },
+    {
+      "id": "sub-supabase",
+      "name": "Supabase Pro",
+      "issuer": "Supabase",
+      "domain": "supabase.com",
+      "subSubtype": "saas",
+      "brandColor": "#3ecf8e"
+    },
+    {
+      "id": "sub-slack",
+      "name": "Slack Pro",
+      "issuer": "Slack",
+      "domain": "slack.com",
+      "subSubtype": "saas",
+      "brandColor": "#4a154b"
+    },
+    {
+      "id": "sub-zoom",
+      "name": "Zoom Pro",
+      "issuer": "Zoom",
+      "domain": "zoom.us",
+      "subSubtype": "saas",
+      "brandColor": "#2d8cff"
+    },
+    {
+      "id": "sub-adobe",
+      "name": "Adobe Creative Cloud",
+      "issuer": "Adobe",
+      "domain": "adobe.com",
+      "subSubtype": "saas",
+      "brandColor": "#dc2626"
+    },
+    {
+      "id": "sub-m365",
+      "name": "Microsoft 365 (Office 365)",
+      "issuer": "Microsoft",
+      "domain": "microsoft.com",
+      "subSubtype": "saas",
+      "brandColor": "#ea580c"
+    },
+    {
+      "id": "sub-appleone",
+      "name": "Apple One",
+      "issuer": "Apple",
+      "domain": "apple.com",
+      "subSubtype": "saas",
+      "brandColor": "#111827"
+    },
+    {
+      "id": "sub-costco",
+      "name": "Costco Membership",
+      "issuer": "Costco",
+      "domain": "costco.com",
+      "subSubtype": "saas",
+      "brandColor": "#e31837"
+    },
+    {
+      "id": "sub-walmart",
+      "name": "Walmart+",
+      "issuer": "Walmart",
+      "domain": "walmart.com",
+      "subSubtype": "saas",
+      "brandColor": "#0071ce"
+    },
+    {
+      "id": "sub-canva",
+      "name": "Canva Pro",
+      "issuer": "Canva",
+      "domain": "canva.com",
+      "subSubtype": "saas",
+      "brandColor": "#00c4cc"
+    },
+    {
+      "id": "sub-grammarly",
+      "name": "Grammarly Pro",
+      "issuer": "Grammarly",
+      "domain": "grammarly.com",
+      "subSubtype": "saas",
+      "brandColor": "#15c39a"
+    },
+    {
+      "id": "sub-discord",
+      "name": "Discord Nitro",
+      "issuer": "Discord",
+      "domain": "discord.com",
+      "subSubtype": "saas",
+      "brandColor": "#5865f2"
+    },
+    {
+      "id": "sub-strava",
+      "name": "Strava",
+      "issuer": "Strava",
+      "domain": "strava.com",
+      "subSubtype": "saas",
+      "brandColor": "#fc4c02"
+    },
+    {
+      "id": "sub-openrice",
+      "name": "OpenRice 會員",
+      "issuer": "OpenRice",
+      "domain": "openrice.com",
+      "subSubtype": "saas",
+      "brandColor": "#f59e0b"
+    },
+    {
+      "id": "sub-klook",
+      "name": "Klook Pass / 會員",
+      "issuer": "Klook",
+      "domain": "klook.com",
+      "subSubtype": "saas",
+      "brandColor": "#ff5b00"
+    },
+    {
+      "id": "sub-duolingo",
+      "name": "Duolingo Super",
+      "issuer": "Duolingo",
+      "domain": "duolingo.com",
+      "subSubtype": "saas",
+      "brandColor": "#58cc02"
+    },
+    {
+      "id": "sub-tradingview",
+      "name": "TradingView",
+      "issuer": "TradingView",
+      "domain": "tradingview.com",
+      "subSubtype": "saas",
+      "brandColor": "#2962ff"
+    },
+    {
+      "id": "sub-linkedin",
+      "name": "LinkedIn Premium",
+      "issuer": "LinkedIn",
+      "domain": "linkedin.com",
+      "subSubtype": "saas",
+      "brandColor": "#0a66c2"
+    },
+    {
+      "id": "sub-raycast",
+      "name": "Raycast Pro",
+      "issuer": "Raycast",
+      "domain": "raycast.com",
+      "subSubtype": "saas",
+      "brandColor": "#ef4444"
+    },
+    {
+      "id": "sub-setapp",
+      "name": "Setapp",
+      "issuer": "Setapp",
+      "domain": "setapp.com",
+      "subSubtype": "saas",
+      "brandColor": "#f59e0b"
+    },
+    {
+      "id": "sub-foodpanda",
+      "name": "foodpanda pandapro",
+      "issuer": "foodpanda",
+      "domain": "foodpanda.hk",
+      "subSubtype": "saas",
+      "brandColor": "#d70f64"
+    },
+    {
+      "id": "sub-deliveroo",
+      "name": "Deliveroo Plus",
+      "issuer": "Deliveroo",
+      "domain": "deliveroo.hk",
+      "subSubtype": "saas",
+      "brandColor": "#00ccbc"
+    },
+    {
+      "id": "sub-keeta",
+      "name": "Keeta 會員",
+      "issuer": "Keeta",
+      "domain": "mykeeta.com",
+      "subSubtype": "saas",
+      "brandColor": "#eab308"
+    },
+    {
+      "id": "sub-hktvmall",
+      "name": "HKTVmall VIP",
+      "issuer": "HKTVmall",
+      "domain": "hktvmall.com",
+      "subSubtype": "saas",
+      "brandColor": "#16a34a"
+    },
+    {
+      "id": "sub-yuu",
+      "name": "yuu 會員",
+      "issuer": "yuu",
+      "domain": "yuu.hk",
+      "subSubtype": "saas",
+      "brandColor": "#2563eb"
+    },
+    {
+      "id": "sub-moneyback",
+      "name": "MoneyBack 易賞錢",
+      "issuer": "MoneyBack",
+      "domain": "moneyback.com.hk",
+      "subSubtype": "saas",
+      "brandColor": "#0284c7"
+    },
+    {
+      "id": "sub-247fitness",
+      "name": "24/7 Fitness",
+      "issuer": "24/7 Fitness",
+      "domain": "247.fitness",
+      "subSubtype": "saas",
+      "brandColor": "#eab308"
+    },
+    {
+      "id": "sub-purefitness",
+      "name": "Pure Fitness / Yoga",
+      "issuer": "PURE",
+      "domain": "pure-fitness.com",
+      "subSubtype": "saas",
+      "brandColor": "#111827"
+    },
+    {
+      "id": "sub-icloud",
+      "name": "iCloud+",
+      "issuer": "Apple",
+      "domain": "icloud.com",
+      "subSubtype": "cloud",
+      "brandColor": "#0284c7"
+    },
+    {
+      "id": "sub-googleone",
+      "name": "Google One",
+      "issuer": "Google",
+      "domain": "one.google.com",
+      "subSubtype": "cloud",
+      "brandColor": "#2563eb"
+    },
+    {
+      "id": "sub-dropbox",
+      "name": "Dropbox",
+      "issuer": "Dropbox",
+      "domain": "dropbox.com",
+      "subSubtype": "cloud",
+      "brandColor": "#0061ff"
+    },
+    {
+      "id": "sub-onedrive",
+      "name": "OneDrive",
+      "issuer": "Microsoft",
+      "domain": "onedrive.live.com",
+      "subSubtype": "cloud",
+      "brandColor": "#0284c7"
+    },
+    {
+      "id": "sub-protondrive",
+      "name": "Proton Drive",
+      "issuer": "Proton",
+      "domain": "proton.me",
+      "subSubtype": "cloud",
+      "brandColor": "#6d28d9"
+    },
+    {
+      "id": "sub-pcloud",
+      "name": "pCloud",
+      "issuer": "pCloud",
+      "domain": "pcloud.com",
+      "subSubtype": "cloud",
+      "brandColor": "#06b6d4"
+    },
+    {
+      "id": "sub-nordvpn",
+      "name": "NordVPN",
+      "issuer": "NordVPN",
+      "domain": "nordvpn.com",
+      "subSubtype": "vpn",
+      "brandColor": "#2563eb"
+    },
+    {
+      "id": "sub-expressvpn",
+      "name": "ExpressVPN",
+      "issuer": "ExpressVPN",
+      "domain": "expressvpn.com",
+      "subSubtype": "vpn",
+      "brandColor": "#dc2626"
+    },
+    {
+      "id": "sub-surfshark",
+      "name": "Surfshark",
+      "issuer": "Surfshark",
+      "domain": "surfshark.com",
+      "subSubtype": "vpn",
+      "brandColor": "#0d9488"
+    },
+    {
+      "id": "sub-protonvpn",
+      "name": "Proton VPN",
+      "issuer": "Proton",
+      "domain": "protonvpn.com",
+      "subSubtype": "vpn",
+      "brandColor": "#6d28d9"
+    },
+    {
+      "id": "sub-mullvad",
+      "name": "Mullvad VPN",
+      "issuer": "Mullvad",
+      "domain": "mullvad.net",
+      "subSubtype": "vpn",
+      "brandColor": "#1e3a8a"
+    },
+    {
+      "id": "sub-tailscale",
+      "name": "Tailscale",
+      "issuer": "Tailscale",
+      "domain": "tailscale.com",
+      "subSubtype": "vpn",
+      "brandColor": "#0f172a"
+    },
+    {
+      "id": "sub-adguard",
+      "name": "AdGuard VPN",
+      "issuer": "AdGuard",
+      "domain": "adguard-vpn.com",
+      "subSubtype": "vpn",
+      "brandColor": "#16a34a"
+    },
+    {
+      "id": "sub-cyberghost",
+      "name": "CyberGhost",
+      "issuer": "CyberGhost",
+      "domain": "cyberghostvpn.com",
+      "subSubtype": "vpn",
+      "brandColor": "#eab308"
     }
   ]
 }
