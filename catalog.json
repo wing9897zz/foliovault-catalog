@@ -1,5 +1,5 @@
 {
-  "version": 6,
+  "version": 7,
   "updatedAt": "2026-11-24",
   "providers": [
     {
@@ -478,7 +478,7 @@
         "AIA MPF",
         "友邦強積金"
       ],
-      "category": "pension",
+      "category": "insurance",
       "domain": "aia.com",
       "logo": "logos/prov-aia-mpf.png"
     },
@@ -489,7 +489,7 @@
         "BCT",
         "銀聯信託"
       ],
-      "category": "pension",
+      "category": "insurance",
       "domain": "bcthk.com",
       "logo": "logos/prov-bct-mpf.png"
     },
@@ -1012,7 +1012,7 @@
         "Sun Life MPF",
         "永明強積金"
       ],
-      "category": "pension",
+      "category": "insurance",
       "domain": "sunlife.com.hk",
       "logo": "logos/prov-sunlife-mpf.png"
     },
@@ -1023,7 +1023,7 @@
         "Fidelity MPF",
         "富達強積金"
       ],
-      "category": "pension",
+      "category": "insurance",
       "domain": "fidelity.com",
       "logo": "logos/prov-fidelity-mpf.png"
     },
@@ -1034,7 +1034,7 @@
         "HSBC MPF",
         "匯豐強積金"
       ],
-      "category": "pension",
+      "category": "insurance",
       "domain": "hsbc.com.hk",
       "logo": "logos/prov-hsbc-mpf.png"
     },
@@ -1151,7 +1151,7 @@
         "金條",
         "9999"
       ],
-      "kind": "other",
+      "kind": "physical",
       "quoteCurrency": "USD",
       "domain": "gold.org",
       "logo": "logos/asset-gold-bar.png"
@@ -1164,7 +1164,7 @@
         "白銀",
         "銀條"
       ],
-      "kind": "other",
+      "kind": "physical",
       "quoteCurrency": "USD",
       "domain": "silverinstitute.org",
       "logo": "logos/asset-silver-bar.png"
@@ -1177,7 +1177,7 @@
         "Watch",
         "勞力士"
       ],
-      "kind": "other",
+      "kind": "physical",
       "quoteCurrency": "USD",
       "domain": "rolex.com",
       "logo": "logos/asset-rolex.png"
@@ -1190,7 +1190,7 @@
         "Watch",
         "百達翡麗"
       ],
-      "kind": "other",
+      "kind": "physical",
       "quoteCurrency": "USD",
       "domain": "patek.com",
       "logo": "logos/asset-patek.png"
@@ -1204,7 +1204,7 @@
         "Kelly",
         "愛馬仕"
       ],
-      "kind": "other",
+      "kind": "physical",
       "quoteCurrency": "USD",
       "domain": "hermes.com",
       "logo": "logos/asset-hermes.png"
@@ -1217,7 +1217,7 @@
         "EV",
         "電動車"
       ],
-      "kind": "other",
+      "kind": "physical",
       "quoteCurrency": "USD",
       "domain": "tesla.com",
       "logo": "logos/asset-tesla-car.png"
@@ -1232,7 +1232,7 @@
         "不動產",
         "物業"
       ],
-      "kind": "other",
+      "kind": "physical",
       "quoteCurrency": "USD"
     },
     {
@@ -1244,7 +1244,7 @@
         "藝術品",
         "收藏"
       ],
-      "kind": "other",
+      "kind": "physical",
       "quoteCurrency": "USD"
     },
     {
@@ -1255,7 +1255,7 @@
         "Watch",
         "歐米茄"
       ],
-      "kind": "other",
+      "kind": "physical",
       "quoteCurrency": "USD",
       "domain": "omegawatches.com",
       "logo": "logos/asset-omega.jpg"
@@ -1268,7 +1268,7 @@
         "Audemars Piguet",
         "愛彼"
       ],
-      "kind": "other",
+      "kind": "physical",
       "quoteCurrency": "USD",
       "domain": "audemarspiguet.com",
       "logo": "logos/asset-ap-watch.png"
@@ -1280,7 +1280,7 @@
         "Chanel",
         "香奈兒"
       ],
-      "kind": "other",
+      "kind": "physical",
       "quoteCurrency": "USD",
       "domain": "chanel.com",
       "logo": "logos/asset-chanel-bag.png"
@@ -1292,7 +1292,7 @@
         "Lego",
         "樂高"
       ],
-      "kind": "other",
+      "kind": "physical",
       "quoteCurrency": "USD",
       "domain": "lego.com",
       "logo": "logos/asset-lego-set.png"
@@ -1305,7 +1305,7 @@
         "金幣",
         "楓葉金幣"
       ],
-      "kind": "other",
+      "kind": "physical",
       "quoteCurrency": "USD",
       "domain": "mint.ca",
       "logo": "logos/asset-gold-coin.png"
@@ -1319,7 +1319,7 @@
         "紅酒",
         "威士忌"
       ],
-      "kind": "other",
+      "kind": "physical",
       "quoteCurrency": "USD"
     }
   ]
