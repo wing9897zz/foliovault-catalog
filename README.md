@@ -18,6 +18,6 @@
 - **`assets[].kind`**：`physical`（實物資產）、`other`（其他金融產品）、`crypto`、`stock`、`fiat`、`debt`
 - **`cards[]`**：1:1 擬真卡面配色（`region`、`theme`、`colors`、`finish`、`textColor`、`network`），純向量渲染無版權風險
 - **`bills[]`**：帳單供應商（`billSubtype`：`esim`、`water`、`electricity`、`gas`、`internet`、`rent`、`insurance`、`tax`、`other`，可選 `logo` 或 `domain`）
-- **`subscriptions[]`**：訂閱服務（`subSubtype`：`media`、`saas`、`cloud`、`vpn`，可選 `logo` 或 `domain`）
+- **`subscriptions[]`**：訂閱服務（`subSubtype`：`media`、`ai`、`saas`、`cloud`、`vpn`，可選 `logo` 或 `domain`）
 - **`aliases`**：繁體、簡體、英文別名陣列，方便跨語系即時搜尋
 - **`logo`**：相對路徑（例如 `"logos/prov-linepay.png"`）或完整 `https://` 網址；若省略則會自動依 `domain` 抓取官網圖示

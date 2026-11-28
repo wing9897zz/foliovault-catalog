@@ -1,5 +1,5 @@
 {
-  "version": 18,
+  "version": 19,
   "updatedAt": "2026-11-24",
   "providers": [
     {
@@ -557,7 +557,8 @@
         "螞蟻銀行"
       ],
       "category": "bank",
-      "domain": "antbank.hk"
+      "domain": "antbank.hk",
+      "logo": "logos/prov-antbank.png"
     },
     {
       "id": "prov-paob",
@@ -647,7 +648,8 @@
         "大華銀行"
       ],
       "category": "bank",
-      "domain": "uob.com.sg"
+      "domain": "uob.com.sg",
+      "logo": "logos/prov-uob.png"
     },
     {
       "id": "prov-monzo",
@@ -1139,6 +1141,248 @@
       "category": "bank",
       "domain": "starryblu.com",
       "logo": "logos/prov-starryblu.png"
+    },
+    {
+      "id": "prov-sbi-sec",
+      "name": "SBI証券",
+      "aliases": [
+        "sbi",
+        "sbi証券",
+        "sbi securities"
+      ],
+      "category": "broker",
+      "domain": "sbisec.co.jp",
+      "logo": "logos/prov-sbi-sec.png"
+    },
+    {
+      "id": "prov-rakuten-sec",
+      "name": "楽天証券 iSPEED",
+      "aliases": [
+        "rakuten sec",
+        "楽天証券",
+        "ispeed"
+      ],
+      "category": "broker",
+      "domain": "rakuten-sec.co.jp",
+      "logo": "logos/prov-rakuten-sec.png"
+    },
+    {
+      "id": "prov-matsui-sec",
+      "name": "松井証券",
+      "aliases": [
+        "matsui",
+        "松井証券"
+      ],
+      "category": "broker",
+      "domain": "matsui.co.jp",
+      "logo": "logos/prov-matsui-sec.png"
+    },
+    {
+      "id": "prov-monex-sec",
+      "name": "マネックス証券 Monex",
+      "aliases": [
+        "monex",
+        "マネックス"
+      ],
+      "category": "broker",
+      "domain": "monex.co.jp",
+      "logo": "logos/prov-monex-sec.png"
+    },
+    {
+      "id": "prov-mufg-esmart",
+      "name": "三菱UFJ eスマート証券",
+      "aliases": [
+        "esmart",
+        "kabu",
+        "auカブコム",
+        "三菱ufj"
+      ],
+      "category": "broker",
+      "domain": "kabu.com",
+      "logo": "logos/prov-mufg-esmart.png"
+    },
+    {
+      "id": "prov-theo",
+      "name": "THEO",
+      "aliases": [
+        "theo",
+        "テオ"
+      ],
+      "category": "broker",
+      "domain": "theo.blue",
+      "logo": "logos/prov-theo.png"
+    },
+    {
+      "id": "prov-sbi-netbk",
+      "name": "住信SBIネット銀行 NEOBANK",
+      "aliases": [
+        "neobank",
+        "住信sbi",
+        "v neobank",
+        "jal neobank"
+      ],
+      "category": "bank",
+      "domain": "netbk.co.jp",
+      "logo": "logos/prov-sbi-netbk.png"
+    },
+    {
+      "id": "prov-sbi-shinsei",
+      "name": "SBI新生銀行",
+      "aliases": [
+        "shinsei",
+        "新生銀行"
+      ],
+      "category": "bank",
+      "domain": "sbishinseibank.co.jp",
+      "logo": "logos/prov-sbi-shinsei.png"
+    },
+    {
+      "id": "prov-au-jibun",
+      "name": "auじぶん銀行",
+      "aliases": [
+        "jibun",
+        "じぶん銀行",
+        "auじぶん"
+      ],
+      "category": "bank",
+      "domain": "jibunbank.co.jp",
+      "logo": "logos/prov-au-jibun.png"
+    },
+    {
+      "id": "prov-smbc",
+      "name": "三井住友銀行 SMBC",
+      "aliases": [
+        "smbc",
+        "三井住友",
+        "olive"
+      ],
+      "category": "bank",
+      "domain": "smbc.co.jp",
+      "logo": "logos/prov-smbc.png"
+    },
+    {
+      "id": "prov-mufg",
+      "name": "三菱UFJ銀行 MUFG",
+      "aliases": [
+        "mufg",
+        "三菱ufj銀行"
+      ],
+      "category": "bank",
+      "domain": "bk.mufg.jp",
+      "logo": "logos/prov-mufg.png"
+    },
+    {
+      "id": "prov-mizuho",
+      "name": "みずほ銀行 Mizuho",
+      "aliases": [
+        "mizuho",
+        "みずほ"
+      ],
+      "category": "bank",
+      "domain": "mizuhobank.co.jp",
+      "logo": "logos/prov-mizuho.png"
+    },
+    {
+      "id": "prov-suruga",
+      "name": "スルガ銀行 Suruga",
+      "aliases": [
+        "suruga",
+        "スルガ"
+      ],
+      "category": "bank",
+      "domain": "surugabank.co.jp",
+      "logo": "logos/prov-suruga.png"
+    },
+    {
+      "id": "prov-daiichi-life",
+      "name": "第一生命 NEOBANK",
+      "aliases": [
+        "第一生命",
+        "dai-ichi"
+      ],
+      "category": "insurance",
+      "domain": "dai-ichi-life.co.jp",
+      "logo": "logos/prov-daiichi-life.png"
+    },
+    {
+      "id": "prov-katene-bank",
+      "name": "カテエネBANK",
+      "aliases": [
+        "katene",
+        "カテエネ"
+      ],
+      "category": "bank",
+      "domain": "chuden.co.jp",
+      "logo": "logos/prov-katene-bank.png"
+    },
+    {
+      "id": "prov-paypay",
+      "name": "PayPay",
+      "aliases": [
+        "paypay",
+        "ペイペイ"
+      ],
+      "category": "payment",
+      "domain": "paypay.ne.jp",
+      "logo": "logos/prov-paypay.png"
+    },
+    {
+      "id": "prov-dbarai",
+      "name": "d払い (docomo)",
+      "aliases": [
+        "d払い",
+        "dbarai",
+        "docomo"
+      ],
+      "category": "payment",
+      "domain": "docomo.ne.jp",
+      "logo": "logos/prov-dbarai.png"
+    },
+    {
+      "id": "prov-aupay",
+      "name": "au PAY",
+      "aliases": [
+        "au pay",
+        "aupay"
+      ],
+      "category": "payment",
+      "domain": "au.com",
+      "logo": "logos/prov-aupay.png"
+    },
+    {
+      "id": "prov-rakuten-pay",
+      "name": "楽天ペイ / 楽天Edy",
+      "aliases": [
+        "rakuten pay",
+        "楽天ペイ",
+        "edy"
+      ],
+      "category": "payment",
+      "domain": "pay.rakuten.co.jp",
+      "logo": "logos/prov-rakuten-pay.png"
+    },
+    {
+      "id": "prov-suica",
+      "name": "モバイルSuica",
+      "aliases": [
+        "suica",
+        "jreast",
+        "モバイルsuica"
+      ],
+      "category": "payment",
+      "domain": "jreast.co.jp",
+      "logo": "logos/prov-suica.png"
+    },
+    {
+      "id": "prov-jal-bank",
+      "name": "JAL Mileage Bank",
+      "aliases": [
+        "jal",
+        "jal mileage"
+      ],
+      "category": "payment",
+      "domain": "jal.co.jp",
+      "logo": "logos/prov-jal-bank.png"
     }
   ],
   "assets": [
@@ -4112,6 +4356,71 @@
       ],
       "finish": "gloss",
       "textColor": "light"
+    },
+    {
+      "id": "card-mufg",
+      "name": "三菱UFJカード",
+      "aliases": [
+        "mufg card",
+        "三菱ufjカード"
+      ],
+      "issuer": "MUFG",
+      "network": "mastercard",
+      "region": "APAC",
+      "theme": "crimson",
+      "finish": "metallic"
+    },
+    {
+      "id": "card-saison",
+      "name": "SAISON CARD Digital",
+      "aliases": [
+        "saison",
+        "セゾン"
+      ],
+      "issuer": "Credit Saison",
+      "network": "visa",
+      "region": "APAC",
+      "theme": "sapphire",
+      "finish": "gloss"
+    },
+    {
+      "id": "card-paypay",
+      "name": "PayPayカード",
+      "aliases": [
+        "paypay card",
+        "paypayカード"
+      ],
+      "issuer": "PayPay",
+      "network": "visa",
+      "region": "APAC",
+      "theme": "obsidian",
+      "finish": "matte"
+    },
+    {
+      "id": "card-aplus",
+      "name": "APLUS Card",
+      "aliases": [
+        "aplus",
+        "アプラス"
+      ],
+      "issuer": "APLUS",
+      "network": "jcb",
+      "region": "APAC",
+      "theme": "emerald",
+      "finish": "metallic"
+    },
+    {
+      "id": "card-jal",
+      "name": "JAL カード",
+      "aliases": [
+        "jal card",
+        "jalカード"
+      ],
+      "issuer": "JAL",
+      "network": "jcb",
+      "region": "APAC",
+      "theme": "crimson",
+      "finish": "gloss"
     }
   ],
   "bills": [
@@ -4121,7 +4430,8 @@
       "issuer": "giffgaff",
       "domain": "giffgaff.com",
       "billSubtype": "esim",
-      "brandColor": "#111827"
+      "brandColor": "#111827",
+      "logo": "logos/bill-giffgaff.png"
     },
     {
       "id": "bill-airalo",
@@ -4129,7 +4439,8 @@
       "issuer": "Airalo",
       "domain": "airalo.com",
       "billSubtype": "esim",
-      "brandColor": "#ef4444"
+      "brandColor": "#ef4444",
+      "logo": "logos/bill-airalo.jpg"
     },
     {
       "id": "bill-ubigi",
@@ -4137,7 +4448,8 @@
       "issuer": "Ubigi",
       "domain": "ubigi.com",
       "billSubtype": "esim",
-      "brandColor": "#0284c7"
+      "brandColor": "#0284c7",
+      "logo": "logos/bill-ubigi.png"
     },
     {
       "id": "bill-holafly",
@@ -4145,7 +4457,8 @@
       "issuer": "Holafly",
       "domain": "holafly.com",
       "billSubtype": "esim",
-      "brandColor": "#e11d48"
+      "brandColor": "#e11d48",
+      "logo": "logos/bill-holafly.png"
     },
     {
       "id": "bill-nomad",
@@ -4153,7 +4466,8 @@
       "issuer": "Nomad",
       "domain": "getnomad.app",
       "billSubtype": "esim",
-      "brandColor": "#0d9488"
+      "brandColor": "#0d9488",
+      "logo": "logos/bill-nomad.png"
     },
     {
       "id": "bill-saily",
@@ -4161,7 +4475,8 @@
       "issuer": "Saily",
       "domain": "saily.com",
       "billSubtype": "esim",
-      "brandColor": "#eab308"
+      "brandColor": "#eab308",
+      "logo": "logos/bill-saily.png"
     },
     {
       "id": "bill-roamless",
@@ -4169,7 +4484,8 @@
       "issuer": "Roamless",
       "domain": "roamless.com",
       "billSubtype": "esim",
-      "brandColor": "#2563eb"
+      "brandColor": "#2563eb",
+      "logo": "logos/bill-roamless.png"
     },
     {
       "id": "bill-3hk",
@@ -4177,7 +4493,8 @@
       "issuer": "3HK",
       "domain": "three.com.hk",
       "billSubtype": "esim",
-      "brandColor": "#0ea5e9"
+      "brandColor": "#0ea5e9",
+      "logo": "logos/bill-3hk.png"
     },
     {
       "id": "bill-clubsim",
@@ -4185,7 +4502,8 @@
       "issuer": "Club Sim",
       "domain": "clubsim.com.hk",
       "billSubtype": "esim",
-      "brandColor": "#7c3aed"
+      "brandColor": "#7c3aed",
+      "logo": "logos/bill-clubsim.jpg"
     },
     {
       "id": "bill-cmhk",
@@ -4193,7 +4511,8 @@
       "issuer": "CMHK",
       "domain": "hk.chinamobile.com",
       "billSubtype": "esim",
-      "brandColor": "#1d4ed8"
+      "brandColor": "#1d4ed8",
+      "logo": "logos/bill-cmhk.png"
     },
     {
       "id": "bill-csl",
@@ -4201,7 +4520,8 @@
       "issuer": "CSL",
       "domain": "hkcsl.com",
       "billSubtype": "esim",
-      "brandColor": "#0ea5e9"
+      "brandColor": "#0ea5e9",
+      "logo": "logos/bill-csl.jpg"
     },
     {
       "id": "bill-smartone",
@@ -4209,7 +4529,8 @@
       "issuer": "SmarTone",
       "domain": "smartone.com",
       "billSubtype": "esim",
-      "brandColor": "#dc2626"
+      "brandColor": "#dc2626",
+      "logo": "logos/bill-smartone.png"
     },
     {
       "id": "bill-cuniq",
@@ -4217,7 +4538,8 @@
       "issuer": "CUniq",
       "domain": "cuniq.com",
       "billSubtype": "esim",
-      "brandColor": "#ef4444"
+      "brandColor": "#ef4444",
+      "logo": "logos/bill-cuniq.png"
     },
     {
       "id": "bill-birdie",
@@ -4225,7 +4547,8 @@
       "issuer": "Birdie",
       "domain": "birdie.com.hk",
       "billSubtype": "esim",
-      "brandColor": "#10b981"
+      "brandColor": "#10b981",
+      "logo": "logos/bill-birdie.png"
     },
     {
       "id": "bill-luckysim",
@@ -4233,7 +4556,8 @@
       "issuer": "Lucky SIM",
       "domain": "luckysim.com.hk",
       "billSubtype": "esim",
-      "brandColor": "#eab308"
+      "brandColor": "#eab308",
+      "logo": "logos/bill-luckysim.png"
     },
     {
       "id": "bill-valuegb",
@@ -4241,7 +4565,8 @@
       "issuer": "ValueGB",
       "domain": "valuegb.com",
       "billSubtype": "esim",
-      "brandColor": "#f97316"
+      "brandColor": "#f97316",
+      "logo": "logos/bill-valuegb.png"
     },
     {
       "id": "bill-sunmobile",
@@ -4249,7 +4574,8 @@
       "issuer": "SUN Mobile",
       "domain": "sunmobile.com.hk",
       "billSubtype": "esim",
-      "brandColor": "#f59e0b"
+      "brandColor": "#f59e0b",
+      "logo": "logos/bill-sunmobile.png"
     },
     {
       "id": "bill-visible",
@@ -4257,7 +4583,8 @@
       "issuer": "Visible",
       "domain": "visible.com",
       "billSubtype": "esim",
-      "brandColor": "#1d4ed8"
+      "brandColor": "#1d4ed8",
+      "logo": "logos/bill-visible.png"
     },
     {
       "id": "bill-usmobile",
@@ -4265,7 +4592,8 @@
       "issuer": "US Mobile",
       "domain": "usmobile.com",
       "billSubtype": "esim",
-      "brandColor": "#0ea5e9"
+      "brandColor": "#0ea5e9",
+      "logo": "logos/bill-usmobile.png"
     },
     {
       "id": "bill-tmobile",
@@ -4273,7 +4601,8 @@
       "issuer": "T-Mobile",
       "domain": "t-mobile.com",
       "billSubtype": "esim",
-      "brandColor": "#e20074"
+      "brandColor": "#e20074",
+      "logo": "logos/bill-tmobile.png"
     },
     {
       "id": "bill-googlefi",
@@ -4281,7 +4610,8 @@
       "issuer": "Google Fi",
       "domain": "fi.google.com",
       "billSubtype": "esim",
-      "brandColor": "#16a34a"
+      "brandColor": "#16a34a",
+      "logo": "logos/bill-googlefi.png"
     },
     {
       "id": "bill-vodafone",
@@ -4289,7 +4619,8 @@
       "issuer": "Vodafone",
       "domain": "vodafone.co.uk",
       "billSubtype": "esim",
-      "brandColor": "#dc2626"
+      "brandColor": "#dc2626",
+      "logo": "logos/bill-vodafone.png"
     },
     {
       "id": "bill-ee",
@@ -4297,7 +4628,8 @@
       "issuer": "EE",
       "domain": "ee.co.uk",
       "billSubtype": "esim",
-      "brandColor": "#0d9488"
+      "brandColor": "#0d9488",
+      "logo": "logos/bill-ee.png"
     },
     {
       "id": "bill-rakuten-mob",
@@ -4305,7 +4637,8 @@
       "issuer": "Rakuten Mobile",
       "domain": "network.mobile.rakuten.co.jp",
       "billSubtype": "esim",
-      "brandColor": "#be123c"
+      "brandColor": "#be123c",
+      "logo": "logos/bill-rakuten-mob.png"
     },
     {
       "id": "bill-att",
@@ -4313,7 +4646,8 @@
       "issuer": "AT&T",
       "domain": "att.com",
       "billSubtype": "esim",
-      "brandColor": "#00a8e0"
+      "brandColor": "#00a8e0",
+      "logo": "logos/bill-att.png"
     },
     {
       "id": "bill-verizon",
@@ -4321,7 +4655,8 @@
       "issuer": "Verizon",
       "domain": "verizon.com",
       "billSubtype": "esim",
-      "brandColor": "#cd040b"
+      "brandColor": "#cd040b",
+      "logo": "logos/bill-verizon.png"
     },
     {
       "id": "bill-mint",
@@ -4329,7 +4664,8 @@
       "issuer": "Mint Mobile",
       "domain": "mintmobile.com",
       "billSubtype": "esim",
-      "brandColor": "#16a34a"
+      "brandColor": "#16a34a",
+      "logo": "logos/bill-mint.png"
     },
     {
       "id": "bill-singtel",
@@ -4337,7 +4673,8 @@
       "issuer": "Singtel",
       "domain": "singtel.com",
       "billSubtype": "esim",
-      "brandColor": "#dc2626"
+      "brandColor": "#dc2626",
+      "logo": "logos/bill-singtel.png"
     },
     {
       "id": "bill-starhub",
@@ -4345,7 +4682,8 @@
       "issuer": "StarHub",
       "domain": "starhub.com",
       "billSubtype": "esim",
-      "brandColor": "#16a34a"
+      "brandColor": "#16a34a",
+      "logo": "logos/bill-starhub.png"
     },
     {
       "id": "bill-telstra",
@@ -4353,7 +4691,8 @@
       "issuer": "Telstra",
       "domain": "telstra.com.au",
       "billSubtype": "esim",
-      "brandColor": "#2563eb"
+      "brandColor": "#2563eb",
+      "logo": "logos/bill-telstra.png"
     },
     {
       "id": "bill-rogers",
@@ -4361,7 +4700,8 @@
       "issuer": "Rogers",
       "domain": "rogers.com",
       "billSubtype": "esim",
-      "brandColor": "#dc2626"
+      "brandColor": "#dc2626",
+      "logo": "logos/bill-rogers.png"
     },
     {
       "id": "bill-docomo",
@@ -4369,7 +4709,8 @@
       "issuer": "NTT docomo",
       "domain": "docomo.ne.jp",
       "billSubtype": "esim",
-      "brandColor": "#cc0033"
+      "brandColor": "#cc0033",
+      "logo": "logos/bill-docomo.png"
     },
     {
       "id": "bill-cht",
@@ -4377,7 +4718,8 @@
       "issuer": "中華電信",
       "domain": "cht.com.tw",
       "billSubtype": "esim",
-      "brandColor": "#1d4ed8"
+      "brandColor": "#1d4ed8",
+      "logo": "logos/bill-cht.png"
     },
     {
       "id": "bill-skt",
@@ -4385,7 +4727,8 @@
       "issuer": "SK Telecom",
       "domain": "sktelecom.com",
       "billSubtype": "esim",
-      "brandColor": "#ea580c"
+      "brandColor": "#ea580c",
+      "logo": "logos/bill-skt.png"
     },
     {
       "id": "bill-orange-fr",
@@ -4393,7 +4736,8 @@
       "issuer": "Orange",
       "domain": "orange.fr",
       "billSubtype": "esim",
-      "brandColor": "#f97316"
+      "brandColor": "#f97316",
+      "logo": "logos/bill-orange-fr.png"
     },
     {
       "id": "bill-telekom-de",
@@ -4401,7 +4745,8 @@
       "issuer": "Telekom",
       "domain": "telekom.de",
       "billSubtype": "esim",
-      "brandColor": "#e20074"
+      "brandColor": "#e20074",
+      "logo": "logos/bill-telekom-de.png"
     },
     {
       "id": "bill-water",
@@ -4424,7 +4769,8 @@
       "issuer": "Thames Water",
       "domain": "thameswater.co.uk",
       "billSubtype": "water",
-      "brandColor": "#0369a1"
+      "brandColor": "#0369a1",
+      "logo": "logos/bill-thameswater.png"
     },
     {
       "id": "bill-pub-sg",
@@ -4432,7 +4778,8 @@
       "issuer": "SP Group",
       "domain": "spgroup.com.sg",
       "billSubtype": "water",
-      "brandColor": "#0284c7"
+      "brandColor": "#0284c7",
+      "logo": "logos/bill-pub-sg.png"
     },
     {
       "id": "bill-electricity",
@@ -4447,7 +4794,8 @@
       "issuer": "CLP Power",
       "domain": "clp.com.hk",
       "billSubtype": "electricity",
-      "brandColor": "#0284c7"
+      "brandColor": "#0284c7",
+      "logo": "logos/bill-clp.png"
     },
     {
       "id": "bill-hke",
@@ -4455,7 +4803,8 @@
       "issuer": "HK Electric",
       "domain": "hkelectric.com",
       "billSubtype": "electricity",
-      "brandColor": "#1d4ed8"
+      "brandColor": "#1d4ed8",
+      "logo": "logos/bill-hke.png"
     },
     {
       "id": "bill-octopus-energy",
@@ -4463,7 +4812,8 @@
       "issuer": "Octopus Energy",
       "domain": "octopus.energy",
       "billSubtype": "electricity",
-      "brandColor": "#ec4899"
+      "brandColor": "#ec4899",
+      "logo": "logos/bill-octopus-energy.png"
     },
     {
       "id": "bill-coned",
@@ -4471,7 +4821,8 @@
       "issuer": "Con Edison",
       "domain": "coned.com",
       "billSubtype": "electricity",
-      "brandColor": "#0284c7"
+      "brandColor": "#0284c7",
+      "logo": "logos/bill-coned.png"
     },
     {
       "id": "bill-pge",
@@ -4479,7 +4830,8 @@
       "issuer": "PG&E",
       "domain": "pge.com",
       "billSubtype": "electricity",
-      "brandColor": "#0369a1"
+      "brandColor": "#0369a1",
+      "logo": "logos/bill-pge.png"
     },
     {
       "id": "bill-tepco",
@@ -4487,7 +4839,8 @@
       "issuer": "TEPCO",
       "domain": "tepco.co.jp",
       "billSubtype": "electricity",
-      "brandColor": "#dc2626"
+      "brandColor": "#dc2626",
+      "logo": "logos/bill-tepco.png"
     },
     {
       "id": "bill-taipower",
@@ -4495,7 +4848,8 @@
       "issuer": "Taipower",
       "domain": "taipower.com.tw",
       "billSubtype": "electricity",
-      "brandColor": "#0d9488"
+      "brandColor": "#0d9488",
+      "logo": "logos/bill-taipower.png"
     },
     {
       "id": "bill-edf",
@@ -4503,7 +4857,8 @@
       "issuer": "EDF",
       "domain": "edf.fr",
       "billSubtype": "electricity",
-      "brandColor": "#2563eb"
+      "brandColor": "#2563eb",
+      "logo": "logos/bill-edf.png"
     },
     {
       "id": "bill-origin-au",
@@ -4511,7 +4866,8 @@
       "issuer": "Origin Energy",
       "domain": "originenergy.com.au",
       "billSubtype": "electricity",
-      "brandColor": "#ea580c"
+      "brandColor": "#ea580c",
+      "logo": "logos/bill-origin-au.png"
     },
     {
       "id": "bill-gas",
@@ -4526,7 +4882,8 @@
       "issuer": "Towngas",
       "domain": "towngas.com",
       "billSubtype": "gas",
-      "brandColor": "#2563eb"
+      "brandColor": "#2563eb",
+      "logo": "logos/bill-towngas.png"
     },
     {
       "id": "bill-britishgas",
@@ -4534,7 +4891,8 @@
       "issuer": "British Gas",
       "domain": "britishgas.co.uk",
       "billSubtype": "gas",
-      "brandColor": "#0ea5e9"
+      "brandColor": "#0ea5e9",
+      "logo": "logos/bill-britishgas.png"
     },
     {
       "id": "bill-tokyogas",
@@ -4542,7 +4900,8 @@
       "issuer": "Tokyo Gas",
       "domain": "tokyo-gas.co.jp",
       "billSubtype": "gas",
-      "brandColor": "#0284c7"
+      "brandColor": "#0284c7",
+      "logo": "logos/bill-tokyogas.png"
     },
     {
       "id": "bill-fiber",
@@ -4557,7 +4916,8 @@
       "issuer": "HKBN",
       "domain": "hkbn.net",
       "billSubtype": "internet",
-      "brandColor": "#f97316"
+      "brandColor": "#f97316",
+      "logo": "logos/bill-hkbn.png"
     },
     {
       "id": "bill-netvigator",
@@ -4565,7 +4925,8 @@
       "issuer": "HKT Netvigator",
       "domain": "netvigator.com",
       "billSubtype": "internet",
-      "brandColor": "#0284c7"
+      "brandColor": "#0284c7",
+      "logo": "logos/bill-netvigator.png"
     },
     {
       "id": "bill-hgc",
@@ -4573,7 +4934,8 @@
       "issuer": "HGC",
       "domain": "hgc.com.hk",
       "billSubtype": "internet",
-      "brandColor": "#16a34a"
+      "brandColor": "#16a34a",
+      "logo": "logos/bill-hgc.png"
     },
     {
       "id": "bill-icable",
@@ -4581,7 +4943,8 @@
       "issuer": "i-CABLE",
       "domain": "i-cable.com",
       "billSubtype": "internet",
-      "brandColor": "#2563eb"
+      "brandColor": "#2563eb",
+      "logo": "logos/bill-icable.png"
     },
     {
       "id": "bill-starlink",
@@ -4589,7 +4952,8 @@
       "issuer": "Starlink",
       "domain": "starlink.com",
       "billSubtype": "internet",
-      "brandColor": "#111827"
+      "brandColor": "#111827",
+      "logo": "logos/bill-starlink.png"
     },
     {
       "id": "bill-bt",
@@ -4597,7 +4961,8 @@
       "issuer": "BT",
       "domain": "bt.com",
       "billSubtype": "internet",
-      "brandColor": "#6d28d9"
+      "brandColor": "#6d28d9",
+      "logo": "logos/bill-bt.png"
     },
     {
       "id": "bill-xfinity",
@@ -4605,7 +4970,8 @@
       "issuer": "Xfinity",
       "domain": "xfinity.com",
       "billSubtype": "internet",
-      "brandColor": "#6d28d9"
+      "brandColor": "#6d28d9",
+      "logo": "logos/bill-xfinity.png"
     },
     {
       "id": "bill-spectrum",
@@ -4613,7 +4979,8 @@
       "issuer": "Spectrum",
       "domain": "spectrum.com",
       "billSubtype": "internet",
-      "brandColor": "#005a9c"
+      "brandColor": "#005a9c",
+      "logo": "logos/bill-spectrum.png"
     },
     {
       "id": "bill-verizon-fios",
@@ -4621,7 +4988,8 @@
       "issuer": "Verizon",
       "domain": "verizon.com",
       "billSubtype": "internet",
-      "brandColor": "#cd040b"
+      "brandColor": "#cd040b",
+      "logo": "logos/bill-verizon-fios.png"
     },
     {
       "id": "bill-googlefiber",
@@ -4629,7 +4997,8 @@
       "issuer": "Google Fiber",
       "domain": "fiber.google.com",
       "billSubtype": "internet",
-      "brandColor": "#2563eb"
+      "brandColor": "#2563eb",
+      "logo": "logos/bill-googlefiber.png"
     },
     {
       "id": "bill-nuro",
@@ -4637,7 +5006,8 @@
       "issuer": "NURO",
       "domain": "nuro.jp",
       "billSubtype": "internet",
-      "brandColor": "#0f172a"
+      "brandColor": "#0f172a",
+      "logo": "logos/bill-nuro.png"
     },
     {
       "id": "bill-rent",
@@ -4673,7 +5043,8 @@
       "issuer": "AIA",
       "domain": "aia.com.hk",
       "billSubtype": "insurance",
-      "brandColor": "#d31145"
+      "brandColor": "#d31145",
+      "logo": "logos/bill-aia-hk.png"
     },
     {
       "id": "bill-prudential-hk",
@@ -4681,7 +5052,8 @@
       "issuer": "Prudential",
       "domain": "prudential.com.hk",
       "billSubtype": "insurance",
-      "brandColor": "#ed1b2e"
+      "brandColor": "#ed1b2e",
+      "logo": "logos/bill-prudential-hk.png"
     },
     {
       "id": "bill-fwd-hk",
@@ -4689,7 +5061,8 @@
       "issuer": "FWD",
       "domain": "fwd.com.hk",
       "billSubtype": "insurance",
-      "brandColor": "#e87722"
+      "brandColor": "#e87722",
+      "logo": "logos/bill-fwd-hk.png"
     },
     {
       "id": "bill-manulife-hk",
@@ -4697,7 +5070,8 @@
       "issuer": "Manulife",
       "domain": "manulife.com.hk",
       "billSubtype": "insurance",
-      "brandColor": "#00a758"
+      "brandColor": "#00a758",
+      "logo": "logos/bill-manulife-hk.png"
     },
     {
       "id": "bill-bupa-hk",
@@ -4705,7 +5079,8 @@
       "issuer": "Bupa",
       "domain": "bupa.com.hk",
       "billSubtype": "insurance",
-      "brandColor": "#0079c8"
+      "brandColor": "#0079c8",
+      "logo": "logos/bill-bupa-hk.png"
     },
     {
       "id": "bill-geico",
@@ -4713,7 +5088,8 @@
       "issuer": "GEICO",
       "domain": "geico.com",
       "billSubtype": "insurance",
-      "brandColor": "#0033a0"
+      "brandColor": "#0033a0",
+      "logo": "logos/bill-geico.png"
     },
     {
       "id": "bill-statefarm",
@@ -4721,7 +5097,8 @@
       "issuer": "State Farm",
       "domain": "statefarm.com",
       "billSubtype": "insurance",
-      "brandColor": "#e1251b"
+      "brandColor": "#e1251b",
+      "logo": "logos/bill-statefarm.png"
     },
     {
       "id": "bill-auto-ins",
@@ -4743,7 +5120,8 @@
       "issuer": "RVD HK",
       "domain": "rvd.gov.hk",
       "billSubtype": "tax",
-      "brandColor": "#0f766e"
+      "brandColor": "#0f766e",
+      "logo": "logos/bill-rvd-hk.png"
     },
     {
       "id": "bill-hketoll",
@@ -4751,7 +5129,8 @@
       "issuer": "HKeToll",
       "domain": "hketoll.gov.hk",
       "billSubtype": "tax",
-      "brandColor": "#2563eb"
+      "brandColor": "#2563eb",
+      "logo": "logos/bill-hketoll.png"
     },
     {
       "id": "bill-mtr",
@@ -4759,7 +5138,8 @@
       "issuer": "MTR",
       "domain": "mtr.com.hk",
       "billSubtype": "tax",
-      "brandColor": "#b91c1c"
+      "brandColor": "#b91c1c",
+      "logo": "logos/bill-mtr.png"
     },
     {
       "id": "bill-kmb",
@@ -4767,7 +5147,8 @@
       "issuer": "KMB",
       "domain": "kmb.hk",
       "billSubtype": "tax",
-      "brandColor": "#dc2626"
+      "brandColor": "#dc2626",
+      "logo": "logos/bill-kmb.png"
     }
   ],
   "subscriptions": [
@@ -4777,7 +5158,8 @@
       "issuer": "YouTube",
       "domain": "youtube.com",
       "subSubtype": "media",
-      "brandColor": "#ff0000"
+      "brandColor": "#ff0000",
+      "logo": "logos/sub-youtube.png"
     },
     {
       "id": "sub-netflix",
@@ -4785,7 +5167,8 @@
       "issuer": "Netflix",
       "domain": "netflix.com",
       "subSubtype": "media",
-      "brandColor": "#e50914"
+      "brandColor": "#e50914",
+      "logo": "logos/sub-netflix.png"
     },
     {
       "id": "sub-spotify",
@@ -4793,7 +5176,8 @@
       "issuer": "Spotify",
       "domain": "spotify.com",
       "subSubtype": "media",
-      "brandColor": "#1db954"
+      "brandColor": "#1db954",
+      "logo": "logos/sub-spotify.png"
     },
     {
       "id": "sub-applemusic",
@@ -4801,7 +5185,8 @@
       "issuer": "Apple",
       "domain": "music.apple.com",
       "subSubtype": "media",
-      "brandColor": "#fa243c"
+      "brandColor": "#fa243c",
+      "logo": "logos/sub-applemusic.png"
     },
     {
       "id": "sub-appletv",
@@ -4809,7 +5194,8 @@
       "issuer": "Apple",
       "domain": "tv.apple.com",
       "subSubtype": "media",
-      "brandColor": "#111827"
+      "brandColor": "#111827",
+      "logo": "logos/sub-appletv.png"
     },
     {
       "id": "sub-disney",
@@ -4817,7 +5203,8 @@
       "issuer": "Disney+",
       "domain": "disneyplus.com",
       "subSubtype": "media",
-      "brandColor": "#1e3a8a"
+      "brandColor": "#1e3a8a",
+      "logo": "logos/sub-disney.png"
     },
     {
       "id": "sub-prime",
@@ -4825,7 +5212,8 @@
       "issuer": "Amazon",
       "domain": "amazon.com",
       "subSubtype": "media",
-      "brandColor": "#0284c7"
+      "brandColor": "#0284c7",
+      "logo": "logos/sub-prime.png"
     },
     {
       "id": "sub-max",
@@ -4833,7 +5221,8 @@
       "issuer": "Max",
       "domain": "max.com",
       "subSubtype": "media",
-      "brandColor": "#1d4ed8"
+      "brandColor": "#1d4ed8",
+      "logo": "logos/sub-max.png"
     },
     {
       "id": "sub-crunchyroll",
@@ -4841,7 +5230,8 @@
       "issuer": "Crunchyroll",
       "domain": "crunchyroll.com",
       "subSubtype": "media",
-      "brandColor": "#f97316"
+      "brandColor": "#f97316",
+      "logo": "logos/sub-crunchyroll.png"
     },
     {
       "id": "sub-bilibili",
@@ -4849,7 +5239,8 @@
       "issuer": "Bilibili",
       "domain": "bilibili.com",
       "subSubtype": "media",
-      "brandColor": "#fb7299"
+      "brandColor": "#fb7299",
+      "logo": "logos/sub-bilibili.jpg"
     },
     {
       "id": "sub-nowtv",
@@ -4857,7 +5248,8 @@
       "issuer": "Now TV",
       "domain": "nowtv.now.com",
       "subSubtype": "media",
-      "brandColor": "#0284c7"
+      "brandColor": "#0284c7",
+      "logo": "logos/sub-nowtv.png"
     },
     {
       "id": "sub-mytvsuper",
@@ -4865,7 +5257,8 @@
       "issuer": "myTV SUPER",
       "domain": "mytvsuper.com",
       "subSubtype": "media",
-      "brandColor": "#7c3aed"
+      "brandColor": "#7c3aed",
+      "logo": "logos/sub-mytvsuper.png"
     },
     {
       "id": "sub-hoytv",
@@ -4873,7 +5266,8 @@
       "issuer": "HOY TV",
       "domain": "hoy.tv",
       "subSubtype": "media",
-      "brandColor": "#ef4444"
+      "brandColor": "#ef4444",
+      "logo": "logos/sub-hoytv.png"
     },
     {
       "id": "sub-kkbox",
@@ -4881,7 +5275,8 @@
       "issuer": "KKBOX",
       "domain": "kkbox.com",
       "subSubtype": "media",
-      "brandColor": "#0ea5e9"
+      "brandColor": "#0ea5e9",
+      "logo": "logos/sub-kkbox.png"
     },
     {
       "id": "sub-moov",
@@ -4889,7 +5284,8 @@
       "issuer": "MOOV",
       "domain": "moov.hk",
       "subSubtype": "media",
-      "brandColor": "#f97316"
+      "brandColor": "#f97316",
+      "logo": "logos/sub-moov.png"
     },
     {
       "id": "sub-joox",
@@ -4897,7 +5293,8 @@
       "issuer": "JOOX",
       "domain": "joox.com",
       "subSubtype": "media",
-      "brandColor": "#10b981"
+      "brandColor": "#10b981",
+      "logo": "logos/sub-joox.png"
     },
     {
       "id": "sub-hket",
@@ -4905,7 +5302,8 @@
       "issuer": "hket",
       "domain": "hket.com",
       "subSubtype": "media",
-      "brandColor": "#1e3a8a"
+      "brandColor": "#1e3a8a",
+      "logo": "logos/sub-hket.png"
     },
     {
       "id": "sub-scmp",
@@ -4913,7 +5311,8 @@
       "issuer": "SCMP",
       "domain": "scmp.com",
       "subSubtype": "media",
-      "brandColor": "#0f172a"
+      "brandColor": "#0f172a",
+      "logo": "logos/sub-scmp.png"
     },
     {
       "id": "sub-viu",
@@ -4921,7 +5320,8 @@
       "issuer": "Viu",
       "domain": "viu.com",
       "subSubtype": "media",
-      "brandColor": "#f59e0b"
+      "brandColor": "#f59e0b",
+      "logo": "logos/sub-viu.png"
     },
     {
       "id": "sub-nytimes",
@@ -4929,7 +5329,8 @@
       "issuer": "NYTimes",
       "domain": "nytimes.com",
       "subSubtype": "media",
-      "brandColor": "#111827"
+      "brandColor": "#111827",
+      "logo": "logos/sub-nytimes.png"
     },
     {
       "id": "sub-wsj",
@@ -4937,7 +5338,8 @@
       "issuer": "WSJ",
       "domain": "wsj.com",
       "subSubtype": "media",
-      "brandColor": "#0f172a"
+      "brandColor": "#0f172a",
+      "logo": "logos/sub-wsj.png"
     },
     {
       "id": "sub-espn",
@@ -4945,7 +5347,8 @@
       "issuer": "ESPN",
       "domain": "espn.com",
       "subSubtype": "media",
-      "brandColor": "#cc0000"
+      "brandColor": "#cc0000",
+      "logo": "logos/sub-espn.png"
     },
     {
       "id": "sub-iqiyi",
@@ -4953,7 +5356,8 @@
       "issuer": "iQIYI",
       "domain": "iqiyi.com",
       "subSubtype": "media",
-      "brandColor": "#00be06"
+      "brandColor": "#00be06",
+      "logo": "logos/sub-iqiyi.png"
     },
     {
       "id": "sub-tencentvideo",
@@ -4961,7 +5365,8 @@
       "issuer": "Tencent Video",
       "domain": "v.qq.com",
       "subSubtype": "media",
-      "brandColor": "#ff6000"
+      "brandColor": "#ff6000",
+      "logo": "logos/sub-tencentvideo.jpg"
     },
     {
       "id": "sub-qqmusic",
@@ -4969,7 +5374,8 @@
       "issuer": "QQ Music",
       "domain": "y.qq.com",
       "subSubtype": "media",
-      "brandColor": "#31c27c"
+      "brandColor": "#31c27c",
+      "logo": "logos/sub-qqmusic.png"
     },
     {
       "id": "sub-netease",
@@ -4977,7 +5383,8 @@
       "issuer": "NetEase Music",
       "domain": "music.163.com",
       "subSubtype": "media",
-      "brandColor": "#c20c0c"
+      "brandColor": "#c20c0c",
+      "logo": "logos/sub-netease.png"
     },
     {
       "id": "sub-hulu",
@@ -4985,7 +5392,8 @@
       "issuer": "Hulu",
       "domain": "hulu.com",
       "subSubtype": "media",
-      "brandColor": "#1ce783"
+      "brandColor": "#1ce783",
+      "logo": "logos/sub-hulu.png"
     },
     {
       "id": "sub-peacock",
@@ -4993,7 +5401,8 @@
       "issuer": "Peacock",
       "domain": "peacocktv.com",
       "subSubtype": "media",
-      "brandColor": "#111827"
+      "brandColor": "#111827",
+      "logo": "logos/sub-peacock.jpg"
     },
     {
       "id": "sub-paramount",
@@ -5001,7 +5410,8 @@
       "issuer": "Paramount+",
       "domain": "paramountplus.com",
       "subSubtype": "media",
-      "brandColor": "#0064ff"
+      "brandColor": "#0064ff",
+      "logo": "logos/sub-paramount.png"
     },
     {
       "id": "sub-twitch",
@@ -5009,7 +5419,8 @@
       "issuer": "Twitch",
       "domain": "twitch.tv",
       "subSubtype": "media",
-      "brandColor": "#9146ff"
+      "brandColor": "#9146ff",
+      "logo": "logos/sub-twitch.png"
     },
     {
       "id": "sub-psplus",
@@ -5017,7 +5428,8 @@
       "issuer": "PlayStation",
       "domain": "playstation.com",
       "subSubtype": "media",
-      "brandColor": "#003087"
+      "brandColor": "#003087",
+      "logo": "logos/sub-psplus.jpg"
     },
     {
       "id": "sub-xbox",
@@ -5025,7 +5437,8 @@
       "issuer": "Xbox",
       "domain": "xbox.com",
       "subSubtype": "media",
-      "brandColor": "#107c10"
+      "brandColor": "#107c10",
+      "logo": "logos/sub-xbox.png"
     },
     {
       "id": "sub-nintendo",
@@ -5033,7 +5446,8 @@
       "issuer": "Nintendo",
       "domain": "nintendo.com",
       "subSubtype": "media",
-      "brandColor": "#e60012"
+      "brandColor": "#e60012",
+      "logo": "logos/sub-nintendo.png"
     },
     {
       "id": "sub-audible",
@@ -5041,119 +5455,134 @@
       "issuer": "Amazon",
       "domain": "audible.com",
       "subSubtype": "media",
-      "brandColor": "#ea580c"
+      "brandColor": "#ea580c",
+      "logo": "logos/sub-audible.jpg"
     },
     {
       "id": "sub-chatgpt",
       "name": "ChatGPT Plus",
       "issuer": "OpenAI",
       "domain": "openai.com",
-      "subSubtype": "saas",
-      "brandColor": "#10a37f"
+      "subSubtype": "ai",
+      "brandColor": "#10a37f",
+      "logo": "logos/sub-chatgpt.png"
     },
     {
       "id": "sub-claude",
       "name": "Claude Pro",
       "issuer": "Anthropic",
       "domain": "claude.ai",
-      "subSubtype": "saas",
-      "brandColor": "#d97757"
+      "subSubtype": "ai",
+      "brandColor": "#d97757",
+      "logo": "logos/sub-claude.png"
     },
     {
       "id": "sub-gemini",
       "name": "Gemini Advanced",
       "issuer": "Google",
       "domain": "gemini.google.com",
-      "subSubtype": "saas",
-      "brandColor": "#3b82f6"
+      "subSubtype": "ai",
+      "brandColor": "#3b82f6",
+      "logo": "logos/sub-gemini.png"
     },
     {
       "id": "sub-deepseek",
       "name": "DeepSeek",
       "issuer": "DeepSeek",
       "domain": "deepseek.com",
-      "subSubtype": "saas",
-      "brandColor": "#4d6bfe"
+      "subSubtype": "ai",
+      "brandColor": "#4d6bfe",
+      "logo": "logos/sub-deepseek.png"
     },
     {
       "id": "sub-qwen",
       "name": "Qwen 通義千問",
       "issuer": "Alibaba Qwen",
       "domain": "qwen.ai",
-      "subSubtype": "saas",
-      "brandColor": "#6366f1"
+      "subSubtype": "ai",
+      "brandColor": "#6366f1",
+      "logo": "logos/sub-qwen.png"
     },
     {
       "id": "sub-mistral",
       "name": "Mistral AI (Le Chat)",
       "issuer": "Mistral AI",
       "domain": "mistral.ai",
-      "subSubtype": "saas",
-      "brandColor": "#f97316"
+      "subSubtype": "ai",
+      "brandColor": "#f97316",
+      "logo": "logos/sub-mistral.png"
     },
     {
       "id": "sub-kimi",
       "name": "Kimi (月之暗面)",
       "issuer": "Moonshot AI",
       "domain": "kimi.ai",
-      "subSubtype": "saas",
-      "brandColor": "#111827"
+      "subSubtype": "ai",
+      "brandColor": "#111827",
+      "logo": "logos/sub-kimi.jpg"
     },
     {
       "id": "sub-grok",
       "name": "X (Twitter) Premium / Grok",
       "issuer": "X / xAI",
       "domain": "x.com",
-      "subSubtype": "saas",
-      "brandColor": "#0f172a"
+      "subSubtype": "ai",
+      "brandColor": "#0f172a",
+      "logo": "logos/sub-grok.png"
     },
     {
       "id": "sub-cursor",
       "name": "Cursor Pro",
       "issuer": "Cursor",
       "domain": "cursor.com",
-      "subSubtype": "saas",
-      "brandColor": "#18181b"
+      "subSubtype": "ai",
+      "brandColor": "#18181b",
+      "logo": "logos/sub-cursor.png"
     },
     {
       "id": "sub-copilot",
       "name": "GitHub Copilot",
       "issuer": "GitHub",
       "domain": "github.com",
-      "subSubtype": "saas",
-      "brandColor": "#111827"
+      "subSubtype": "ai",
+      "brandColor": "#111827",
+      "logo": "logos/sub-copilot.png"
     },
     {
       "id": "sub-perplexity",
       "name": "Perplexity Pro",
       "issuer": "Perplexity",
       "domain": "perplexity.ai",
-      "subSubtype": "saas",
-      "brandColor": "#0d9488"
+      "subSubtype": "ai",
+      "brandColor": "#0d9488",
+      "logo": "logos/sub-perplexity.png"
     },
     {
       "id": "sub-midjourney",
       "name": "Midjourney",
       "issuer": "Midjourney",
       "domain": "midjourney.com",
-      "subSubtype": "saas",
-      "brandColor": "#0f172a"
+      "subSubtype": "ai",
+      "brandColor": "#0f172a",
+      "logo": "logos/sub-midjourney.png"
     },
     {
       "id": "sub-elevenlabs",
       "name": "ElevenLabs",
       "issuer": "ElevenLabs",
       "domain": "elevenlabs.io",
-      "subSubtype": "saas",
-      "brandColor": "#18181b"
+      "subSubtype": "ai",
+      "brandColor": "#18181b",
+      "logo": "logos/sub-elevenlabs.png"
     },
     {
       "id": "sub-suno",
       "name": "Suno AI",
       "issuer": "Suno",
       "domain": "suno.com",
-      "subSubtype": "saas",
-      "brandColor": "#db2777"
+      "subSubtype": "ai",
+      "brandColor": "#db2777",
+      "logo": "logos/sub-suno.png"
     },
     {
       "id": "sub-1password",
@@ -5161,7 +5590,8 @@
       "issuer": "1Password",
       "domain": "1password.com",
       "subSubtype": "saas",
-      "brandColor": "#0284c7"
+      "brandColor": "#0284c7",
+      "logo": "logos/sub-1password.png"
     },
     {
       "id": "sub-notion",
@@ -5169,7 +5599,8 @@
       "issuer": "Notion",
       "domain": "notion.so",
       "subSubtype": "saas",
-      "brandColor": "#18181b"
+      "brandColor": "#18181b",
+      "logo": "logos/sub-notion.png"
     },
     {
       "id": "sub-figma",
@@ -5177,7 +5608,8 @@
       "issuer": "Figma",
       "domain": "figma.com",
       "subSubtype": "saas",
-      "brandColor": "#a855f7"
+      "brandColor": "#a855f7",
+      "logo": "logos/sub-figma.png"
     },
     {
       "id": "sub-linear",
@@ -5185,7 +5617,8 @@
       "issuer": "Linear",
       "domain": "linear.app",
       "subSubtype": "saas",
-      "brandColor": "#5e6ad2"
+      "brandColor": "#5e6ad2",
+      "logo": "logos/sub-linear.jpg"
     },
     {
       "id": "sub-vercel",
@@ -5193,7 +5626,8 @@
       "issuer": "Vercel",
       "domain": "vercel.com",
       "subSubtype": "saas",
-      "brandColor": "#111827"
+      "brandColor": "#111827",
+      "logo": "logos/sub-vercel.png"
     },
     {
       "id": "sub-supabase",
@@ -5201,7 +5635,8 @@
       "issuer": "Supabase",
       "domain": "supabase.com",
       "subSubtype": "saas",
-      "brandColor": "#3ecf8e"
+      "brandColor": "#3ecf8e",
+      "logo": "logos/sub-supabase.png"
     },
     {
       "id": "sub-slack",
@@ -5209,7 +5644,8 @@
       "issuer": "Slack",
       "domain": "slack.com",
       "subSubtype": "saas",
-      "brandColor": "#4a154b"
+      "brandColor": "#4a154b",
+      "logo": "logos/sub-slack.png"
     },
     {
       "id": "sub-zoom",
@@ -5217,7 +5653,8 @@
       "issuer": "Zoom",
       "domain": "zoom.us",
       "subSubtype": "saas",
-      "brandColor": "#2d8cff"
+      "brandColor": "#2d8cff",
+      "logo": "logos/sub-zoom.png"
     },
     {
       "id": "sub-adobe",
@@ -5225,7 +5662,8 @@
       "issuer": "Adobe",
       "domain": "adobe.com",
       "subSubtype": "saas",
-      "brandColor": "#dc2626"
+      "brandColor": "#dc2626",
+      "logo": "logos/sub-adobe.png"
     },
     {
       "id": "sub-m365",
@@ -5233,7 +5671,8 @@
       "issuer": "Microsoft",
       "domain": "microsoft.com",
       "subSubtype": "saas",
-      "brandColor": "#ea580c"
+      "brandColor": "#ea580c",
+      "logo": "logos/sub-m365.png"
     },
     {
       "id": "sub-appleone",
@@ -5241,7 +5680,8 @@
       "issuer": "Apple",
       "domain": "apple.com",
       "subSubtype": "saas",
-      "brandColor": "#111827"
+      "brandColor": "#111827",
+      "logo": "logos/sub-appleone.png"
     },
     {
       "id": "sub-costco",
@@ -5249,7 +5689,8 @@
       "issuer": "Costco",
       "domain": "costco.com",
       "subSubtype": "saas",
-      "brandColor": "#e31837"
+      "brandColor": "#e31837",
+      "logo": "logos/sub-costco.png"
     },
     {
       "id": "sub-walmart",
@@ -5257,7 +5698,8 @@
       "issuer": "Walmart",
       "domain": "walmart.com",
       "subSubtype": "saas",
-      "brandColor": "#0071ce"
+      "brandColor": "#0071ce",
+      "logo": "logos/sub-walmart.png"
     },
     {
       "id": "sub-canva",
@@ -5265,7 +5707,8 @@
       "issuer": "Canva",
       "domain": "canva.com",
       "subSubtype": "saas",
-      "brandColor": "#00c4cc"
+      "brandColor": "#00c4cc",
+      "logo": "logos/sub-canva.jpg"
     },
     {
       "id": "sub-grammarly",
@@ -5273,7 +5716,8 @@
       "issuer": "Grammarly",
       "domain": "grammarly.com",
       "subSubtype": "saas",
-      "brandColor": "#15c39a"
+      "brandColor": "#15c39a",
+      "logo": "logos/sub-grammarly.png"
     },
     {
       "id": "sub-discord",
@@ -5281,7 +5725,8 @@
       "issuer": "Discord",
       "domain": "discord.com",
       "subSubtype": "saas",
-      "brandColor": "#5865f2"
+      "brandColor": "#5865f2",
+      "logo": "logos/sub-discord.png"
     },
     {
       "id": "sub-strava",
@@ -5289,7 +5734,8 @@
       "issuer": "Strava",
       "domain": "strava.com",
       "subSubtype": "saas",
-      "brandColor": "#fc4c02"
+      "brandColor": "#fc4c02",
+      "logo": "logos/sub-strava.png"
     },
     {
       "id": "sub-openrice",
@@ -5297,7 +5743,8 @@
       "issuer": "OpenRice",
       "domain": "openrice.com",
       "subSubtype": "saas",
-      "brandColor": "#f59e0b"
+      "brandColor": "#f59e0b",
+      "logo": "logos/sub-openrice.png"
     },
     {
       "id": "sub-klook",
@@ -5305,7 +5752,8 @@
       "issuer": "Klook",
       "domain": "klook.com",
       "subSubtype": "saas",
-      "brandColor": "#ff5b00"
+      "brandColor": "#ff5b00",
+      "logo": "logos/sub-klook.png"
     },
     {
       "id": "sub-duolingo",
@@ -5313,7 +5761,8 @@
       "issuer": "Duolingo",
       "domain": "duolingo.com",
       "subSubtype": "saas",
-      "brandColor": "#58cc02"
+      "brandColor": "#58cc02",
+      "logo": "logos/sub-duolingo.png"
     },
     {
       "id": "sub-tradingview",
@@ -5321,7 +5770,8 @@
       "issuer": "TradingView",
       "domain": "tradingview.com",
       "subSubtype": "saas",
-      "brandColor": "#2962ff"
+      "brandColor": "#2962ff",
+      "logo": "logos/sub-tradingview.png"
     },
     {
       "id": "sub-linkedin",
@@ -5329,7 +5779,8 @@
       "issuer": "LinkedIn",
       "domain": "linkedin.com",
       "subSubtype": "saas",
-      "brandColor": "#0a66c2"
+      "brandColor": "#0a66c2",
+      "logo": "logos/sub-linkedin.png"
     },
     {
       "id": "sub-raycast",
@@ -5337,7 +5788,8 @@
       "issuer": "Raycast",
       "domain": "raycast.com",
       "subSubtype": "saas",
-      "brandColor": "#ef4444"
+      "brandColor": "#ef4444",
+      "logo": "logos/sub-raycast.png"
     },
     {
       "id": "sub-setapp",
@@ -5345,7 +5797,8 @@
       "issuer": "Setapp",
       "domain": "setapp.com",
       "subSubtype": "saas",
-      "brandColor": "#f59e0b"
+      "brandColor": "#f59e0b",
+      "logo": "logos/sub-setapp.jpg"
     },
     {
       "id": "sub-foodpanda",
@@ -5353,7 +5806,8 @@
       "issuer": "foodpanda",
       "domain": "foodpanda.hk",
       "subSubtype": "saas",
-      "brandColor": "#d70f64"
+      "brandColor": "#d70f64",
+      "logo": "logos/sub-foodpanda.png"
     },
     {
       "id": "sub-deliveroo",
@@ -5361,7 +5815,8 @@
       "issuer": "Deliveroo",
       "domain": "deliveroo.hk",
       "subSubtype": "saas",
-      "brandColor": "#00ccbc"
+      "brandColor": "#00ccbc",
+      "logo": "logos/sub-deliveroo.png"
     },
     {
       "id": "sub-keeta",
@@ -5369,7 +5824,8 @@
       "issuer": "Keeta",
       "domain": "mykeeta.com",
       "subSubtype": "saas",
-      "brandColor": "#eab308"
+      "brandColor": "#eab308",
+      "logo": "logos/sub-keeta.png"
     },
     {
       "id": "sub-hktvmall",
@@ -5377,7 +5833,8 @@
       "issuer": "HKTVmall",
       "domain": "hktvmall.com",
       "subSubtype": "saas",
-      "brandColor": "#16a34a"
+      "brandColor": "#16a34a",
+      "logo": "logos/sub-hktvmall.png"
     },
     {
       "id": "sub-yuu",
@@ -5385,7 +5842,8 @@
       "issuer": "yuu",
       "domain": "yuu.hk",
       "subSubtype": "saas",
-      "brandColor": "#2563eb"
+      "brandColor": "#2563eb",
+      "logo": "logos/sub-yuu.jpg"
     },
     {
       "id": "sub-moneyback",
@@ -5393,7 +5851,8 @@
       "issuer": "MoneyBack",
       "domain": "moneyback.com.hk",
       "subSubtype": "saas",
-      "brandColor": "#0284c7"
+      "brandColor": "#0284c7",
+      "logo": "logos/sub-moneyback.png"
     },
     {
       "id": "sub-247fitness",
@@ -5401,7 +5860,8 @@
       "issuer": "24/7 Fitness",
       "domain": "247.fitness",
       "subSubtype": "saas",
-      "brandColor": "#eab308"
+      "brandColor": "#eab308",
+      "logo": "logos/sub-247fitness.png"
     },
     {
       "id": "sub-purefitness",
@@ -5409,7 +5869,8 @@
       "issuer": "PURE",
       "domain": "pure-fitness.com",
       "subSubtype": "saas",
-      "brandColor": "#111827"
+      "brandColor": "#111827",
+      "logo": "logos/sub-purefitness.png"
     },
     {
       "id": "sub-icloud",
@@ -5417,7 +5878,8 @@
       "issuer": "Apple",
       "domain": "icloud.com",
       "subSubtype": "cloud",
-      "brandColor": "#0284c7"
+      "brandColor": "#0284c7",
+      "logo": "logos/sub-icloud.png"
     },
     {
       "id": "sub-googleone",
@@ -5425,7 +5887,8 @@
       "issuer": "Google",
       "domain": "one.google.com",
       "subSubtype": "cloud",
-      "brandColor": "#2563eb"
+      "brandColor": "#2563eb",
+      "logo": "logos/sub-googleone.png"
     },
     {
       "id": "sub-dropbox",
@@ -5433,7 +5896,8 @@
       "issuer": "Dropbox",
       "domain": "dropbox.com",
       "subSubtype": "cloud",
-      "brandColor": "#0061ff"
+      "brandColor": "#0061ff",
+      "logo": "logos/sub-dropbox.png"
     },
     {
       "id": "sub-onedrive",
@@ -5441,7 +5905,8 @@
       "issuer": "Microsoft",
       "domain": "onedrive.live.com",
       "subSubtype": "cloud",
-      "brandColor": "#0284c7"
+      "brandColor": "#0284c7",
+      "logo": "logos/sub-onedrive.png"
     },
     {
       "id": "sub-protondrive",
@@ -5449,7 +5914,8 @@
       "issuer": "Proton",
       "domain": "proton.me",
       "subSubtype": "cloud",
-      "brandColor": "#6d28d9"
+      "brandColor": "#6d28d9",
+      "logo": "logos/sub-protondrive.png"
     },
     {
       "id": "sub-pcloud",
@@ -5457,7 +5923,8 @@
       "issuer": "pCloud",
       "domain": "pcloud.com",
       "subSubtype": "cloud",
-      "brandColor": "#06b6d4"
+      "brandColor": "#06b6d4",
+      "logo": "logos/sub-pcloud.png"
     },
     {
       "id": "sub-nordvpn",
@@ -5465,7 +5932,8 @@
       "issuer": "NordVPN",
       "domain": "nordvpn.com",
       "subSubtype": "vpn",
-      "brandColor": "#2563eb"
+      "brandColor": "#2563eb",
+      "logo": "logos/sub-nordvpn.png"
     },
     {
       "id": "sub-expressvpn",
@@ -5473,7 +5941,8 @@
       "issuer": "ExpressVPN",
       "domain": "expressvpn.com",
       "subSubtype": "vpn",
-      "brandColor": "#dc2626"
+      "brandColor": "#dc2626",
+      "logo": "logos/sub-expressvpn.png"
     },
     {
       "id": "sub-surfshark",
@@ -5481,7 +5950,8 @@
       "issuer": "Surfshark",
       "domain": "surfshark.com",
       "subSubtype": "vpn",
-      "brandColor": "#0d9488"
+      "brandColor": "#0d9488",
+      "logo": "logos/sub-surfshark.png"
     },
     {
       "id": "sub-protonvpn",
@@ -5489,7 +5959,8 @@
       "issuer": "Proton",
       "domain": "protonvpn.com",
       "subSubtype": "vpn",
-      "brandColor": "#6d28d9"
+      "brandColor": "#6d28d9",
+      "logo": "logos/sub-protonvpn.jpg"
     },
     {
       "id": "sub-mullvad",
@@ -5497,7 +5968,8 @@
       "issuer": "Mullvad",
       "domain": "mullvad.net",
       "subSubtype": "vpn",
-      "brandColor": "#1e3a8a"
+      "brandColor": "#1e3a8a",
+      "logo": "logos/sub-mullvad.png"
     },
     {
       "id": "sub-tailscale",
@@ -5505,7 +5977,8 @@
       "issuer": "Tailscale",
       "domain": "tailscale.com",
       "subSubtype": "vpn",
-      "brandColor": "#0f172a"
+      "brandColor": "#0f172a",
+      "logo": "logos/sub-tailscale.png"
     },
     {
       "id": "sub-adguard",
@@ -5513,7 +5986,8 @@
       "issuer": "AdGuard",
       "domain": "adguard-vpn.com",
       "subSubtype": "vpn",
-      "brandColor": "#16a34a"
+      "brandColor": "#16a34a",
+      "logo": "logos/sub-adguard.png"
     },
     {
       "id": "sub-cyberghost",
@@ -5521,7 +5995,8 @@
       "issuer": "CyberGhost",
       "domain": "cyberghostvpn.com",
       "subSubtype": "vpn",
-      "brandColor": "#eab308"
+      "brandColor": "#eab308",
+      "logo": "logos/sub-cyberghost.png"
     }
   ]
 }
